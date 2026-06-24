@@ -1,0 +1,340 @@
+{
+  "name": "Palworld OCG Dev",
+  "menuBackgroundImage": "https://balbi.github.io/TCG-Arena-Palworld/images/banner.png",
+  "defaultRessources": {
+    "backgrounds": [
+      "https://balbi.github.io/TCG-Arena-Palworld/images/backgrounds/background-1.jpg",
+      "https://balbi.github.io/TCG-Arena-Palworld/images/backgrounds/background-2.jpg",
+      "https://balbi.github.io/TCG-Arena-Palworld/images/backgrounds/background-3.jpg"
+    ],
+    "decksUrl": "https://balbi.github.io/TCG-Arena-Palworld/PalworldDecks.json"
+  },
+  "customHelp": "This project is not officially supported by the game publisher. It is a fan project created to help players build their decks and playtest them online. If you enjoy it, consider supporting the official game and its community.",
+  "cardRotation": "90",
+  "cards": {
+    "dataUrl": "https://balbi.github.io/TCG-Arena-Palworld/PalworldCards.json",
+    "cardBack": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/card_back.png",
+    "cardBackColor": "#000000",
+    "extraCardBacks": {
+      "Soul": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/soul_back.png"
+    }
+  },
+  "deckBuilding": {
+    "mainFilters": [
+      "type",
+      "cost",
+      "name",
+      "Color",
+      "Set"
+    ],
+    "formats": [
+      {
+        "title": "Classic",
+        "gameplay": "Classic",
+        "deckRuleset": "Standard"
+      }
+    ],
+    "deckRulesets": {
+      "Standard": {
+        "reversedLegality": true,
+        "general": {
+          "min": 60,
+          "max": 60,
+          "maxPerCard": 4
+        },
+        "categories": [
+          {
+            "category": "Soul",
+            "min": 10,
+            "max": 10,
+            "maxPerCard": 10
+          }
+        ]
+      }
+    }
+  },
+  "gameplay": {
+    "Classic": {
+      "beforeGameStart": {
+        "chooseAnotherStartingPlayer": true,
+        "initialBoardSetup": {
+          "0": [
+            {
+              "drawFromTop": "Soul",
+              "count": 2,
+              "destination": "Mana"
+            }
+          ],
+          "1": [
+            {
+              "drawFromTop": "Soul",
+              "count": 1,
+              "destination": "Mana"
+            }
+          ]
+        }
+      },
+      "mulligan": {
+        "triggeredByButton": true,
+        "startingHandSize": "5",
+        "mulliganCount": {
+          "min": 0,
+          "max": 1
+        },
+        "mulliganCycle": {
+          "info": "You may shuffle and draw a new hand of 5 cards once.",
+          "steps": [
+            "toBottom",
+            "shuffle",
+            "draw"
+          ],
+          "selectionRange": {
+            "max": 99
+          }
+        }
+      },
+      "newTurn": {
+        "drawOnStart": false,
+        "sharedTurn": false,
+        "firstPlayerTokenName": "",
+        "drawPerTurn": 1
+      },
+      "defaultNotes": "",
+      "tokens": [],
+      "countersStartingValues": [
+        "10"
+      ],
+      "hideFacedDownCards": false,
+      "sections": {
+        "customSections": [
+          "Soul",
+          "Mana",
+          "Base"
+        ],
+        "layout": {
+          "direction": "column",
+          "isSymetricalForOpponents": false,
+          "content": [
+            {
+              "direction": "column",
+              "style": false,
+              "content": [
+                {
+                  "direction": "row",
+                  "style": {
+                    "height": "24.5vh",
+                    "margin": "0.25vh"
+                  },
+                  "content": [
+                    {
+                      "section": "Base"
+                    }
+                  ],
+                  "isSymetricalForOpponents": false
+                },
+                {
+                  "direction": "row",
+                  "style": false,
+                  "content": [
+                    {
+                      "section": "Resources"
+                    },
+                    {
+                      "section": "Soul"
+                    },
+                    {
+                      "section": "Mana"
+                    }
+                  ],
+                  "isSymetricalForOpponents": false
+                }
+              ],
+              "isSymetricalForOpponents": false
+            }
+          ]
+        },
+        "categoriesAlreadyOnBoard": [
+          "Soul"
+        ],
+        "autoPlayFromHand": {
+          "Pal": "Base",
+          "Structure": "Base",
+          "Gear": "Stack",
+          "Event": "Stack",
+          "Soul": "Mana"
+        },
+        "autoPlayFromStack": {
+          "Gear": "Base",
+          "Event": "Discard"
+        },
+        "sectionsDict": {
+          "Soul": {
+            "title": "Soul",
+            "isHidden": "yes",
+            "height": "SMALL",
+            "alignment": "DECK",
+            "drawPerTurn": 2,
+            "opponentAlignment": false,
+            "noAutoPayTo": true,
+            "isHorizontalAllowed": false,
+            "displayedTitle": "Soul Deck",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false,
+            "cardBackColor": "#e0e0e0"
+          },
+          "Base": {
+            "title": "Base",
+            "isHidden": "no",
+            "height": "MEDIUM",
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Base",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "Mana": {
+            "title": "Mana",
+            "isHidden": "no",
+            "height": "SMALL",
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": true,
+            "isHorizontalAllowed": false,
+            "displayedTitle": "Soul Area",
+            "noQuickActions": true,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "Stack": {
+            "isDefaultSection": true,
+            "title": "Stack",
+            "isHidden": "no",
+            "height": "HUGE",
+            "alignment": "NONE",
+            "isHorizontalAllowed": false,
+            "isGroupForbidden": true,
+            "displayedTitle": "Pile",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "Resources": {
+            "type": "custom",
+            "blueprint": {
+              "type": "div",
+              "props": {
+                "className": "d-flex flex-column justify-content-around align-items-center",
+                "style": {
+                  "backdropFilter": "blur(20px)",
+                  "padding": "0.5vh",
+                  "backgroundColor": "#202020c9",
+                  "borderRadius": "0.5vh",
+                  "width": "11vh",
+                  "height": "16vh"
+                }
+              },
+              "children": [
+                {
+                  "type": "h2",
+                  "props": {
+                    "className": "",
+                    "style": {}
+                  },
+                  "children": "Resources"
+                },
+                {
+                  "type": "div",
+                  "props": {
+                    "className": "d-flex flex-row justify-content-center align-items-center",
+                    "style": {
+                      "width": "100%"
+                    }
+                  },
+                  "children": [
+                    {
+                      "type": "img",
+                      "props": {
+                        "className": "",
+                        "style": {},
+                        "src": "https://balbi.github.io/TCG-Arena-Palworld/images/material.png"
+                      }
+                    },
+                    {
+                      "type": "input-number",
+                      "props": {
+                        "value": "{{ game.data.MyResources.Materials }}",
+                        "className": "",
+                        "style": {}
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "div",
+                  "props": {
+                    "className": "d-flex flex-row justify-content-center align-items-center",
+                    "style": {
+                      "width": "100%"
+                    }
+                  },
+                  "children": [
+                    {
+                      "type": "img",
+                      "props": {
+                        "className": "",
+                        "style": {},
+                        "src": "https://balbi.github.io/TCG-Arena-Palworld/images/ingredients.png"
+                      }
+                    },
+                    {
+                      "type": "input-number",
+                      "props": {
+                        "value": "{{ game.data.MyResources.Ingredients }}",
+                        "className": "",
+                        "style": {}
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "MyResources": {
+            "type": "custom",
+            "defaultValue": {
+              "Materials": 0,
+              "Ingredients": 0
+            },
+            "events": {
+              "onOpponentUpdate": "game.data.OppResources = opponentGame.data.MyResources;"
+            }
+          },
+          "OppResources": {
+            "type": "custom",
+            "defaultValue": {
+              "Materials": 0,
+              "Ingredients": 0
+            }
+          }
+        }
+      }
+    }
+  }
+}
