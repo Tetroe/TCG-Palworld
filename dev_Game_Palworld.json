@@ -247,7 +247,8 @@
                   "backgroundColor": "#202020c9",
                   "borderRadius": "0.5vh",
                   "width": "10vh",
-                  "height": "13vh"
+                  "height": "13vh",
+                  "margin": "0.5vh"
                 }
               },
               "children": [
