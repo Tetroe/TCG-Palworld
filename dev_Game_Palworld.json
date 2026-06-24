@@ -289,6 +289,8 @@
                       "type": "input-number",
                       "props": {
                         "value": "{{ game.data.Resources.Materials }}",
+                        "min": 0,
+                        "max": 99,
                         "className": "",
                         "style": {}
                       },
@@ -321,6 +323,8 @@
                       "type": "input-number",
                       "props": {
                         "value": "{{ game.data.Resources.Ingredients }}",
+                        "min": 0,
+                        "max": 99,
                         "className": "",
                         "style": {}
                       },
