@@ -365,7 +365,7 @@
         "type": "Structure",
         "cost": 1,
         "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD01/ETD01-008.png",
-        "isHorizontal": false
+        "isHorizontal": true
       }
     },
     "name": "Stone Pit",
@@ -394,7 +394,7 @@
         "type": "Structure",
         "cost": 1,
         "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD01/ETD01-008TSR.png",
-        "isHorizontal": false
+        "isHorizontal": true
       }
     },
     "name": "Stone Pit",
@@ -423,7 +423,7 @@
         "type": "Structure",
         "cost": 3,
         "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD01/ETD01-009.png",
-        "isHorizontal": false
+        "isHorizontal": true
       }
     },
     "name": "Weapon Workbench",
@@ -452,7 +452,7 @@
         "type": "Gear",
         "cost": 4,
         "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD01/ETD01-010.png",
-        "isHorizontal": true
+        "isHorizontal": false
       }
     },
     "name": "Single-Shot Rifle",
@@ -927,7 +927,7 @@
         "type": "Structure",
         "cost": 2,
         "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD01/ETD01-019.png",
-        "isHorizontal": false
+        "isHorizontal": true
       }
     },
     "name": "Antique Wooden Chair",
@@ -954,7 +954,7 @@
         "type": "Structure",
         "cost": 3,
         "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD01/ETD01-020.png",
-        "isHorizontal": false
+        "isHorizontal": true
       }
     },
     "name": "Primitive Workbench",
@@ -983,7 +983,7 @@
         "type": "Gear",
         "cost": 3,
         "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD01/ETD01-021.png",
-        "isHorizontal": true
+        "isHorizontal": false
       }
     },
     "name": "Single-Shot Sphere Launcher",
@@ -1614,7 +1614,7 @@
         "type": "Structure",
         "cost": 1,
         "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD02/ETD02-008.png",
-        "isHorizontal": false
+        "isHorizontal": true
       }
     },
     "name": "Berry Plantation",
@@ -1643,7 +1643,7 @@
         "type": "Structure",
         "cost": 1,
         "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD02/ETD02-008TSR.png",
-        "isHorizontal": false
+        "isHorizontal": true
       }
     },
     "name": "Berry Plantation",
@@ -1672,7 +1672,7 @@
         "type": "Structure",
         "cost": 3,
         "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD02/ETD02-009.png",
-        "isHorizontal": false
+        "isHorizontal": true
       }
     },
     "name": "Campfire",
@@ -1701,7 +1701,7 @@
         "type": "Gear",
         "cost": 6,
         "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD02/ETD02-010.png",
-        "isHorizontal": true
+        "isHorizontal": false
       }
     },
     "name": "Refined Metal Spear",
@@ -2148,7 +2148,7 @@
         "type": "Structure",
         "cost": 2,
         "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD02/ETD02-019.png",
-        "isHorizontal": false
+        "isHorizontal": true
       }
     },
     "name": "Hanging Trap",
@@ -2175,7 +2175,7 @@
         "type": "Gear",
         "cost": 4,
         "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD02/ETD02-020.png",
-        "isHorizontal": true
+        "isHorizontal": false
       }
     },
     "name": "Cawgnito Hat",

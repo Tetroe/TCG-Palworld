@@ -1,7 +1,9 @@
 #!/usr/bin/env node
 
 import { mkdir, writeFile } from "node:fs/promises";
+import { execFile } from "node:child_process";
 import { dirname, resolve } from "node:path";
+import { promisify } from "node:util";
 import { fileURLToPath } from "node:url";
 
 const API_URL =
@@ -16,6 +18,7 @@ const scriptDir = dirname(fileURLToPath(import.meta.url));
 const repoRoot = resolve(scriptDir, "..");
 const outputPath = resolve(repoRoot, process.argv[2] ?? "PalworldCards.json");
 const cardsDir = resolve(repoRoot, "images", "cards");
+const execFileAsync = promisify(execFile);
 
 function toArray(value, separator) {
   if (value == null || value === "") {
@@ -77,6 +80,10 @@ function getImageOutputPath(card) {
   return outputFile;
 }
 
+function isHorizontalCard(card) {
+  return card.card_kind === "Structure";
+}
+
 function mapCard(card) {
   const id = card.card_number;
   const displayKind = getDisplayKind(card);
@@ -96,7 +103,7 @@ function mapCard(card) {
           type: displayKind,
           cost,
           image: getImageUrl(card),
-          isHorizontal: card.card_kind === "Gear",
+          isHorizontal: isHorizontalCard(card),
         },
       },
       name: card.card_name,
@@ -183,7 +190,7 @@ async function fetchAllCards() {
 
 async function downloadCardImage(card) {
   if (!card.picture) {
-    return false;
+    return { downloaded: false, rotated: false };
   }
 
   const outputFile = getImageOutputPath(card);
@@ -198,25 +205,50 @@ async function downloadCardImage(card) {
   await mkdir(dirname(outputFile), { recursive: true });
   await writeFile(outputFile, Buffer.from(await response.arrayBuffer()));
 
-  return true;
+  if (card.card_kind === "Structure") {
+    await rotateImageClockwise(outputFile);
+    return { downloaded: true, rotated: true };
+  }
+
+  return { downloaded: true, rotated: false };
+}
+
+async function rotateImageClockwise(imagePath) {
+  try {
+    await execFileAsync("magick", [imagePath, "-rotate", "90", imagePath]);
+    return;
+  } catch (error) {
+    if (error.code !== "ENOENT") {
+      throw error;
+    }
+  }
+
+  await execFileAsync("sips", ["--rotate", "90", imagePath]);
 }
 
 async function downloadCardImages(cards) {
   let downloaded = 0;
+  let rotated = 0;
 
   for (const card of cards) {
-    if (await downloadCardImage(card)) {
+    const result = await downloadCardImage(card);
+
+    if (result.downloaded) {
       downloaded += 1;
+    }
+
+    if (result.rotated) {
+      rotated += 1;
     }
   }
 
-  return downloaded;
+  return { downloaded, rotated };
 }
 
 async function main() {
   const cards = await fetchAllCards();
   const { mappedCards, duplicateIds } = buildCardMap(cards);
-  const downloadedImages = await downloadCardImages(cards);
+  const { downloaded, rotated } = await downloadCardImages(cards);
 
   await writeFile(outputPath, `${JSON.stringify(mappedCards, null, 2)}\n`);
 
@@ -229,7 +261,8 @@ async function main() {
   console.log(
     `Wrote ${Object.keys(mappedCards).length} cards from ${cards.length} API rows to ${outputPath}`,
   );
-  console.log(`Downloaded ${downloadedImages} card images to ${cardsDir}`);
+  console.log(`Downloaded ${downloaded} card images to ${cardsDir}`);
+  console.log(`Rotated ${rotated} Structure card images clockwise`);
 }
 
 main().catch((error) => {
