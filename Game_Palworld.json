@@ -157,7 +157,8 @@
           "Soul"
         ],
         "autoPlayFromHand": {
-          "Pal": "Base",
+          "Normal Pal": "Base",
+          "Lucky Pal": "Base",
           "Structure": "Base",
           "Gear": "Stack",
           "Event": "Stack",
