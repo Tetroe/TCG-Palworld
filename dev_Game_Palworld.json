@@ -287,7 +287,7 @@
                         "className": "",
                         "style": {}
                       },
-                        "onChange": "game.data.MyResources.Materials = value; chatLog('has {{ delta > 0 ? 'gained' : 'spent' }} {{ delta ?? 0 }} material{{ delta == 1 ? '' : 's' }}')"
+                        "onChange": "game.data.MyResources.Materials = value; chatLog('has ' + (delta > 0 ? 'gained' : 'spent') + ' ' + (delta ?? 0) + ' material' + (delta == 1 ? '' : 's'))"
                     }
                   ]
                 },
@@ -309,7 +309,7 @@
                           "height": "100%",
                           "width": "auto"
                         },
-                        "src": "https://balbi.github.io/TCG-Arena-Palworld/images/ingredients.png"
+                        "src": "https://balbi.github.io/TCG-Arena-Palworld/images/ingredient.png"
                       }
                     },
                     {
@@ -319,7 +319,7 @@
                         "className": "",
                         "style": {}
                       },
-                      "onChange": "game.data.MyResources.Ingredients = value; chatLog('has {{ delta > 0 ? 'gained' : 'spent' }} {{ delta ?? 0 }} ingredient{{ delta == 1 ? '' : 's' }}')"
+                      "onChange": "game.data.MyResources.Ingredients = value; chatLog('has ' + (delta > 0 ? 'gained' : 'spent') + ' ' + (delta ?? 0) + ' ingredient' + (delta == 1 ? '' : 's'))"
                     }
                   ]
                 }
