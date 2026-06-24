@@ -52,8 +52,7 @@
           {
             "category": "Lucky Pal",
             "min": 0,
-            "max": 8,
-            "maxPerCard": 4
+            "max": 8
           }
         ]
       }
@@ -95,6 +94,7 @@
             "draw"
           ],
           "selectionRange": {
+            "min": 5,
             "max": 99
           }
         }
