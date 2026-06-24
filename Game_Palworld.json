@@ -55,12 +55,39 @@
   },
   "gameplay": {
     "Classic": {
+      "beforeGameStart": {
+        "chooseAnotherStartingPlayer": true,
+        "initialBoardSetup": {
+          "0": [
+            {
+              "drawFromTop": "Soul",
+              "count": 2,
+              "destination": "Mana"
+            }
+          ],
+          "1": [
+            {
+              "drawFromTop": "Soul",
+              "count": 1,
+              "destination": "Mana"
+            }
+          ]
+        }
+      },
       "mulligan": {
-        "info": "You may draw a new hand of 5 cards once. Your old hand will be put at the bottom of your deck, a new hand will be drawn, and then the deck will be shuffled.",
         "startingHandSize": "5",
-        "drawNewHand": true,
-        "putSelectionAtBottom": false,
-        "drawNewSelectedCards": false
+        "mulliganCount": {
+          "min": 0,
+          "max": 1
+        },
+        "mulliganCycle": {
+          "info": "You may shuffle and draw a new hand of 5 cards once.",
+          "steps": [
+            "toBottom",
+            "shuffle",
+            "draw"
+          ]
+        }
       },
       "newTurn": {
         "drawOnStart": false,
