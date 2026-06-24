@@ -206,16 +206,16 @@ async function downloadCardImage(card) {
   await writeFile(outputFile, Buffer.from(await response.arrayBuffer()));
 
   if (card.card_kind === "Structure") {
-    await rotateImageClockwise(outputFile);
+    await rotateImageCounterClockwise(outputFile);
     return { downloaded: true, rotated: true };
   }
 
   return { downloaded: true, rotated: false };
 }
 
-async function rotateImageClockwise(imagePath) {
+async function rotateImageCounterClockwise(imagePath) {
   try {
-    await execFileAsync("magick", [imagePath, "-rotate", "90", imagePath]);
+    await execFileAsync("magick", [imagePath, "-rotate", "-90", imagePath]);
     return;
   } catch (error) {
     if (error.code !== "ENOENT") {
@@ -223,7 +223,7 @@ async function rotateImageClockwise(imagePath) {
     }
   }
 
-  await execFileAsync("sips", ["--rotate", "90", imagePath]);
+  await execFileAsync("sips", ["--rotate", "270", imagePath]);
 }
 
 async function downloadCardImages(cards) {
@@ -262,7 +262,7 @@ async function main() {
     `Wrote ${Object.keys(mappedCards).length} cards from ${cards.length} API rows to ${outputPath}`,
   );
   console.log(`Downloaded ${downloaded} card images to ${cardsDir}`);
-  console.log(`Rotated ${rotated} Structure card images clockwise`);
+  console.log(`Rotated ${rotated} Structure card images counter-clockwise`);
 }
 
 main().catch((error) => {
