@@ -1,272 +1,2410 @@
 {
-  "demo-relaxaurus": {
-    "id": "demo-relaxaurus",
+  "ETD01-001": {
+    "id": "ETD01-001",
     "face": {
       "front": {
-        "name": "Relaxaurus",
-        "type": "Pal",
+        "name": "Grizzbolt – Rumbling Tank",
+        "type": "Lucky Pal",
         "cost": 7,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/card_relaxaurus.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD01/ETD01-001.png",
         "isHorizontal": false
       }
     },
-    "name": "Relaxaurus",
-    "type": "Pal",
+    "name": "Grizzbolt – Rumbling Tank",
+    "type": "Lucky Pal",
     "cost": 7,
-    "Color": ["Blue"],
-    "Set": ["Demo"],
+    "Color": [
+      "Red"
+    ],
+    "CardType": [
+      "Electric"
+    ],
+    "Aptitude": [
+      "Electricity",
+      "Crafting",
+      "Collecting",
+      "Transporting"
+    ],
+    "Set": [
+      "ETD01"
+    ],
+    "Power": "1600",
+    "Strike": "4",
+    "Rarity": "TD",
     "isToken": false
   },
-  "demo-pengullet": {
-    "id": "demo-pengullet",
+  "ETD01-001TSP": {
+    "id": "ETD01-001TSP",
     "face": {
       "front": {
-        "name": "Pengullet",
-        "type": "Pal",
+        "name": "Grizzbolt – Rumbling Tank",
+        "type": "Lucky Pal",
+        "cost": 7,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD01/ETD01-001TSP.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Grizzbolt – Rumbling Tank",
+    "type": "Lucky Pal",
+    "cost": 7,
+    "Color": [
+      "Red"
+    ],
+    "CardType": [
+      "Electric"
+    ],
+    "Aptitude": [
+      "Electricity",
+      "Crafting",
+      "Collecting",
+      "Transporting"
+    ],
+    "Set": [
+      "ETD01"
+    ],
+    "Power": "1600",
+    "Strike": "4",
+    "Rarity": "TSP",
+    "isToken": false
+  },
+  "ETD01-001TSR": {
+    "id": "ETD01-001TSR",
+    "face": {
+      "front": {
+        "name": "Grizzbolt – Rumbling Tank",
+        "type": "Lucky Pal",
+        "cost": 7,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD01/ETD01-001TSR.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Grizzbolt – Rumbling Tank",
+    "type": "Lucky Pal",
+    "cost": 7,
+    "Color": [
+      "Red"
+    ],
+    "CardType": [
+      "Electric"
+    ],
+    "Aptitude": [
+      "Electricity",
+      "Crafting",
+      "Collecting",
+      "Transporting"
+    ],
+    "Set": [
+      "ETD01"
+    ],
+    "Power": "1600",
+    "Strike": "4",
+    "Rarity": "TSR",
+    "isToken": false
+  },
+  "ETD01-002": {
+    "id": "ETD01-002",
+    "face": {
+      "front": {
+        "name": "Jolthog – Shocking Yet Innocent",
+        "type": "Normal Pal",
+        "cost": 2,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD01/ETD01-002.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Jolthog – Shocking Yet Innocent",
+    "type": "Normal Pal",
+    "cost": 2,
+    "Color": [
+      "Red"
+    ],
+    "CardType": [
+      "Electric"
+    ],
+    "Aptitude": [
+      "Electricity"
+    ],
+    "Set": [
+      "ETD01"
+    ],
+    "Power": "300",
+    "Strike": "1",
+    "Rarity": "TD",
+    "isToken": false
+  },
+  "ETD01-003": {
+    "id": "ETD01-003",
+    "face": {
+      "front": {
+        "name": "Kelpsea Ignis – Balmy Magma",
+        "type": "Normal Pal",
         "cost": 3,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/card_pengullet.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD01/ETD01-003.png",
         "isHorizontal": false
       }
     },
-    "name": "Pengullet",
-    "type": "Pal",
+    "name": "Kelpsea Ignis – Balmy Magma",
+    "type": "Normal Pal",
     "cost": 3,
-    "Color": ["Blue"],
-    "Set": ["Demo"],
+    "Color": [
+      "Red"
+    ],
+    "CardType": [
+      "Fire"
+    ],
+    "Aptitude": [
+      "Kindling",
+      "Farming"
+    ],
+    "Set": [
+      "ETD01"
+    ],
+    "Power": "500",
+    "Strike": "1",
+    "Rarity": "TD",
     "isToken": false
   },
-  "demo-reckless_charge": {
-    "id": "demo-reckless_charge",
+  "ETD01-004": {
+    "id": "ETD01-004",
     "face": {
       "front": {
-        "name": "Reckless Charge",
-        "type": "Event",
-        "cost": 1,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/card_reckless-charge.png",
+        "name": "Foxparks – A Toasty Hug",
+        "type": "Normal Pal",
+        "cost": 4,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD01/ETD01-004.png",
         "isHorizontal": false
       }
     },
-    "name": "Reckless Charge",
-    "type": "Event",
-    "cost": 1,
-    "Color": ["Red"],
-    "Set": ["Demo"],
+    "name": "Foxparks – A Toasty Hug",
+    "type": "Normal Pal",
+    "cost": 4,
+    "Color": [
+      "Red"
+    ],
+    "CardType": [
+      "Fire"
+    ],
+    "Aptitude": [
+      "Kindling"
+    ],
+    "Set": [
+      "ETD01"
+    ],
+    "Power": "400",
+    "Strike": "2",
+    "Rarity": "TD",
     "isToken": false
   },
-  "demo-jormuntide_ignis": {
-    "id": "demo-jormuntide_ignis",
+  "ETD01-005": {
+    "id": "ETD01-005",
     "face": {
       "front": {
-        "name": "Jormuntide Ignis",
-        "type": "Pal",
-        "cost": 8,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/card_jormuntide-ignis.png",
-        "isHorizontal": false
-      }
-    },
-    "name": "Jormuntide Ignis",
-    "type": "Pal",
-    "cost": 8,
-    "Color": ["Red"],
-    "Set": ["Demo"],
-    "isToken": false
-  },
-  "demo-chillet": {
-    "id": "demo-chillet",
-    "face": {
-      "front": {
-        "name": "Chillet",
-        "type": "Pal",
+        "name": "Arsox – Burning Spoils",
+        "type": "Normal Pal",
         "cost": 5,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/card_chillet.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD01/ETD01-005.png",
         "isHorizontal": false
       }
     },
-    "name": "Chillet",
-    "type": "Pal",
+    "name": "Arsox – Burning Spoils",
+    "type": "Normal Pal",
     "cost": 5,
-    "Color": ["Blue"],
-    "Set": ["Demo"],
+    "Color": [
+      "Red"
+    ],
+    "CardType": [
+      "Fire"
+    ],
+    "Aptitude": [
+      "Kindling",
+      "Collecting"
+    ],
+    "Set": [
+      "ETD01"
+    ],
+    "Power": "800",
+    "Strike": "2",
+    "Rarity": "TD",
     "isToken": false
   },
-  "demo-single-shot_rifle": {
-    "id": "demo-single-shot_rifle",
+  "ETD01-005TSR": {
+    "id": "ETD01-005TSR",
+    "face": {
+      "front": {
+        "name": "Arsox – Burning Spoils",
+        "type": "Normal Pal",
+        "cost": 5,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD01/ETD01-005TSR.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Arsox – Burning Spoils",
+    "type": "Normal Pal",
+    "cost": 5,
+    "Color": [
+      "Red"
+    ],
+    "CardType": [
+      "Fire"
+    ],
+    "Aptitude": [
+      "Kindling",
+      "Collecting"
+    ],
+    "Set": [
+      "ETD01"
+    ],
+    "Power": "800",
+    "Strike": "2",
+    "Rarity": "TSR",
+    "isToken": false
+  },
+  "ETD01-006": {
+    "id": "ETD01-006",
+    "face": {
+      "front": {
+        "name": "Mossanda Lux – Vanguard Captain",
+        "type": "Normal Pal",
+        "cost": 6,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD01/ETD01-006.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Mossanda Lux – Vanguard Captain",
+    "type": "Normal Pal",
+    "cost": 6,
+    "Color": [
+      "Red"
+    ],
+    "CardType": [
+      "Electric"
+    ],
+    "Aptitude": [
+      "Electricity",
+      "Crafting",
+      "Collecting",
+      "Transporting"
+    ],
+    "Set": [
+      "ETD01"
+    ],
+    "Power": "1100",
+    "Strike": "2",
+    "Rarity": "TD",
+    "isToken": false
+  },
+  "ETD01-007": {
+    "id": "ETD01-007",
+    "face": {
+      "front": {
+        "name": "Blazamut – Molten Sovereign",
+        "type": "Lucky Pal",
+        "cost": 8,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD01/ETD01-007.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Blazamut – Molten Sovereign",
+    "type": "Lucky Pal",
+    "cost": 8,
+    "Color": [
+      "Red"
+    ],
+    "CardType": [
+      "Fire"
+    ],
+    "Aptitude": [
+      "Kindling",
+      "Collecting"
+    ],
+    "Set": [
+      "ETD01"
+    ],
+    "Power": "1600",
+    "Strike": "3",
+    "Rarity": "TD",
+    "isToken": false
+  },
+  "ETD01-007TSR": {
+    "id": "ETD01-007TSR",
+    "face": {
+      "front": {
+        "name": "Blazamut – Molten Sovereign",
+        "type": "Lucky Pal",
+        "cost": 8,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD01/ETD01-007TSR.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Blazamut – Molten Sovereign",
+    "type": "Lucky Pal",
+    "cost": 8,
+    "Color": [
+      "Red"
+    ],
+    "CardType": [
+      "Fire"
+    ],
+    "Aptitude": [
+      "Kindling",
+      "Collecting"
+    ],
+    "Set": [
+      "ETD01"
+    ],
+    "Power": "1600",
+    "Strike": "3",
+    "Rarity": "TSR",
+    "isToken": false
+  },
+  "ETD01-008": {
+    "id": "ETD01-008",
+    "face": {
+      "front": {
+        "name": "Stone Pit",
+        "type": "Structure",
+        "cost": 1,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD01/ETD01-008.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Stone Pit",
+    "type": "Structure",
+    "cost": 1,
+    "Color": [
+      "Red"
+    ],
+    "CardType": [],
+    "Aptitude": [
+      "Collecting"
+    ],
+    "Set": [
+      "ETD01"
+    ],
+    "Power": "600",
+    "Strike": "",
+    "Rarity": "TD",
+    "isToken": false
+  },
+  "ETD01-008TSR": {
+    "id": "ETD01-008TSR",
+    "face": {
+      "front": {
+        "name": "Stone Pit",
+        "type": "Structure",
+        "cost": 1,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD01/ETD01-008TSR.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Stone Pit",
+    "type": "Structure",
+    "cost": 1,
+    "Color": [
+      "Red"
+    ],
+    "CardType": [],
+    "Aptitude": [
+      "Collecting"
+    ],
+    "Set": [
+      "ETD01"
+    ],
+    "Power": "600",
+    "Strike": "",
+    "Rarity": "TSR",
+    "isToken": false
+  },
+  "ETD01-009": {
+    "id": "ETD01-009",
+    "face": {
+      "front": {
+        "name": "Weapon Workbench",
+        "type": "Structure",
+        "cost": 3,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD01/ETD01-009.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Weapon Workbench",
+    "type": "Structure",
+    "cost": 3,
+    "Color": [
+      "Red"
+    ],
+    "CardType": [],
+    "Aptitude": [
+      "Crafting"
+    ],
+    "Set": [
+      "ETD01"
+    ],
+    "Power": "1100",
+    "Strike": "",
+    "Rarity": "TD",
+    "isToken": false
+  },
+  "ETD01-010": {
+    "id": "ETD01-010",
     "face": {
       "front": {
         "name": "Single-Shot Rifle",
         "type": "Gear",
         "cost": 4,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/card_single-shot-rifle.png",
-        "isHorizontal": false
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD01/ETD01-010.png",
+        "isHorizontal": true
       }
     },
     "name": "Single-Shot Rifle",
     "type": "Gear",
     "cost": 4,
-    "Color": ["Red"],
-    "Set": ["Demo"],
+    "Color": [
+      "Red"
+    ],
+    "CardType": [],
+    "Aptitude": [],
+    "Set": [
+      "ETD01"
+    ],
+    "Power": "",
+    "Strike": "",
+    "Rarity": "TD",
     "isToken": false
   },
-  "demo-mounted_machine_gun": {
-    "id": "demo-mounted_machine_gun",
+  "ETD01-011": {
+    "id": "ETD01-011",
     "face": {
       "front": {
-        "name": "Mounted Machine Gun",
-        "type": "Structure",
-        "cost": 4,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/card_mounted-machine-gun.png",
-        "isHorizontal": true
-      }
-    },
-    "name": "Mounted Machine Gun",
-    "type": "Structure",
-    "cost": 4,
-    "Color": ["Red"],
-    "Set": ["Demo"],
-    "isToken": false
-  },
-  "demo-pump-action_shotgun": {
-    "id": "demo-pump-action_shotgun",
-    "face": {
-      "front": {
-        "name": "Pump-Action Shotgun",
-        "type": "Gear",
-        "cost": 4,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/card_pump-action-shotgun.png",
-        "isHorizontal": false
-      }
-    },
-    "name": "Pump-Action Shotgun",
-    "type": "Gear",
-    "cost": 4,
-    "Color": ["Red"],
-    "Set": ["Demo"],
-    "isToken": false
-  },
-  "demo-primitive_furnace": {
-    "id": "demo-primitive_furnace",
-    "face": {
-      "front": {
-        "name": "Primitive Furnace",
-        "type": "Structure",
-        "cost": 1,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/card_primitive-furnace.png",
-        "isHorizontal": true
-      }
-    },
-    "name": "Primitive Furnace",
-    "type": "Structure",
-    "cost": 1,
-    "Color": ["Red"],
-    "Set": ["Demo"],
-    "isToken": false
-  },
-  "demo-cattiva": {
-    "id": "demo-cattiva",
-    "face": {
-      "front": {
-        "name": "Cattiva",
-        "type": "Pal",
+        "name": "Ignis Breath",
+        "type": "Event",
         "cost": 2,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/card_cattiva.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD01/ETD01-011.png",
         "isHorizontal": false
       }
     },
-    "name": "Cattiva",
-    "type": "Pal",
+    "name": "Ignis Breath",
+    "type": "Event",
     "cost": 2,
-    "Color": ["Colorless"],
-    "Set": ["Demo"],
+    "Color": [
+      "Red"
+    ],
+    "CardType": [],
+    "Aptitude": [],
+    "Set": [
+      "ETD01"
+    ],
+    "Power": "",
+    "Strike": "",
+    "Rarity": "TD",
     "isToken": false
   },
-  "demo-lamball": {
-    "id": "demo-lamball",
+  "ETD01-011TSR": {
+    "id": "ETD01-011TSR",
     "face": {
       "front": {
-        "name": "Lamball",
-        "type": "Pal",
+        "name": "Ignis Breath",
+        "type": "Event",
         "cost": 2,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/card_lamball.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD01/ETD01-011TSR.png",
         "isHorizontal": false
       }
     },
-    "name": "Lamball",
-    "type": "Pal",
+    "name": "Ignis Breath",
+    "type": "Event",
     "cost": 2,
-    "Color": ["Colorless"],
-    "Set": ["Demo"],
+    "Color": [
+      "Red"
+    ],
+    "CardType": [],
+    "Aptitude": [],
+    "Set": [
+      "ETD01"
+    ],
+    "Power": "",
+    "Strike": "",
+    "Rarity": "TSR",
     "isToken": false
   },
-  "demo-grizzbolt": {
-    "id": "demo-grizzbolt",
+  "ETD01-012": {
+    "id": "ETD01-012",
     "face": {
       "front": {
-        "name": "Grizzbolt",
-        "type": "Pal",
+        "name": "Elphidran Aqua – Gentle Ripples",
+        "type": "Normal Pal",
         "cost": 6,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/card_grizzbolt.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD01/ETD01-012.png",
         "isHorizontal": false
       }
     },
-    "name": "Grizzbolt",
-    "type": "Pal",
+    "name": "Elphidran Aqua – Gentle Ripples",
+    "type": "Normal Pal",
     "cost": 6,
-    "Color": ["Red"],
-    "Set": ["Demo"],
+    "Color": [
+      "Blue"
+    ],
+    "CardType": [
+      "Dragon",
+      "Water"
+    ],
+    "Aptitude": [
+      "Harvesting",
+      "Collecting"
+    ],
+    "Set": [
+      "ETD01"
+    ],
+    "Power": "900",
+    "Strike": "2",
+    "Rarity": "TD",
     "isToken": false
   },
-  "demo-chikipi": {
-    "id": "demo-chikipi",
+  "ETD01-012TSP": {
+    "id": "ETD01-012TSP",
     "face": {
       "front": {
-        "name": "Chikipi",
-        "type": "Pal",
+        "name": "Elphidran Aqua – Gentle Ripples",
+        "type": "Normal Pal",
+        "cost": 6,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD01/ETD01-012TSP.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Elphidran Aqua – Gentle Ripples",
+    "type": "Normal Pal",
+    "cost": 6,
+    "Color": [
+      "Blue"
+    ],
+    "CardType": [
+      "Dragon",
+      "Water"
+    ],
+    "Aptitude": [
+      "Harvesting",
+      "Collecting"
+    ],
+    "Set": [
+      "ETD01"
+    ],
+    "Power": "900",
+    "Strike": "2",
+    "Rarity": "TSP",
+    "isToken": false
+  },
+  "ETD01-012TSR": {
+    "id": "ETD01-012TSR",
+    "face": {
+      "front": {
+        "name": "Elphidran Aqua – Gentle Ripples",
+        "type": "Normal Pal",
+        "cost": 6,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD01/ETD01-012TSR.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Elphidran Aqua – Gentle Ripples",
+    "type": "Normal Pal",
+    "cost": 6,
+    "Color": [
+      "Blue"
+    ],
+    "CardType": [
+      "Dragon",
+      "Water"
+    ],
+    "Aptitude": [
+      "Harvesting",
+      "Collecting"
+    ],
+    "Set": [
+      "ETD01"
+    ],
+    "Power": "900",
+    "Strike": "2",
+    "Rarity": "TSR",
+    "isToken": false
+  },
+  "ETD01-013": {
+    "id": "ETD01-013",
+    "face": {
+      "front": {
+        "name": "Jolthog Cryst – Stoic Yet Innocent",
+        "type": "Normal Pal",
         "cost": 2,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/card_chikipi.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD01/ETD01-013.png",
         "isHorizontal": false
       }
     },
-    "name": "Chikipi",
-    "type": "Pal",
+    "name": "Jolthog Cryst – Stoic Yet Innocent",
+    "type": "Normal Pal",
     "cost": 2,
-    "Color": ["Colorless"],
-    "Set": ["Demo"],
+    "Color": [
+      "Blue"
+    ],
+    "CardType": [
+      "Ice"
+    ],
+    "Aptitude": [
+      "Cooling"
+    ],
+    "Set": [
+      "ETD01"
+    ],
+    "Power": "300",
+    "Strike": "1",
+    "Rarity": "TD",
     "isToken": false
   },
-  "demo-foxparks": {
-    "id": "demo-foxparks",
+  "ETD01-014": {
+    "id": "ETD01-014",
     "face": {
       "front": {
-        "name": "Foxparks",
-        "type": "Pal",
-        "cost": 4,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/card_foxparks.png",
+        "name": "Pengullet – Frequent Flyer",
+        "type": "Normal Pal",
+        "cost": 3,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD01/ETD01-014.png",
         "isHorizontal": false
       }
     },
-    "name": "Foxparks",
-    "type": "Pal",
-    "cost": 4,
-    "Color": ["Red"],
-    "Set": ["Demo"],
+    "name": "Pengullet – Frequent Flyer",
+    "type": "Normal Pal",
+    "cost": 3,
+    "Color": [
+      "Blue"
+    ],
+    "CardType": [
+      "Water",
+      "Ice"
+    ],
+    "Aptitude": [
+      "Harvesting",
+      "Crafting",
+      "Cooling",
+      "Transporting"
+    ],
+    "Set": [
+      "ETD01"
+    ],
+    "Power": "500",
+    "Strike": "1",
+    "Rarity": "TD",
     "isToken": false
   },
-  "demo-soul": {
-    "id": "demo-soul",
+  "ETD01-014TSR": {
+    "id": "ETD01-014TSR",
+    "face": {
+      "front": {
+        "name": "Pengullet – Frequent Flyer",
+        "type": "Normal Pal",
+        "cost": 3,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD01/ETD01-014TSR.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Pengullet – Frequent Flyer",
+    "type": "Normal Pal",
+    "cost": 3,
+    "Color": [
+      "Blue"
+    ],
+    "CardType": [
+      "Water",
+      "Ice"
+    ],
+    "Aptitude": [
+      "Harvesting",
+      "Crafting",
+      "Cooling",
+      "Transporting"
+    ],
+    "Set": [
+      "ETD01"
+    ],
+    "Power": "500",
+    "Strike": "1",
+    "Rarity": "TSR",
+    "isToken": false
+  },
+  "ETD01-015": {
+    "id": "ETD01-015",
+    "face": {
+      "front": {
+        "name": "Hangyu Cryst – Frigid Wanderer",
+        "type": "Normal Pal",
+        "cost": 4,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD01/ETD01-015.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Hangyu Cryst – Frigid Wanderer",
+    "type": "Normal Pal",
+    "cost": 4,
+    "Color": [
+      "Blue"
+    ],
+    "CardType": [
+      "Ice"
+    ],
+    "Aptitude": [
+      "Harvesting",
+      "Crafting",
+      "Cooling",
+      "Transporting"
+    ],
+    "Set": [
+      "ETD01"
+    ],
+    "Power": "600",
+    "Strike": "2",
+    "Rarity": "TD",
+    "isToken": false
+  },
+  "ETD01-016": {
+    "id": "ETD01-016",
+    "face": {
+      "front": {
+        "name": "Reindrix – Icy Gaze",
+        "type": "Normal Pal",
+        "cost": 5,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD01/ETD01-016.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Reindrix – Icy Gaze",
+    "type": "Normal Pal",
+    "cost": 5,
+    "Color": [
+      "Blue"
+    ],
+    "CardType": [
+      "Ice"
+    ],
+    "Aptitude": [
+      "Collecting",
+      "Cooling"
+    ],
+    "Set": [
+      "ETD01"
+    ],
+    "Power": "600",
+    "Strike": "2",
+    "Rarity": "TD",
+    "isToken": false
+  },
+  "ETD01-017": {
+    "id": "ETD01-017",
+    "face": {
+      "front": {
+        "name": "Suzaku Aqua – Way of the Current",
+        "type": "Lucky Pal",
+        "cost": 7,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD01/ETD01-017.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Suzaku Aqua – Way of the Current",
+    "type": "Lucky Pal",
+    "cost": 7,
+    "Color": [
+      "Blue"
+    ],
+    "CardType": [
+      "Water"
+    ],
+    "Aptitude": [
+      "Harvesting"
+    ],
+    "Set": [
+      "ETD01"
+    ],
+    "Power": "1200",
+    "Strike": "3",
+    "Rarity": "TD",
+    "isToken": false
+  },
+  "ETD01-017TSR": {
+    "id": "ETD01-017TSR",
+    "face": {
+      "front": {
+        "name": "Suzaku Aqua – Way of the Current",
+        "type": "Lucky Pal",
+        "cost": 7,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD01/ETD01-017TSR.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Suzaku Aqua – Way of the Current",
+    "type": "Lucky Pal",
+    "cost": 7,
+    "Color": [
+      "Blue"
+    ],
+    "CardType": [
+      "Water"
+    ],
+    "Aptitude": [
+      "Harvesting"
+    ],
+    "Set": [
+      "ETD01"
+    ],
+    "Power": "1200",
+    "Strike": "3",
+    "Rarity": "TSR",
+    "isToken": false
+  },
+  "ETD01-018": {
+    "id": "ETD01-018",
+    "face": {
+      "front": {
+        "name": "Mammorest Cryst – Roar of the Tundra",
+        "type": "Lucky Pal",
+        "cost": 8,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD01/ETD01-018.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Mammorest Cryst – Roar of the Tundra",
+    "type": "Lucky Pal",
+    "cost": 8,
+    "Color": [
+      "Blue"
+    ],
+    "CardType": [
+      "Ice",
+      "Ground"
+    ],
+    "Aptitude": [
+      "Collecting",
+      "Cooling"
+    ],
+    "Set": [
+      "ETD01"
+    ],
+    "Power": "1700",
+    "Strike": "3",
+    "Rarity": "TD",
+    "isToken": false
+  },
+  "ETD01-018TSR": {
+    "id": "ETD01-018TSR",
+    "face": {
+      "front": {
+        "name": "Mammorest Cryst – Roar of the Tundra",
+        "type": "Lucky Pal",
+        "cost": 8,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD01/ETD01-018TSR.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Mammorest Cryst – Roar of the Tundra",
+    "type": "Lucky Pal",
+    "cost": 8,
+    "Color": [
+      "Blue"
+    ],
+    "CardType": [
+      "Ice",
+      "Ground"
+    ],
+    "Aptitude": [
+      "Collecting",
+      "Cooling"
+    ],
+    "Set": [
+      "ETD01"
+    ],
+    "Power": "1700",
+    "Strike": "3",
+    "Rarity": "TSR",
+    "isToken": false
+  },
+  "ETD01-019": {
+    "id": "ETD01-019",
+    "face": {
+      "front": {
+        "name": "Antique Wooden Chair",
+        "type": "Structure",
+        "cost": 2,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD01/ETD01-019.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Antique Wooden Chair",
+    "type": "Structure",
+    "cost": 2,
+    "Color": [
+      "Blue"
+    ],
+    "CardType": [],
+    "Aptitude": [],
+    "Set": [
+      "ETD01"
+    ],
+    "Power": "1200",
+    "Strike": "",
+    "Rarity": "TD",
+    "isToken": false
+  },
+  "ETD01-020": {
+    "id": "ETD01-020",
+    "face": {
+      "front": {
+        "name": "Primitive Workbench",
+        "type": "Structure",
+        "cost": 3,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD01/ETD01-020.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Primitive Workbench",
+    "type": "Structure",
+    "cost": 3,
+    "Color": [
+      "Blue"
+    ],
+    "CardType": [],
+    "Aptitude": [
+      "Crafting"
+    ],
+    "Set": [
+      "ETD01"
+    ],
+    "Power": "1100",
+    "Strike": "",
+    "Rarity": "TD",
+    "isToken": false
+  },
+  "ETD01-021": {
+    "id": "ETD01-021",
+    "face": {
+      "front": {
+        "name": "Single-Shot Sphere Launcher",
+        "type": "Gear",
+        "cost": 3,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD01/ETD01-021.png",
+        "isHorizontal": true
+      }
+    },
+    "name": "Single-Shot Sphere Launcher",
+    "type": "Gear",
+    "cost": 3,
+    "Color": [
+      "Blue"
+    ],
+    "CardType": [],
+    "Aptitude": [],
+    "Set": [
+      "ETD01"
+    ],
+    "Power": "",
+    "Strike": "",
+    "Rarity": "TD",
+    "isToken": false
+  },
+  "ETD01-022": {
+    "id": "ETD01-022",
+    "face": {
+      "front": {
+        "name": "Crystal Breath",
+        "type": "Event",
+        "cost": 2,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD01/ETD01-022.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Crystal Breath",
+    "type": "Event",
+    "cost": 2,
+    "Color": [
+      "Blue"
+    ],
+    "CardType": [],
+    "Aptitude": [],
+    "Set": [
+      "ETD01"
+    ],
+    "Power": "",
+    "Strike": "",
+    "Rarity": "TD",
+    "isToken": false
+  },
+  "ETD01-022TSR": {
+    "id": "ETD01-022TSR",
+    "face": {
+      "front": {
+        "name": "Crystal Breath",
+        "type": "Event",
+        "cost": 2,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD01/ETD01-022TSR.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Crystal Breath",
+    "type": "Event",
+    "cost": 2,
+    "Color": [
+      "Blue"
+    ],
+    "CardType": [],
+    "Aptitude": [],
+    "Set": [
+      "ETD01"
+    ],
+    "Power": "",
+    "Strike": "",
+    "Rarity": "TSR",
+    "isToken": false
+  },
+  "ETD01-023": {
+    "id": "ETD01-023",
+    "face": {
+      "front": {
+        "name": "Lamball – My First Pal",
+        "type": "Normal Pal",
+        "cost": 2,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD01/ETD01-023.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Lamball – My First Pal",
+    "type": "Normal Pal",
+    "cost": 2,
+    "Color": [
+      "Colorless"
+    ],
+    "CardType": [
+      "Neutral"
+    ],
+    "Aptitude": [
+      "Crafting",
+      "Transporting",
+      "Farming"
+    ],
+    "Set": [
+      "ETD01"
+    ],
+    "Power": "200",
+    "Strike": "1",
+    "Rarity": "TD",
+    "isToken": false
+  },
+  "ETD01-023TSR": {
+    "id": "ETD01-023TSR",
+    "face": {
+      "front": {
+        "name": "Lamball – My First Pal",
+        "type": "Normal Pal",
+        "cost": 2,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD01/ETD01-023TSR.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Lamball – My First Pal",
+    "type": "Normal Pal",
+    "cost": 2,
+    "Color": [
+      "Colorless"
+    ],
+    "CardType": [
+      "Neutral"
+    ],
+    "Aptitude": [
+      "Crafting",
+      "Transporting",
+      "Farming"
+    ],
+    "Set": [
+      "ETD01"
+    ],
+    "Power": "200",
+    "Strike": "1",
+    "Rarity": "TSR",
+    "isToken": false
+  },
+  "ETD01-024": {
+    "id": "ETD01-024",
+    "face": {
+      "front": {
+        "name": "Ribbuny – Little Princess",
+        "type": "Normal Pal",
+        "cost": 2,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD01/ETD01-024.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Ribbuny – Little Princess",
+    "type": "Normal Pal",
+    "cost": 2,
+    "Color": [
+      "Colorless"
+    ],
+    "CardType": [
+      "Neutral"
+    ],
+    "Aptitude": [
+      "Harvesting",
+      "Crafting",
+      "Transporting"
+    ],
+    "Set": [
+      "ETD01"
+    ],
+    "Power": "200",
+    "Strike": "1",
+    "Rarity": "TD",
+    "isToken": false
+  },
+  "ETD01-024TSR": {
+    "id": "ETD01-024TSR",
+    "face": {
+      "front": {
+        "name": "Ribbuny – Little Princess",
+        "type": "Normal Pal",
+        "cost": 2,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD01/ETD01-024TSR.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Ribbuny – Little Princess",
+    "type": "Normal Pal",
+    "cost": 2,
+    "Color": [
+      "Colorless"
+    ],
+    "CardType": [
+      "Neutral"
+    ],
+    "Aptitude": [
+      "Harvesting",
+      "Crafting",
+      "Transporting"
+    ],
+    "Set": [
+      "ETD01"
+    ],
+    "Power": "200",
+    "Strike": "1",
+    "Rarity": "TSR",
+    "isToken": false
+  },
+  "ESOUL-001": {
+    "id": "ESOUL-001",
     "face": {
       "front": {
         "name": "Soul",
-        "type": "Souls",
+        "type": "Soul",
         "cost": 0,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/soul.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD02/ESOUL-001.png",
         "isHorizontal": false
       }
     },
     "name": "Soul",
-    "type": "Souls",
+    "type": "Soul",
     "cost": 0,
     "Color": [],
-    "Set": ["Demo"],
+    "CardType": [],
+    "Aptitude": [],
+    "Set": [
+      "ETD01",
+      "ETD02"
+    ],
+    "Power": "",
+    "Strike": "",
+    "Rarity": "TD",
+    "isToken": false
+  },
+  "ETD02-001": {
+    "id": "ETD02-001",
+    "face": {
+      "front": {
+        "name": "Mossanda – Guard Captain",
+        "type": "Normal Pal",
+        "cost": 5,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD02/ETD02-001.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Mossanda – Guard Captain",
+    "type": "Normal Pal",
+    "cost": 5,
+    "Color": [
+      "Green"
+    ],
+    "CardType": [
+      "Grass"
+    ],
+    "Aptitude": [
+      "Harvesting",
+      "Crafting",
+      "Collecting",
+      "Transporting"
+    ],
+    "Set": [
+      "ETD02"
+    ],
+    "Power": "900",
+    "Strike": "2",
+    "Rarity": "TD",
+    "isToken": false
+  },
+  "ETD02-001TSP": {
+    "id": "ETD02-001TSP",
+    "face": {
+      "front": {
+        "name": "Mossanda – Guard Captain",
+        "type": "Normal Pal",
+        "cost": 5,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD02/ETD02-001TSP.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Mossanda – Guard Captain",
+    "type": "Normal Pal",
+    "cost": 5,
+    "Color": [
+      "Green"
+    ],
+    "CardType": [
+      "Grass"
+    ],
+    "Aptitude": [
+      "Harvesting",
+      "Crafting",
+      "Collecting",
+      "Transporting"
+    ],
+    "Set": [
+      "ETD02"
+    ],
+    "Power": "900",
+    "Strike": "2",
+    "Rarity": "TSP",
+    "isToken": false
+  },
+  "ETD02-001TSR": {
+    "id": "ETD02-001TSR",
+    "face": {
+      "front": {
+        "name": "Mossanda – Guard Captain",
+        "type": "Normal Pal",
+        "cost": 5,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD02/ETD02-001TSR.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Mossanda – Guard Captain",
+    "type": "Normal Pal",
+    "cost": 5,
+    "Color": [
+      "Green"
+    ],
+    "CardType": [
+      "Grass"
+    ],
+    "Aptitude": [
+      "Harvesting",
+      "Crafting",
+      "Collecting",
+      "Transporting"
+    ],
+    "Set": [
+      "ETD02"
+    ],
+    "Power": "900",
+    "Strike": "2",
+    "Rarity": "TSR",
+    "isToken": false
+  },
+  "ETD02-002": {
+    "id": "ETD02-002",
+    "face": {
+      "front": {
+        "name": "Gumoss – Dreamy Seedling",
+        "type": "Normal Pal",
+        "cost": 2,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD02/ETD02-002.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Gumoss – Dreamy Seedling",
+    "type": "Normal Pal",
+    "cost": 2,
+    "Color": [
+      "Green"
+    ],
+    "CardType": [
+      "Grass",
+      "Ground"
+    ],
+    "Aptitude": [
+      "Harvesting"
+    ],
+    "Set": [
+      "ETD02"
+    ],
+    "Power": "300",
+    "Strike": "1",
+    "Rarity": "TD",
+    "isToken": false
+  },
+  "ETD02-003": {
+    "id": "ETD02-003",
+    "face": {
+      "front": {
+        "name": "Flopie – Snack Lover",
+        "type": "Normal Pal",
+        "cost": 3,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD02/ETD02-003.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Flopie – Snack Lover",
+    "type": "Normal Pal",
+    "cost": 3,
+    "Color": [
+      "Green"
+    ],
+    "CardType": [
+      "Grass"
+    ],
+    "Aptitude": [
+      "Harvesting",
+      "Crafting",
+      "Transporting"
+    ],
+    "Set": [
+      "ETD02"
+    ],
+    "Power": "400",
+    "Strike": "1",
+    "Rarity": "TD",
+    "isToken": false
+  },
+  "ETD02-003TSR": {
+    "id": "ETD02-003TSR",
+    "face": {
+      "front": {
+        "name": "Flopie – Snack Lover",
+        "type": "Normal Pal",
+        "cost": 3,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD02/ETD02-003TSR.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Flopie – Snack Lover",
+    "type": "Normal Pal",
+    "cost": 3,
+    "Color": [
+      "Green"
+    ],
+    "CardType": [
+      "Grass"
+    ],
+    "Aptitude": [
+      "Harvesting",
+      "Crafting",
+      "Transporting"
+    ],
+    "Set": [
+      "ETD02"
+    ],
+    "Power": "400",
+    "Strike": "1",
+    "Rarity": "TSR",
+    "isToken": false
+  },
+  "ETD02-004": {
+    "id": "ETD02-004",
+    "face": {
+      "front": {
+        "name": "Dinossom – Radiant Fragrance",
+        "type": "Normal Pal",
+        "cost": 4,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD02/ETD02-004.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Dinossom – Radiant Fragrance",
+    "type": "Normal Pal",
+    "cost": 4,
+    "Color": [
+      "Green"
+    ],
+    "CardType": [
+      "Grass",
+      "Dragon"
+    ],
+    "Aptitude": [
+      "Harvesting",
+      "Collecting"
+    ],
+    "Set": [
+      "ETD02"
+    ],
+    "Power": "400",
+    "Strike": "2",
+    "Rarity": "TD",
+    "isToken": false
+  },
+  "ETD02-005": {
+    "id": "ETD02-005",
+    "face": {
+      "front": {
+        "name": "Eikthyrdeer Terra – Guardian of Nature",
+        "type": "Normal Pal",
+        "cost": 6,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD02/ETD02-005.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Eikthyrdeer Terra – Guardian of Nature",
+    "type": "Normal Pal",
+    "cost": 6,
+    "Color": [
+      "Green"
+    ],
+    "CardType": [
+      "Ground"
+    ],
+    "Aptitude": [
+      "Collecting"
+    ],
+    "Set": [
+      "ETD02"
+    ],
+    "Power": "800",
+    "Strike": "2",
+    "Rarity": "TD",
+    "isToken": false
+  },
+  "ETD02-006": {
+    "id": "ETD02-006",
+    "face": {
+      "front": {
+        "name": "Broncherry – Brimming Adoration",
+        "type": "Lucky Pal",
+        "cost": 7,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD02/ETD02-006.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Broncherry – Brimming Adoration",
+    "type": "Lucky Pal",
+    "cost": 7,
+    "Color": [
+      "Green"
+    ],
+    "CardType": [
+      "Grass"
+    ],
+    "Aptitude": [
+      "Harvesting"
+    ],
+    "Set": [
+      "ETD02"
+    ],
+    "Power": "1500",
+    "Strike": "3",
+    "Rarity": "TD",
+    "isToken": false
+  },
+  "ETD02-006TSR": {
+    "id": "ETD02-006TSR",
+    "face": {
+      "front": {
+        "name": "Broncherry – Brimming Adoration",
+        "type": "Lucky Pal",
+        "cost": 7,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD02/ETD02-006TSR.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Broncherry – Brimming Adoration",
+    "type": "Lucky Pal",
+    "cost": 7,
+    "Color": [
+      "Green"
+    ],
+    "CardType": [
+      "Grass"
+    ],
+    "Aptitude": [
+      "Harvesting"
+    ],
+    "Set": [
+      "ETD02"
+    ],
+    "Power": "1500",
+    "Strike": "3",
+    "Rarity": "TSR",
+    "isToken": false
+  },
+  "ETD02-007": {
+    "id": "ETD02-007",
+    "face": {
+      "front": {
+        "name": "Mammorest – Roar of the Wilds",
+        "type": "Lucky Pal",
+        "cost": 8,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD02/ETD02-007.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Mammorest – Roar of the Wilds",
+    "type": "Lucky Pal",
+    "cost": 8,
+    "Color": [
+      "Green"
+    ],
+    "CardType": [
+      "Grass",
+      "Ground"
+    ],
+    "Aptitude": [
+      "Harvesting",
+      "Collecting"
+    ],
+    "Set": [
+      "ETD02"
+    ],
+    "Power": "2000",
+    "Strike": "4",
+    "Rarity": "TD",
+    "isToken": false
+  },
+  "ETD02-007TSR": {
+    "id": "ETD02-007TSR",
+    "face": {
+      "front": {
+        "name": "Mammorest – Roar of the Wilds",
+        "type": "Lucky Pal",
+        "cost": 8,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD02/ETD02-007TSR.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Mammorest – Roar of the Wilds",
+    "type": "Lucky Pal",
+    "cost": 8,
+    "Color": [
+      "Green"
+    ],
+    "CardType": [
+      "Grass",
+      "Ground"
+    ],
+    "Aptitude": [
+      "Harvesting",
+      "Collecting"
+    ],
+    "Set": [
+      "ETD02"
+    ],
+    "Power": "2000",
+    "Strike": "4",
+    "Rarity": "TSR",
+    "isToken": false
+  },
+  "ETD02-008": {
+    "id": "ETD02-008",
+    "face": {
+      "front": {
+        "name": "Berry Plantation",
+        "type": "Structure",
+        "cost": 1,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD02/ETD02-008.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Berry Plantation",
+    "type": "Structure",
+    "cost": 1,
+    "Color": [
+      "Green"
+    ],
+    "CardType": [],
+    "Aptitude": [
+      "Harvesting"
+    ],
+    "Set": [
+      "ETD02"
+    ],
+    "Power": "600",
+    "Strike": "",
+    "Rarity": "TD",
+    "isToken": false
+  },
+  "ETD02-008TSR": {
+    "id": "ETD02-008TSR",
+    "face": {
+      "front": {
+        "name": "Berry Plantation",
+        "type": "Structure",
+        "cost": 1,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD02/ETD02-008TSR.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Berry Plantation",
+    "type": "Structure",
+    "cost": 1,
+    "Color": [
+      "Green"
+    ],
+    "CardType": [],
+    "Aptitude": [
+      "Harvesting"
+    ],
+    "Set": [
+      "ETD02"
+    ],
+    "Power": "600",
+    "Strike": "",
+    "Rarity": "TSR",
+    "isToken": false
+  },
+  "ETD02-009": {
+    "id": "ETD02-009",
+    "face": {
+      "front": {
+        "name": "Campfire",
+        "type": "Structure",
+        "cost": 3,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD02/ETD02-009.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Campfire",
+    "type": "Structure",
+    "cost": 3,
+    "Color": [
+      "Green"
+    ],
+    "CardType": [],
+    "Aptitude": [
+      "Kindling"
+    ],
+    "Set": [
+      "ETD02"
+    ],
+    "Power": "1100",
+    "Strike": "",
+    "Rarity": "TD",
+    "isToken": false
+  },
+  "ETD02-010": {
+    "id": "ETD02-010",
+    "face": {
+      "front": {
+        "name": "Refined Metal Spear",
+        "type": "Gear",
+        "cost": 6,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD02/ETD02-010.png",
+        "isHorizontal": true
+      }
+    },
+    "name": "Refined Metal Spear",
+    "type": "Gear",
+    "cost": 6,
+    "Color": [
+      "Green"
+    ],
+    "CardType": [],
+    "Aptitude": [],
+    "Set": [
+      "ETD02"
+    ],
+    "Power": "",
+    "Strike": "",
+    "Rarity": "TD",
+    "isToken": false
+  },
+  "ETD02-011": {
+    "id": "ETD02-011",
+    "face": {
+      "front": {
+        "name": "Stone Blast",
+        "type": "Event",
+        "cost": 2,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD02/ETD02-011.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Stone Blast",
+    "type": "Event",
+    "cost": 2,
+    "Color": [
+      "Green"
+    ],
+    "CardType": [],
+    "Aptitude": [],
+    "Set": [
+      "ETD02"
+    ],
+    "Power": "",
+    "Strike": "",
+    "Rarity": "TD",
+    "isToken": false
+  },
+  "ETD02-012": {
+    "id": "ETD02-012",
+    "face": {
+      "front": {
+        "name": "Astegon – Aegis Wyvern of Death",
+        "type": "Lucky Pal",
+        "cost": 8,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD02/ETD02-012.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Astegon – Aegis Wyvern of Death",
+    "type": "Lucky Pal",
+    "cost": 8,
+    "Color": [
+      "Purple"
+    ],
+    "CardType": [
+      "Dragon",
+      "Dark"
+    ],
+    "Aptitude": [
+      "Crafting",
+      "Collecting"
+    ],
+    "Set": [
+      "ETD02"
+    ],
+    "Power": "1200",
+    "Strike": "3",
+    "Rarity": "TD",
+    "isToken": false
+  },
+  "ETD02-012TSP": {
+    "id": "ETD02-012TSP",
+    "face": {
+      "front": {
+        "name": "Astegon – Aegis Wyvern of Death",
+        "type": "Lucky Pal",
+        "cost": 8,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD02/ETD02-012TSP.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Astegon – Aegis Wyvern of Death",
+    "type": "Lucky Pal",
+    "cost": 8,
+    "Color": [
+      "Purple"
+    ],
+    "CardType": [
+      "Dragon",
+      "Dark"
+    ],
+    "Aptitude": [
+      "Crafting",
+      "Collecting"
+    ],
+    "Set": [
+      "ETD02"
+    ],
+    "Power": "1200",
+    "Strike": "3",
+    "Rarity": "TSP",
+    "isToken": false
+  },
+  "ETD02-012TSR": {
+    "id": "ETD02-012TSR",
+    "face": {
+      "front": {
+        "name": "Astegon – Aegis Wyvern of Death",
+        "type": "Lucky Pal",
+        "cost": 8,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD02/ETD02-012TSR.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Astegon – Aegis Wyvern of Death",
+    "type": "Lucky Pal",
+    "cost": 8,
+    "Color": [
+      "Purple"
+    ],
+    "CardType": [
+      "Dragon",
+      "Dark"
+    ],
+    "Aptitude": [
+      "Crafting",
+      "Collecting"
+    ],
+    "Set": [
+      "ETD02"
+    ],
+    "Power": "1200",
+    "Strike": "3",
+    "Rarity": "TSR",
+    "isToken": false
+  },
+  "ETD02-013": {
+    "id": "ETD02-013",
+    "face": {
+      "front": {
+        "name": "Hoocrates – Embodiment of Wisdom",
+        "type": "Normal Pal",
+        "cost": 2,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD02/ETD02-013.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Hoocrates – Embodiment of Wisdom",
+    "type": "Normal Pal",
+    "cost": 2,
+    "Color": [
+      "Purple"
+    ],
+    "CardType": [
+      "Dark"
+    ],
+    "Aptitude": [
+      "Harvesting"
+    ],
+    "Set": [
+      "ETD02"
+    ],
+    "Power": "300",
+    "Strike": "1",
+    "Rarity": "TD",
+    "isToken": false
+  },
+  "ETD02-014": {
+    "id": "ETD02-014",
+    "face": {
+      "front": {
+        "name": "Leezpunk – Treasure Bandit",
+        "type": "Normal Pal",
+        "cost": 3,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD02/ETD02-014.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Leezpunk – Treasure Bandit",
+    "type": "Normal Pal",
+    "cost": 3,
+    "Color": [
+      "Purple"
+    ],
+    "CardType": [
+      "Dark"
+    ],
+    "Aptitude": [
+      "Harvesting",
+      "Crafting",
+      "Transporting"
+    ],
+    "Set": [
+      "ETD02"
+    ],
+    "Power": "200",
+    "Strike": "1",
+    "Rarity": "TD",
+    "isToken": false
+  },
+  "ETD02-014TSR": {
+    "id": "ETD02-014TSR",
+    "face": {
+      "front": {
+        "name": "Leezpunk – Treasure Bandit",
+        "type": "Normal Pal",
+        "cost": 3,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD02/ETD02-014TSR.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Leezpunk – Treasure Bandit",
+    "type": "Normal Pal",
+    "cost": 3,
+    "Color": [
+      "Purple"
+    ],
+    "CardType": [
+      "Dark"
+    ],
+    "Aptitude": [
+      "Harvesting",
+      "Crafting",
+      "Transporting"
+    ],
+    "Set": [
+      "ETD02"
+    ],
+    "Power": "200",
+    "Strike": "1",
+    "Rarity": "TSR",
+    "isToken": false
+  },
+  "ETD02-015": {
+    "id": "ETD02-015",
+    "face": {
+      "front": {
+        "name": "Cawgnito – Looming Shadow",
+        "type": "Normal Pal",
+        "cost": 4,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD02/ETD02-015.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Cawgnito – Looming Shadow",
+    "type": "Normal Pal",
+    "cost": 4,
+    "Color": [
+      "Purple"
+    ],
+    "CardType": [
+      "Dark"
+    ],
+    "Aptitude": [
+      "Collecting",
+      "Farming"
+    ],
+    "Set": [
+      "ETD02"
+    ],
+    "Power": "300",
+    "Strike": "2",
+    "Rarity": "TD",
+    "isToken": false
+  },
+  "ETD02-016": {
+    "id": "ETD02-016",
+    "face": {
+      "front": {
+        "name": "Incineram – Lurking Stalker",
+        "type": "Normal Pal",
+        "cost": 5,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD02/ETD02-016.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Incineram – Lurking Stalker",
+    "type": "Normal Pal",
+    "cost": 5,
+    "Color": [
+      "Purple"
+    ],
+    "CardType": [
+      "Fire",
+      "Dark"
+    ],
+    "Aptitude": [
+      "Kindling",
+      "Crafting",
+      "Collecting",
+      "Transporting"
+    ],
+    "Set": [
+      "ETD02"
+    ],
+    "Power": "900",
+    "Strike": "2",
+    "Rarity": "TD",
+    "isToken": false
+  },
+  "ETD02-016TSR": {
+    "id": "ETD02-016TSR",
+    "face": {
+      "front": {
+        "name": "Incineram – Lurking Stalker",
+        "type": "Normal Pal",
+        "cost": 5,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD02/ETD02-016TSR.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Incineram – Lurking Stalker",
+    "type": "Normal Pal",
+    "cost": 5,
+    "Color": [
+      "Purple"
+    ],
+    "CardType": [
+      "Fire",
+      "Dark"
+    ],
+    "Aptitude": [
+      "Kindling",
+      "Crafting",
+      "Collecting",
+      "Transporting"
+    ],
+    "Set": [
+      "ETD02"
+    ],
+    "Power": "900",
+    "Strike": "2",
+    "Rarity": "TSR",
+    "isToken": false
+  },
+  "ETD02-017": {
+    "id": "ETD02-017",
+    "face": {
+      "front": {
+        "name": "Blazehowl Noct – Darkflame Defender",
+        "type": "Normal Pal",
+        "cost": 6,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD02/ETD02-017.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Blazehowl Noct – Darkflame Defender",
+    "type": "Normal Pal",
+    "cost": 6,
+    "Color": [
+      "Purple"
+    ],
+    "CardType": [
+      "Fire",
+      "Dark"
+    ],
+    "Aptitude": [
+      "Kindling",
+      "Collecting"
+    ],
+    "Set": [
+      "ETD02"
+    ],
+    "Power": "900",
+    "Strike": "2",
+    "Rarity": "TD",
+    "isToken": false
+  },
+  "ETD02-018": {
+    "id": "ETD02-018",
+    "face": {
+      "front": {
+        "name": "Felbat – Lifestealer",
+        "type": "Lucky Pal",
+        "cost": 7,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD02/ETD02-018.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Felbat – Lifestealer",
+    "type": "Lucky Pal",
+    "cost": 7,
+    "Color": [
+      "Purple"
+    ],
+    "CardType": [
+      "Dark"
+    ],
+    "Aptitude": [
+      "Crafting"
+    ],
+    "Set": [
+      "ETD02"
+    ],
+    "Power": "1000",
+    "Strike": "3",
+    "Rarity": "TD",
+    "isToken": false
+  },
+  "ETD02-018TSR": {
+    "id": "ETD02-018TSR",
+    "face": {
+      "front": {
+        "name": "Felbat – Lifestealer",
+        "type": "Lucky Pal",
+        "cost": 7,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD02/ETD02-018TSR.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Felbat – Lifestealer",
+    "type": "Lucky Pal",
+    "cost": 7,
+    "Color": [
+      "Purple"
+    ],
+    "CardType": [
+      "Dark"
+    ],
+    "Aptitude": [
+      "Crafting"
+    ],
+    "Set": [
+      "ETD02"
+    ],
+    "Power": "1000",
+    "Strike": "3",
+    "Rarity": "TSR",
+    "isToken": false
+  },
+  "ETD02-019": {
+    "id": "ETD02-019",
+    "face": {
+      "front": {
+        "name": "Hanging Trap",
+        "type": "Structure",
+        "cost": 2,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD02/ETD02-019.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Hanging Trap",
+    "type": "Structure",
+    "cost": 2,
+    "Color": [
+      "Purple"
+    ],
+    "CardType": [],
+    "Aptitude": [],
+    "Set": [
+      "ETD02"
+    ],
+    "Power": "900",
+    "Strike": "",
+    "Rarity": "TD",
+    "isToken": false
+  },
+  "ETD02-020": {
+    "id": "ETD02-020",
+    "face": {
+      "front": {
+        "name": "Cawgnito Hat",
+        "type": "Gear",
+        "cost": 4,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD02/ETD02-020.png",
+        "isHorizontal": true
+      }
+    },
+    "name": "Cawgnito Hat",
+    "type": "Gear",
+    "cost": 4,
+    "Color": [
+      "Purple"
+    ],
+    "CardType": [],
+    "Aptitude": [],
+    "Set": [
+      "ETD02"
+    ],
+    "Power": "",
+    "Strike": "",
+    "Rarity": "TD",
+    "isToken": false
+  },
+  "ETD02-021": {
+    "id": "ETD02-021",
+    "face": {
+      "front": {
+        "name": "Strike from the Darkness",
+        "type": "Event",
+        "cost": 4,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD02/ETD02-021.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Strike from the Darkness",
+    "type": "Event",
+    "cost": 4,
+    "Color": [
+      "Purple"
+    ],
+    "CardType": [],
+    "Aptitude": [],
+    "Set": [
+      "ETD02"
+    ],
+    "Power": "",
+    "Strike": "",
+    "Rarity": "TD",
+    "isToken": false
+  },
+  "ETD02-021TSR": {
+    "id": "ETD02-021TSR",
+    "face": {
+      "front": {
+        "name": "Strike from the Darkness",
+        "type": "Event",
+        "cost": 4,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD02/ETD02-021TSR.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Strike from the Darkness",
+    "type": "Event",
+    "cost": 4,
+    "Color": [
+      "Purple"
+    ],
+    "CardType": [],
+    "Aptitude": [],
+    "Set": [
+      "ETD02"
+    ],
+    "Power": "",
+    "Strike": "",
+    "Rarity": "TSR",
+    "isToken": false
+  },
+  "ETD02-022": {
+    "id": "ETD02-022",
+    "face": {
+      "front": {
+        "name": "Medical Supplies",
+        "type": "Event",
+        "cost": 7,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD02/ETD02-022.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Medical Supplies",
+    "type": "Event",
+    "cost": 7,
+    "Color": [
+      "Purple"
+    ],
+    "CardType": [],
+    "Aptitude": [],
+    "Set": [
+      "ETD02"
+    ],
+    "Power": "",
+    "Strike": "",
+    "Rarity": "TD",
+    "isToken": false
+  },
+  "ETD02-023": {
+    "id": "ETD02-023",
+    "face": {
+      "front": {
+        "name": "Cattiva – My First Pal",
+        "type": "Normal Pal",
+        "cost": 2,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD02/ETD02-023.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Cattiva – My First Pal",
+    "type": "Normal Pal",
+    "cost": 2,
+    "Color": [
+      "Colorless"
+    ],
+    "CardType": [
+      "Neutral"
+    ],
+    "Aptitude": [
+      "Harvesting",
+      "Crafting",
+      "Collecting",
+      "Transporting"
+    ],
+    "Set": [
+      "ETD02"
+    ],
+    "Power": "200",
+    "Strike": "1",
+    "Rarity": "TD",
+    "isToken": false
+  },
+  "ETD02-023TSR": {
+    "id": "ETD02-023TSR",
+    "face": {
+      "front": {
+        "name": "Cattiva – My First Pal",
+        "type": "Normal Pal",
+        "cost": 2,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD02/ETD02-023TSR.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Cattiva – My First Pal",
+    "type": "Normal Pal",
+    "cost": 2,
+    "Color": [
+      "Colorless"
+    ],
+    "CardType": [
+      "Neutral"
+    ],
+    "Aptitude": [
+      "Harvesting",
+      "Crafting",
+      "Collecting",
+      "Transporting"
+    ],
+    "Set": [
+      "ETD02"
+    ],
+    "Power": "200",
+    "Strike": "1",
+    "Rarity": "TSR",
+    "isToken": false
+  },
+  "ETD02-024": {
+    "id": "ETD02-024",
+    "face": {
+      "front": {
+        "name": "Chikipi – My First Pal",
+        "type": "Normal Pal",
+        "cost": 2,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD02/ETD02-024.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Chikipi – My First Pal",
+    "type": "Normal Pal",
+    "cost": 2,
+    "Color": [
+      "Colorless"
+    ],
+    "CardType": [
+      "Neutral"
+    ],
+    "Aptitude": [
+      "Harvesting",
+      "Farming"
+    ],
+    "Set": [
+      "ETD02"
+    ],
+    "Power": "200",
+    "Strike": "1",
+    "Rarity": "TD",
+    "isToken": false
+  },
+  "ETD02-024TSR": {
+    "id": "ETD02-024TSR",
+    "face": {
+      "front": {
+        "name": "Chikipi – My First Pal",
+        "type": "Normal Pal",
+        "cost": 2,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD02/ETD02-024TSR.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Chikipi – My First Pal",
+    "type": "Normal Pal",
+    "cost": 2,
+    "Color": [
+      "Colorless"
+    ],
+    "CardType": [
+      "Neutral"
+    ],
+    "Aptitude": [
+      "Harvesting",
+      "Farming"
+    ],
+    "Set": [
+      "ETD02"
+    ],
+    "Power": "200",
+    "Strike": "1",
+    "Rarity": "TSR",
     "isToken": false
   }
 }

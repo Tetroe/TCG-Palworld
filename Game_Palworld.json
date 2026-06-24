@@ -16,7 +16,7 @@
     "cardBack": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/card_back.png",
     "cardBackColor": "#000000",
     "extraCardBacks": {
-      "Souls": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/soul_back.png"
+      "Soul": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/soul_back.png"
     }
   },
   "deckBuilding": {
@@ -44,7 +44,7 @@
         },
         "categories": [
           {
-            "category": "Souls",
+            "category": "Soul",
             "min": 10,
             "max": 10,
             "maxPerCard": 10
@@ -76,7 +76,7 @@
       "hideFacedDownCards": false,
       "sections": {
         "customSections": [
-          "Souls",
+          "Soul",
           "Mana",
           "Base"
         ],
@@ -106,7 +106,7 @@
                   "style": false,
                   "content": [
                     {
-                      "section": "Souls"
+                      "section": "Soul"
                     },
                     {
                       "section": "Mana"
@@ -120,22 +120,22 @@
           ]
         },
         "categoriesAlreadyOnBoard": [
-          "Souls"
+          "Soul"
         ],
         "autoPlayFromHand": {
           "Pal": "Base",
           "Structure": "Base",
           "Gear": "Stack",
           "Event": "Stack",
-          "Souls": "Mana"
+          "Soul": "Mana"
         },
         "autoPlayFromStack": {
           "Gear": "Base",
           "Event": "Discard"
         },
         "sectionsDict": {
-          "Souls": {
-            "title": "Souls",
+          "Soul": {
+            "title": "Soul",
             "isHidden": "yes",
             "height": "SMALL",
             "alignment": "DECK",
