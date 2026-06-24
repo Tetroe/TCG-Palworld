@@ -9,7 +9,7 @@
     ],
     "decksUrl": "https://balbi.github.io/TCG-Arena-Palworld/PalworldDecks.json"
   },
-  "customHelp": "Credit to midknight_gardener on Reddit for the majority of the card photos. This project is not officially supported by the game publisher. It is a fan project created to help players build their decks and playtest them online. If you enjoy it, consider supporting the official game and its community.",
+  "customHelp": "This project is not officially supported by the game publisher. It is a fan project created to help players build their decks and playtest them online. If you enjoy it, consider supporting the official game and its community.",
   "cardRotation": "90",
   "cards": {
     "dataUrl": "https://balbi.github.io/TCG-Arena-Palworld/PalworldCards.json",
@@ -137,6 +137,9 @@
                   "style": false,
                   "content": [
                     {
+                      "section": "Resources"
+                    },
+                    {
                       "section": "Soul"
                     },
                     {
@@ -231,6 +234,106 @@
             "enterSpun": false,
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
+          },
+          "Resources": {
+            "type": "custom",
+            "defaultValue": {
+              "Materials": 0,
+              "Ingredients": 0
+            },
+            "blueprint": {
+              "type": "div",
+              "props": {
+                "className": "d-flex flex-column justify-content-around align-items-center",
+                "style": {
+                  "backdropFilter": "blur(20px)",
+                  "padding": "0.5vh",
+                  "backgroundColor": "#202020c9",
+                  "borderRadius": "1vh",
+                  "width": "10vh",
+                  "height": "13vh",
+                  "margin": "0.5vh"
+                }
+              },
+              "children": [
+                {
+                  "type": "strong",
+                  "props": {
+                    "className": "",
+                    "style": {}
+                  },
+                  "children": "Resources"
+                },
+                {
+                  "type": "div",
+                  "props": {
+                    "className": "d-flex flex-row justify-content-center align-items-center",
+                    "style": {
+                      "width": "100%",
+                      "height": "3vh"
+                    }
+                  },
+                  "children": [
+                    {
+                      "type": "img",
+                      "props": {
+                        "className": "",
+                        "style": {
+                          "height": "100%",
+                          "width": "auto"
+                        },
+                        "src": "https://balbi.github.io/TCG-Arena-Palworld/images/material.png"
+                      }
+                    },
+                    {
+                      "type": "input-number",
+                      "props": {
+                        "value": "{{ game.data.Resources.Materials }}",
+                        "min": 0,
+                        "max": 99,
+                        "className": "",
+                        "style": {}
+                      },
+                        "onChange": "game.data.Resources.Materials = value; chatLog('has ' + (delta > 0 ? 'gained' : 'spent') + ' ' + Math.abs(delta ?? 0) + ' material' + (Math.abs(delta) == 1 ? '' : 's'))"
+                    }
+                  ]
+                },
+                {
+                  "type": "div",
+                  "props": {
+                    "className": "d-flex flex-row justify-content-center align-items-center",
+                    "style": {
+                      "width": "100%",
+                      "height": "3vh"
+                    }
+                  },
+                  "children": [
+                    {
+                      "type": "img",
+                      "props": {
+                        "className": "",
+                        "style": {
+                          "height": "100%",
+                          "width": "auto"
+                        },
+                        "src": "https://balbi.github.io/TCG-Arena-Palworld/images/ingredient.png"
+                      }
+                    },
+                    {
+                      "type": "input-number",
+                      "props": {
+                        "value": "{{ game.data.Resources.Ingredients }}",
+                        "min": 0,
+                        "max": 99,
+                        "className": "",
+                        "style": {}
+                      },
+                      "onChange": "game.data.Resources.Ingredients = value; chatLog('has ' + (delta > 0 ? 'gained' : 'spent') + ' ' + Math.abs(delta ?? 0) + ' ingredient' + (Math.abs(delta) == 1 ? '' : 's'))"
+                    }
+                  ]
+                }
+              ]
+            }
           }
         }
       }
