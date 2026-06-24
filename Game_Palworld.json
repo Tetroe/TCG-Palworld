@@ -75,6 +75,7 @@
         }
       },
       "mulligan": {
+        "triggeredByButton": true,
         "startingHandSize": "5",
         "mulliganCount": {
           "min": 0,
@@ -88,8 +89,7 @@
             "draw"
           ],
           "selectionRange": {
-            "min": 5,
-            "max": 5
+            "max": 99
           }
         }
       },
