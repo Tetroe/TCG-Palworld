@@ -86,7 +86,11 @@
             "toBottom",
             "shuffle",
             "draw"
-          ]
+          ],
+          "selectionRange": {
+            "min": 5,
+            "max": 5
+          }
         }
       },
       "newTurn": {
