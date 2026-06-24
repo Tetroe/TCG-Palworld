@@ -246,13 +246,13 @@
                   "padding": "0.5vh",
                   "backgroundColor": "#202020c9",
                   "borderRadius": "0.5vh",
-                  "width": "11vh",
-                  "height": "16vh"
+                  "width": "10vh",
+                  "height": "13vh"
                 }
               },
               "children": [
                 {
-                  "type": "h5",
+                  "type": "strong",
                   "props": {
                     "className": "",
                     "style": {}
