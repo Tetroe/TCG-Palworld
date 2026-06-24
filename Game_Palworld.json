@@ -48,6 +48,12 @@
             "min": 10,
             "max": 10,
             "maxPerCard": 10
+          },
+          {
+            "category": "Lucky Pal",
+            "min": 0,
+            "max": 8,
+            "maxPerCard": 4
           }
         ]
       }
