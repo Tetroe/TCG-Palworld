@@ -94,6 +94,7 @@
             "draw"
           ],
           "selectionRange": {
+            "min": 5,
             "max": 99
           }
         }
