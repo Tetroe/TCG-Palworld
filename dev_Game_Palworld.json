@@ -237,6 +237,10 @@
           },
           "Resources": {
             "type": "custom",
+            "defaultValue": {
+              "Materials": 0,
+              "Ingredients": 0
+            },
             "blueprint": {
               "type": "div",
               "props": {
@@ -245,7 +249,7 @@
                   "backdropFilter": "blur(20px)",
                   "padding": "0.5vh",
                   "backgroundColor": "#202020c9",
-                  "borderRadius": "0.5vh",
+                  "borderRadius": "1vh",
                   "width": "10vh",
                   "height": "13vh",
                   "margin": "0.5vh"
@@ -284,11 +288,11 @@
                     {
                       "type": "input-number",
                       "props": {
-                        "value": "{{ game.data.MyResources.Materials }}",
+                        "value": "{{ game.data.Resources.Materials }}",
                         "className": "",
                         "style": {}
                       },
-                        "onChange": "game.data.MyResources.Materials = value; chatLog('has ' + (delta > 0 ? 'gained' : 'spent') + ' ' + (delta ?? 0) + ' material' + (delta == 1 ? '' : 's'))"
+                        "onChange": "game.data.Resources.Materials = value; chatLog('has ' + (delta > 0 ? 'gained' : 'spent') + ' ' + Math.abs(delta ?? 0) + ' material' + (Math.abs(delta) == 1 ? '' : 's'))"
                     }
                   ]
                 },
@@ -316,32 +320,15 @@
                     {
                       "type": "input-number",
                       "props": {
-                        "value": "{{ game.data.MyResources.Ingredients }}",
+                        "value": "{{ game.data.Resources.Ingredients }}",
                         "className": "",
                         "style": {}
                       },
-                      "onChange": "game.data.MyResources.Ingredients = value; chatLog('has ' + (delta > 0 ? 'gained' : 'spent') + ' ' + (delta ?? 0) + ' ingredient' + (delta == 1 ? '' : 's'))"
+                      "onChange": "game.data.Resources.Ingredients = value; chatLog('has ' + (delta > 0 ? 'gained' : 'spent') + ' ' + Math.abs(delta ?? 0) + ' ingredient' + (Math.abs(delta) == 1 ? '' : 's'))"
                     }
                   ]
                 }
               ]
-            }
-          },
-          "MyResources": {
-            "type": "custom",
-            "defaultValue": {
-              "Materials": 0,
-              "Ingredients": 0
-            },
-            "events": {
-              "onOpponentUpdate": "game.data.OppResources = opponentGame.data.MyResources;"
-            }
-          },
-          "OppResources": {
-            "type": "custom",
-            "defaultValue": {
-              "Materials": 0,
-              "Ingredients": 0
             }
           }
         }
