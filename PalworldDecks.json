@@ -1,1 +1,268 @@
-[]
+[
+  {
+    "title": "Dawn of Palpagos Red・Blue",
+    "id": "839d0e7c-4e44-4bec-9238-bf617742ae5b",
+    "cardCount": 60,
+    "createdAt": "2026-06-24T04:37:46.525Z",
+    "lastModifiedAt": "2026-06-27T10:31:57.419Z",
+    "game": "Palworld OCG",
+    "format": [
+      "Classic"
+    ],
+    "deckList": {
+      "categoriesOrder": [
+        "Soul",
+        "Lucky Pal",
+        "Normal Pal",
+        "Structure",
+        "Gear",
+        "Event"
+      ],
+      "Soul": [
+        {
+          "count": 10,
+          "id": "ESOUL-001"
+        }
+      ],
+      "Lucky Pal": [
+        {
+          "count": 2,
+          "id": "ETD01-001"
+        },
+        {
+          "count": 2,
+          "id": "ETD01-007"
+        },
+        {
+          "count": 2,
+          "id": "ETD01-017"
+        },
+        {
+          "count": 2,
+          "id": "ETD01-018"
+        }
+      ],
+      "Normal Pal": [
+        {
+          "count": 2,
+          "id": "ETD01-002"
+        },
+        {
+          "count": 2,
+          "id": "ETD01-003"
+        },
+        {
+          "count": 2,
+          "id": "ETD01-004"
+        },
+        {
+          "count": 3,
+          "id": "ETD01-005"
+        },
+        {
+          "count": 2,
+          "id": "ETD01-006"
+        },
+        {
+          "count": 2,
+          "id": "ETD01-012"
+        },
+        {
+          "count": 3,
+          "id": "ETD01-013"
+        },
+        {
+          "count": 2,
+          "id": "ETD01-014"
+        },
+        {
+          "count": 2,
+          "id": "ETD01-015"
+        },
+        {
+          "count": 2,
+          "id": "ETD01-016"
+        },
+        {
+          "count": 2,
+          "id": "ETD01-024"
+        },
+        {
+          "count": 2,
+          "id": "ETD01-023"
+        }
+      ],
+      "Structure": [
+        {
+          "count": 2,
+          "id": "ETD01-008"
+        },
+        {
+          "count": 2,
+          "id": "ETD01-009"
+        },
+        {
+          "count": 2,
+          "id": "ETD01-019"
+        },
+        {
+          "count": 2,
+          "id": "ETD01-020"
+        }
+      ],
+      "Gear": [
+        {
+          "count": 2,
+          "id": "ETD01-010"
+        },
+        {
+          "count": 2,
+          "id": "ETD01-021"
+        }
+      ],
+      "Event": [
+        {
+          "count": 2,
+          "id": "ETD01-011"
+        },
+        {
+          "count": 2,
+          "id": "ETD01-022"
+        }
+      ]
+    }
+  },
+  {
+    "title": "Dawn of Palpagos Green・Purple",
+    "id": "c790a110-e7a1-4f14-8542-62dcee09a5c1",
+    "cardCount": 60,
+    "createdAt": "2026-06-27T10:32:20.393Z",
+    "lastModifiedAt": "2026-06-27T10:33:15.134Z",
+    "game": "Palworld OCG",
+    "format": [
+      "Classic"
+    ],
+    "deckList": {
+      "categoriesOrder": [
+        "Soul",
+        "Normal Pal",
+        "Lucky Pal",
+        "Structure",
+        "Gear",
+        "Event"
+      ],
+      "Soul": [
+        {
+          "count": 10,
+          "id": "ESOUL-001"
+        }
+      ],
+      "Normal Pal": [
+        {
+          "count": 2,
+          "id": "ETD02-004"
+        },
+        {
+          "count": 2,
+          "id": "ETD02-003"
+        },
+        {
+          "count": 2,
+          "id": "ETD02-002"
+        },
+        {
+          "count": 2,
+          "id": "ETD02-001"
+        },
+        {
+          "count": 3,
+          "id": "ETD02-005"
+        },
+        {
+          "count": 2,
+          "id": "ETD02-017"
+        },
+        {
+          "count": 2,
+          "id": "ETD02-016"
+        },
+        {
+          "count": 2,
+          "id": "ETD02-015"
+        },
+        {
+          "count": 2,
+          "id": "ETD02-014"
+        },
+        {
+          "count": 3,
+          "id": "ETD02-013"
+        },
+        {
+          "count": 2,
+          "id": "ETD02-024"
+        },
+        {
+          "count": 2,
+          "id": "ETD02-023"
+        }
+      ],
+      "Lucky Pal": [
+        {
+          "count": 2,
+          "id": "ETD02-007"
+        },
+        {
+          "count": 2,
+          "id": "ETD02-006"
+        },
+        {
+          "count": 2,
+          "id": "ETD02-018"
+        },
+        {
+          "count": 2,
+          "id": "ETD02-012"
+        }
+      ],
+      "Structure": [
+        {
+          "count": 2,
+          "id": "ETD02-008"
+        },
+        {
+          "count": 2,
+          "id": "ETD02-009"
+        },
+        {
+          "count": 2,
+          "id": "ETD02-019"
+        }
+      ],
+      "Gear": [
+        {
+          "count": 2,
+          "id": "ETD02-010"
+        },
+        {
+          "count": 2,
+          "id": "ETD02-020"
+        }
+      ],
+      "Event": [
+        {
+          "count": 2,
+          "id": "ETD02-011"
+        },
+        {
+          "count": 2,
+          "id": "ETD02-021"
+        },
+        {
+          "count": 2,
+          "id": "ETD02-022"
+        }
+      ]
+    }
+  }
+]
