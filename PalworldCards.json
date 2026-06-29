@@ -2701,7 +2701,7 @@
         "type": "Structure",
         "cost": 4,
         "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-015.png",
-        "isHorizontal": false
+        "isHorizontal": true
       }
     },
     "name": "Mounted Machine Gun",
@@ -2730,7 +2730,7 @@
         "type": "Structure",
         "cost": 2,
         "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-017.png",
-        "isHorizontal": false
+        "isHorizontal": true
       }
     },
     "name": "Flame Cauldron",
@@ -2759,7 +2759,7 @@
         "type": "Structure",
         "cost": 3,
         "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-018.png",
-        "isHorizontal": false
+        "isHorizontal": true
       }
     },
     "name": "Alarm Bell",
