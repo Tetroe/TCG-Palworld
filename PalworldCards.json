@@ -1195,7 +1195,7 @@
         "name": "Soul",
         "type": "Soul",
         "cost": 0,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD02/ESOUL-001.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/Souls/SOUL 001.png",
         "isHorizontal": false
       }
     },
@@ -1212,6 +1212,56 @@
     "Power": "",
     "Strike": "",
     "Rarity": "TD",
+    "isToken": false
+  },
+  "ESOUL-002": {
+    "id": "ESOUL-002",
+    "face": {
+      "front": {
+        "name": "Soul",
+        "type": "Soul",
+        "cost": 0,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/Souls/SOUL 002.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Soul",
+    "type": "Soul",
+    "cost": 0,
+    "Color": [],
+    "CardType": [],
+    "Aptitude": [],
+    "Set": [
+      "PROMO"
+    ],
+    "Power": "",
+    "Strike": "",
+    "Rarity": "PR",
+    "isToken": false
+  },
+  "ESOUL-003": {
+    "id": "ESOUL-003",
+    "face": {
+      "front": {
+        "name": "Soul",
+        "type": "Soul",
+        "cost": 0,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/Souls/SOUL 003.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Soul",
+    "type": "Soul",
+    "cost": 0,
+    "Color": [],
+    "CardType": [],
+    "Aptitude": [],
+    "Set": [
+      "PROMO"
+    ],
+    "Power": "",
+    "Strike": "",
+    "Rarity": "PR",
     "isToken": false
   },
   "ETD02-001": {
@@ -2405,6 +2455,354 @@
     "Power": "200",
     "Strike": "1",
     "Rarity": "TSR",
+    "isToken": false
+  },
+  "EBP01-095SP": {
+    "id": "EBP01-095SP",
+    "face": {
+      "front": {
+        "name": "Zoe's Strategy",
+        "type": "Event",
+        "cost": 3,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/EBP01/EBP01-095SP.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Zoe's Strategy",
+    "type": "Event",
+    "cost": 3,
+    "Color": [
+      "Purple"
+    ],
+    "CardType": [],
+    "Aptitude": [],
+    "Set": [
+      "EBP01"
+    ],
+    "Power": "",
+    "Strike": "",
+    "Rarity": "SP",
+    "isToken": false
+  },
+  "EBP01-046SP": {
+    "id": "EBP01-046SP",
+    "face": {
+      "front": {
+        "name": "Victor's Strategy",
+        "type": "Event",
+        "cost": 3,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/EBP01/EBP01-046SP.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Victor's Strategy",
+    "type": "Event",
+    "cost": 3,
+    "Color": [
+      "Blue"
+    ],
+    "CardType": [],
+    "Aptitude": [],
+    "Set": [
+      "EBP01"
+    ],
+    "Power": "",
+    "Strike": "",
+    "Rarity": "SP",
+    "isToken": false
+  },
+  "EBP01-023SP": {
+    "id": "EBP01-023SP",
+    "face": {
+      "front": {
+        "name": "Axel's Strategy",
+        "type": "Event",
+        "cost": 3,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/EBP01/EBP01-023SP.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Axel's Strategy",
+    "type": "Event",
+    "cost": 3,
+    "Color": [
+      "Red"
+    ],
+    "CardType": [],
+    "Aptitude": [],
+    "Set": [
+      "EBP01"
+    ],
+    "Power": "",
+    "Strike": "",
+    "Rarity": "SP",
+    "isToken": false
+  },
+  "EBP01-070SP": {
+    "id": "EBP01-070SP",
+    "face": {
+      "front": {
+        "name": "Lily's Strategy",
+        "type": "Event",
+        "cost": 3,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/EBP01/EBP01-070SP.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Lily's Strategy",
+    "type": "Event",
+    "cost": 3,
+    "Color": [
+      "Green"
+    ],
+    "CardType": [],
+    "Aptitude": [],
+    "Set": [
+      "EBP01"
+    ],
+    "Power": "",
+    "Strike": "",
+    "Rarity": "SP",
+    "isToken": false
+  },
+  "EBP01-002": {
+    
+    "id": "EBP01-002",
+    "face": {
+      "front": {
+        "name": "Suzaku – Hellfire Wings",
+        "type": "Lucky Pal",
+        "cost": 7,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-002.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Suzaku – Hellfire Wings",
+    "type": "Lucky Pal",
+    "cost": 7,
+    "Color": [
+      "Red"
+    ],
+    "CardType": [
+      "Fire"
+    ],
+    "Aptitude": [
+      "Kindling"
+    ],
+    "Set": [
+      "EBP01"
+    ],
+    "Power": "1200",
+    "Strike": "3",
+    "Rarity": "RR",
+    "isToken": false
+  },
+  "EBP01-007": {
+    "id": "EBP01-007",
+    "face": {
+      "front": {
+        "name": "Kitsun – Wyrmbane Fangs",
+        "type": "Normal Pal",
+        "cost": 5,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-007.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Kitsun – Wyrmbane Fangs",
+    "type": "Normal Pal",
+    "cost": 5,
+    "Color": [
+      "Red"
+    ],
+    "CardType": [
+      "Fire"
+    ],
+    "Aptitude": [
+      "Kindling"
+    ],
+    "Set": [
+      "EBP01"
+    ],
+    "Power": "400",
+    "Strike": "2",
+    "Rarity": "U",
+    "isToken": false
+  },
+  "EBP01-012": {
+    "id": "EBP01-012",
+    "face": {
+      "front": {
+        "name": "Flambelle – Scorching Tears",
+        "type": "Normal Pal",
+        "cost": 3,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-012.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Flambelle – Scorching Tears",
+    "type": "Normal Pal",
+    "cost": 3,
+    "Color": [
+      "Red"
+    ],
+    "CardType": [
+      "Fire"
+    ],
+    "Aptitude": [
+      "Kindling",
+      "Crafting",
+      "Transporting"
+    ],
+    "Set": [
+      "EBP01"
+    ],
+    "Power": "400",
+    "Strike": "1",
+    "Rarity": "C",
+    "isToken": false
+  },
+  "EBP01-013": {
+    "id": "EBP01-013",
+    "face": {
+      "front": {
+        "name": "Pyrin – Cinder Steed",
+        "type": "Normal Pal",
+        "cost": 6,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-013.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Pyrin – Cinder Steed",
+    "type": "Normal Pal",
+    "cost": 6,
+    "Color": [
+      "Red"
+    ],
+    "CardType": [
+      "Fire"
+    ],
+    "Aptitude": [
+      "Kindling",
+      "Collecting"
+    ],
+    "Set": [
+      "EBP01"
+    ],
+    "Power": "1200",
+    "Strike": "2",
+    "Rarity": "C",
+    "isToken": false
+  },
+  "EBP01-015": {
+    "id": "EBP01-015",
+    "face": {
+      "front": {
+        "name": "Mounted Machine Gun",
+        "type": "Structure",
+        "cost": 4,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-015.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Mounted Machine Gun",
+    "type": "Structure",
+    "cost": 4,
+    "Color": [
+      "Red"
+    ],
+    "CardType": [],
+    "Aptitude": [
+      "Crafting"
+    ],
+    "Set": [
+      "EBP01"
+    ],
+    "Power": "1000",
+    "Strike": "",
+    "Rarity": "R",
+    "isToken": false
+  },
+  "EBP01-017": {
+    "id": "EBP01-017",
+    "face": {
+      "front": {
+        "name": "Flame Cauldron",
+        "type": "Structure",
+        "cost": 2,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-017.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Flame Cauldron",
+    "type": "Structure",
+    "cost": 2,
+    "Color": [
+      "Red"
+    ],
+    "CardType": [],
+    "Aptitude": [
+      "Kindling"
+    ],
+    "Set": [
+      "EBP01"
+    ],
+    "Power": "900",
+    "Strike": "",
+    "Rarity": "U",
+    "isToken": false
+  },
+  "EBP01-018": {
+    "id": "EBP01-018",
+    "face": {
+      "front": {
+        "name": "Alarm Bell",
+        "type": "Structure",
+        "cost": 3,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-018.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Alarm Bell",
+    "type": "Structure",
+    "cost": 3,
+    "Color": [
+      "Red"
+    ],
+    "CardType": [],
+    "Aptitude": [],
+    "Set": [
+      "EBP01"
+    ],
+    "Power": "1100",
+    "Strike": "",
+    "Rarity": "R",
+    "isToken": false
+  },
+  "EBP01-021": {
+    "id": "EBP01-021",
+    "face": {
+      "front": {
+        "name": "Makeshift Handgun",
+        "type": "Gear",
+        "cost": 2,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-021.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Makeshift Handgun",
+    "type": "Gear",
+    "cost": 2,
+    "Color": [
+      "Red"
+    ],
+    "CardType": [],
+    "Aptitude": [],
+    "Set": [
+      "EBP01"
+    ],
+    "Power": "",
+    "Strike": "",
+    "Rarity": "C",
     "isToken": false
   }
 }

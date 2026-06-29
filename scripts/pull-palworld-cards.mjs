@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-import { mkdir, writeFile } from "node:fs/promises";
+import { mkdir, readFile, writeFile } from "node:fs/promises";
 import { execFile } from "node:child_process";
 import { dirname, resolve } from "node:path";
 import { promisify } from "node:util";
@@ -152,6 +152,18 @@ function buildCardMap(cards) {
   return { mappedCards, duplicateIds };
 }
 
+async function readExistingCardMap(path) {
+  try {
+    return JSON.parse(await readFile(path, "utf8"));
+  } catch (error) {
+    if (error.code === "ENOENT") {
+      return {};
+    }
+
+    throw error;
+  }
+}
+
 async function fetchPage(page) {
   const url = new URL(API_URL);
   url.searchParams.set("page", page);
@@ -248,9 +260,15 @@ async function downloadCardImages(cards) {
 async function main() {
   const cards = await fetchAllCards();
   const { mappedCards, duplicateIds } = buildCardMap(cards);
+  const existingCards = await readExistingCardMap(outputPath);
+  const outputCards = { ...existingCards, ...mappedCards };
+  const updatedExistingCards = Object.keys(mappedCards).filter(
+    (id) => id in existingCards,
+  ).length;
+  const preservedCards = Object.keys(existingCards).length - updatedExistingCards;
   const { downloaded, rotated } = await downloadCardImages(cards);
 
-  await writeFile(outputPath, `${JSON.stringify(mappedCards, null, 2)}\n`);
+  await writeFile(outputPath, `${JSON.stringify(outputCards, null, 2)}\n`);
 
   if (duplicateIds.size > 0) {
     console.warn(
@@ -259,7 +277,10 @@ async function main() {
   }
 
   console.log(
-    `Wrote ${Object.keys(mappedCards).length} cards from ${cards.length} API rows to ${outputPath}`,
+    `Wrote ${Object.keys(outputCards).length} cards to ${outputPath}`,
+  );
+  console.log(
+    `Added/updated ${Object.keys(mappedCards).length} cards from ${cards.length} API rows; preserved ${preservedCards} existing cards`,
   );
   console.log(`Downloaded ${downloaded} card images to ${cardsDir}`);
   console.log(`Rotated ${rotated} Structure card images counter-clockwise`);
