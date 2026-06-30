@@ -1,2 +1,4 @@
 .DS_Store
 *.psd
+editor/exports
+editor/editor

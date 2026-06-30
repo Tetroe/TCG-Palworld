@@ -459,6 +459,30 @@
       font-weight: 800;
     }
 
+    .editor-action {
+      min-height: 32px;
+      padding: 0 12px;
+      border: 1px solid rgba(197, 2, 25, 0.58);
+      border-radius: 6px;
+      background: #c50219;
+      color: white;
+      cursor: pointer;
+      font: 800 12px/1 "Oxanium", sans-serif;
+      text-transform: uppercase;
+    }
+
+    .editor-action:hover,
+    .editor-action:focus-visible {
+      background: #e21b31;
+      outline: 2px solid rgba(197, 2, 25, 0.28);
+      outline-offset: 2px;
+    }
+
+    .editor-action:disabled {
+      cursor: progress;
+      opacity: 0.68;
+    }
+
     .editor-status {
       height: 26px;
       padding: 0 10px;
@@ -775,6 +799,7 @@
     <div class="editor">
       <div class="editor-header">
         <h1>Card Editor</h1>
+        <button class="editor-action" type="button" id="editor-download">Download PNG</button>
       </div>
 
       <section class="editor-section">
@@ -937,8 +962,10 @@
     </div>
   </div>
 
+  <script src="vendor/html2canvas.min.js"></script>
   <script>
     const card = document.querySelector(".card");
+    const cardContainer = document.querySelector(".card-container");
     const editorType = document.querySelector("#editor-type");
     const editorColor = document.querySelector("#editor-color");
     const editorCost = document.querySelector("#editor-cost");
@@ -952,9 +979,9 @@
     const editorEffect = document.querySelector("#editor-effect");
     const editorSelectEffect = document.querySelector("#editor-select-effect");
     const editorSelectSpecial = document.querySelector("#editor-select-special");
+    const editorDownload = document.querySelector("#editor-download");
     const cardArtImage = document.querySelector(".card-art > img");
     const selectedElements = ["fire"];
-    let cardArtObjectUrl = "";
 
     const cardTypes = ["pal", "lucky", "gear", "event"];
     const cardColors = ["red", "blue", "green", "purple", "colorless"];
@@ -1070,12 +1097,12 @@
         return;
       }
 
-      if (cardArtObjectUrl) {
-        URL.revokeObjectURL(cardArtObjectUrl);
-      }
+      const reader = new FileReader();
 
-      cardArtObjectUrl = URL.createObjectURL(file);
-      cardArtImage.src = cardArtObjectUrl;
+      reader.addEventListener("load", () => {
+        cardArtImage.src = reader.result;
+      });
+      reader.readAsDataURL(file);
     });
 
     editorElements.addEventListener("click", (event) => {
@@ -1117,8 +1144,158 @@
       appendEffectTemplate(button.dataset.template);
     }
 
+    function roundedRectPath(context, width, height, radius) {
+      const safeRadius = Math.min(radius, width / 2, height / 2);
+
+      context.beginPath();
+      context.moveTo(safeRadius, 0);
+      context.lineTo(width - safeRadius, 0);
+      context.quadraticCurveTo(width, 0, width, safeRadius);
+      context.lineTo(width, height - safeRadius);
+      context.quadraticCurveTo(width, height, width - safeRadius, height);
+      context.lineTo(safeRadius, height);
+      context.quadraticCurveTo(0, height, 0, height - safeRadius);
+      context.lineTo(0, safeRadius);
+      context.quadraticCurveTo(0, 0, safeRadius, 0);
+      context.closePath();
+    }
+
+    function downloadCanvas(canvas, filename) {
+      const link = document.createElement("a");
+
+      link.download = filename;
+      link.href = canvas.toDataURL("image/png");
+      link.click();
+    }
+
+    function cardFilename() {
+      const safeName = editorName.value
+        .trim()
+        .toLowerCase()
+        .replace(/[^a-z0-9]+/g, "-")
+        .replace(/^-|-$/g, "");
+
+      return `${safeName || "card"}.png`;
+    }
+
+    async function waitForCardImages() {
+      const images = Array.from(card.querySelectorAll("img"));
+
+      await Promise.all(images.map((image) => {
+        if (image.complete) {
+          return Promise.resolve();
+        }
+
+        if (image.decode) {
+          return image.decode().catch(() => undefined);
+        }
+
+        return new Promise((resolve) => {
+          image.addEventListener("load", resolve, { once: true });
+          image.addEventListener("error", resolve, { once: true });
+        });
+      }));
+    }
+
+    async function downloadCardPng() {
+      if (!window.html2canvas) {
+        throw new Error("html2canvas did not load.");
+      }
+
+      await waitForCardImages();
+
+      const cardHeight = parseFloat(getComputedStyle(card).height);
+      const renderedHeight = cardContainer.getBoundingClientRect().height;
+      const exportScale = cardHeight / renderedHeight;
+      const renderedRadius = parseFloat(getComputedStyle(cardContainer).borderTopLeftRadius);
+      const exportRadius = renderedRadius * exportScale;
+
+      const capturedCanvas = await html2canvas(cardContainer, {
+        backgroundColor: null,
+        scale: exportScale,
+        useCORS: true,
+        onclone: (clonedDocument) => {
+          const clonedContainer = clonedDocument.querySelector(".card-container");
+          const clonedCard = clonedDocument.querySelector(".card");
+          const clonedCardPower = clonedDocument.querySelector(".card-power");
+          const clonedCardName = clonedDocument.querySelector(".card-name");
+          const clonedCardBaseColor = clonedDocument.defaultView
+            .getComputedStyle(clonedCard)
+            .getPropertyValue("--card-base-color")
+            .trim();
+          const clonedCardBaseTransColor = clonedDocument.defaultView
+            .getComputedStyle(clonedCard)
+            .getPropertyValue("--card-base-trans-color")
+            .trim();
+          const clonedCardAltColor = clonedDocument.defaultView
+            .getComputedStyle(clonedCard)
+            .getPropertyValue("--card-alt-color")
+            .trim();
+          const clonedCardAltValues = clonedCardAltColor.match(/[\d.]+/g)?.map(Number) || [];
+          const clonedCardAltAlpha = clonedCardAltValues[3] ?? 1;
+          const exportGlowColor = (alphaMultiplier) => {
+            if (clonedCardAltValues.length < 3) {
+              return clonedCardAltColor;
+            }
+
+            return `rgba(${clonedCardAltValues[0]}, ${clonedCardAltValues[1]}, ${clonedCardAltValues[2]}, ${Math.max(0, Math.min(1, clonedCardAltAlpha * alphaMultiplier))})`;
+          };
+          const exportGlowStrong = exportGlowColor(0.55);
+          const exportGlowSoft = exportGlowColor(0.25);
+          const exportGlowClear = exportGlowColor(0);
+
+          clonedContainer.style.background = "transparent";
+          clonedContainer.style.boxShadow = "none";
+
+          clonedCardName.style.boxShadow = "none";
+          clonedCardName.style.background = [
+            `linear-gradient(to right, ${exportGlowStrong} 0, ${exportGlowSoft} 14px, ${exportGlowClear} 36px)`,
+            `linear-gradient(to left, ${exportGlowStrong} 0, ${exportGlowSoft} 14px, ${exportGlowClear} 36px)`,
+            `linear-gradient(to bottom, ${exportGlowStrong} 0, ${exportGlowSoft} 10px, ${exportGlowClear} 28px)`,
+            `linear-gradient(to top, ${exportGlowStrong} 0, ${exportGlowSoft} 10px, ${exportGlowClear} 28px)`,
+            clonedCardBaseTransColor,
+          ].join(", ");
+
+          clonedCardPower.style.background = clonedCardBaseColor;
+          clonedCardPower.style.backgroundImage = 'url("images/card_power.png")';
+          clonedCardPower.style.backgroundSize = "100% 100%";
+          clonedCardPower.style.backgroundPosition = "center";
+          clonedCardPower.style.backgroundRepeat = "no-repeat";
+        },
+      });
+
+      const outputCanvas = document.createElement("canvas");
+      const context = outputCanvas.getContext("2d");
+
+      outputCanvas.width = capturedCanvas.width;
+      outputCanvas.height = capturedCanvas.height;
+
+      context.save();
+      roundedRectPath(context, outputCanvas.width, outputCanvas.height, exportRadius);
+      context.clip();
+      context.drawImage(capturedCanvas, 0, 0);
+      context.restore();
+
+      downloadCanvas(outputCanvas, cardFilename());
+    }
+
     editorSelectEffect.addEventListener("click", handleTemplateClick);
     editorSelectSpecial.addEventListener("click", handleTemplateClick);
+
+    editorDownload.addEventListener("click", async () => {
+      editorDownload.disabled = true;
+      editorDownload.textContent = "Rendering...";
+
+      try {
+        await downloadCardPng();
+      } catch (error) {
+        console.error(error);
+        alert("Could not download the card PNG.");
+      } finally {
+        editorDownload.disabled = false;
+        editorDownload.textContent = "Download PNG";
+      }
+    });
 
     [
       editorType,
