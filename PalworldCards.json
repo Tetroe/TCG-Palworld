@@ -2935,14 +2935,14 @@
     "Rarity": "C",
     "isToken": false
   },
-  "EBP01-014": {
-    "id": "EBP01-014",
+  "EBP01-016": {
+    "id": "EBP01-016",
     "face": {
       "front": {
         "name": "Primitive Furnace",
         "type": "Structure",
         "cost": 2,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-014.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-016.png",
         "isHorizontal": false
       }
     },
@@ -2989,6 +2989,268 @@
     "Power": "",
     "Strike": "",
     "Rarity": "U",
+    "isToken": false
+  },
+  "EBP01-025SP": {
+    "id": "EBP01-025SP",
+    "face": {
+      "front": {
+        "name": "Chillet – Dragon Whisperer",
+        "type": "Lucky Pal",
+        "cost": 5,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/EBP01/EBP01-025SP.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Chillet – Dragon Whisperer",
+    "type": "Lucky Pal",
+    "cost": 5,
+    "Color": [
+      "Blue"
+    ],
+    "CardType": [
+      "Ice",
+      "Dragon"
+    ],
+    "Aptitude": [
+      "Harvesting",
+      "Cooling"
+    ],
+    "Set": [
+      "EBP01"
+    ],
+    "Power": "900",
+    "Strike": "2",
+    "Rarity": "SP",
+    "isToken": false
+  },
+  "EB01-026SP": {
+    "id": "EB01-026SP",
+    "face": {
+      "front": {
+        "name": "Relaxaurus – Hungry Gunner",
+        "type": "Normal Pal",
+        "cost": 7,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/EBP01/EBP01-026SP.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Relaxaurus – Hungry Gunner",
+    "type": "Normal Pal",
+    "cost": 7,
+    "Color": [
+      "Blue"
+    ],
+    "CardType": [
+      "Dragon",
+      "Water"
+    ],
+    "Aptitude": [
+      "Harvesting",
+      "Transporting"
+    ],
+    "Set": [
+      "EBP01"
+    ],
+    "Power": "1200",
+    "Strike": "3",
+    "Rarity": "SP",
+    "isToken": false
+  },
+  "EBP01-027SP": {
+    "id": "EBP01-027SP",
+    "face": {
+      "front": {
+        "name": "Jormuntide – Surging Sea Serpent",
+        "type": "Lucky Pal",
+        "cost": 8,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-027SP.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Jormuntide – Surging Sea Serpent",
+    "type": "Lucky Pal",
+    "cost": 8,
+    "Color": [
+      "Blue"
+    ],
+    "CardType": [
+      "Dragon",
+      "Water"
+    ],
+    "Aptitude": [
+      "Harvesting"
+    ],
+    "Set": [
+      "EBP01"
+    ],
+    "Power": "1600",
+    "Strike": "3",
+    "Rarity": "SP",
+    "isToken": false
+  },
+  "EBP01-028": {
+    "id": "EBP01-028",
+    "face": {
+      "front": {
+        "name": "Pengullet – Yearning for the Sky",
+        "type": "Normal Pal",
+        "cost": 4,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-028.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Pengullet – Yearning for the Sky",
+    "type": "Normal Pal",
+    "cost": 4,
+    "Color": [
+      "Blue"
+    ],
+    "CardType": [
+      "Water",
+      "Ice"
+    ],
+    "Aptitude": [
+      "Harvesting",
+      "Crafting",
+      "Cooling",
+      "Transporting"
+    ],
+    "Set": [
+      "EBP01"
+    ],
+    "Power": "600",
+    "Strike": "2",
+    "Rarity": "R",
+    "isToken": false
+  },
+  "EBP01-029": {
+    "id": "EBP01-029",
+    "face": {
+      "front": {
+        "name": "Azurobe – Water Dragon Waltz",
+        "type": "Lucky Pal",
+        "cost": 6,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-029.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Azurobe – Water Dragon Waltz",
+    "type": "Lucky Pal",
+    "cost": 6,
+    "Color": [
+      "Blue"
+    ],
+    "CardType": [
+      "Water",
+      "Dragon"
+    ],
+    "Aptitude": [
+      "Harvesting"
+    ],
+    "Set": [
+      "EBP01"
+    ],
+    "Power": "1200",
+    "Strike": "2",
+    "Rarity": "R",
+    "isToken": false
+  },
+  "EBP01-032": {
+    "id": "EBP01-032",
+    "face": {
+      "front": {
+        "name": "Fuack – Manic wave Ripper",
+        "type": "Normal Pal",
+        "cost": 2,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-032.png",
+        "isHorizontal": true
+      }
+    },
+    "name": "Fuack – Manic wave Ripper",
+    "type": "Normal Pal",
+    "cost": 2,
+    "Color": [
+      "Blue"
+    ],
+    "CardType": [
+      "Water"
+    ],
+    "Aptitude": [
+      "Harvesting",
+      "Crafting",
+      "Transporting"
+    ],
+    "Set": [
+      "EBP01"
+    ],
+    "Power": "200",
+    "Strike": "1",
+    "Rarity": "U",
+    "isToken": false
+  },
+  "EBP01-034": {
+    "id": "EBP01-034",
+    "face": {
+      "front": {
+        "name": "Teafant – Fountain of Cheer",
+        "type": "Normal Pal",
+        "cost": 2,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-034.png",
+        "isHorizontal": true
+      }
+    },
+    "name": "Teafant – Fountain of Cheer",
+    "type": "Normal Pal",
+    "cost": 2,
+    "Color": [
+      "Blue"
+    ],
+    "CardType": [
+      "Water"
+    ],
+    "Aptitude": [
+      "Harvesting",
+      "Farming"
+    ],
+    "Set": [
+      "EBP01"
+    ],
+    "Power": "200",
+    "Strike": "1",
+    "Rarity": "C",
+    "isToken": false
+  },
+  "EBP01-035": {
+    "id": "EBP01-035",
+    "face": {
+      "front": {
+        "name": "Mau Cryst – Harbinger of Riches",
+        "type": "Normal Pal",
+        "cost": 3,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-035.png",
+        "isHorizontal": true
+      }
+    },
+    "name": "Mau Cryst – Harbinger of Riches",
+    "type": "Normal Pal",
+    "cost": 3,
+    "Color": [
+      "Blue"
+    ],
+    "CardType": [
+      "Ice"
+    ],
+    "Aptitude": [
+      "Cooling",
+      "Farming"
+    ],
+    "Set": [
+      "EBP01"
+    ],
+    "Power": "400",
+    "Strike": "1",
+    "Rarity": "C",
     "isToken": false
   }
 }
