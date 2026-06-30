@@ -1,0 +1,1141 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Palworld OCG Card Editor</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p&family=Oxanium:wght@200..800&display=swap"
+    rel="stylesheet">
+  <style>
+    html,
+    body {
+      margin: 0;
+      min-height: 100%;
+      background:
+        linear-gradient(135deg, rgba(228, 221, 204, 0.05), transparent 34%),
+        linear-gradient(180deg, #242321 0%, #171715 100%);
+      color: white;
+      font-family: "Oxanium", sans-serif;
+    }
+
+    .container {
+      width: min(1180px, calc(100% - 48px));
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 56px;
+      margin: 0 auto;
+      padding: 48px 0;
+      box-sizing: border-box;
+
+      --card-width: 1117px;
+      --card-height: 1560px;
+      --ideal-height: 600px;
+
+      /* Scale factor for Photoshop pt to px */
+      --card-font-scale: 6.25;
+
+      /* Unitless number: 600 / 1560 */
+      --scale: 0.3846153846;
+    }
+
+    .card-container {
+      width: calc(1117px * 0.3846153846);
+      height: var(--ideal-height);
+
+      position: relative;
+      background: black;
+      border-radius: calc(var(--ideal-height) * 0.0337);
+      overflow: hidden;
+      box-shadow: 0 28px 70px rgba(0, 0, 0, 0.45);
+    }
+
+    .card {
+      position: relative;
+      /* important */
+      width: var(--card-width);
+      height: var(--card-height);
+
+      transform: scale(var(--scale));
+      transform-origin: top left;
+
+      color: white;
+    }
+
+    .card {
+      --card-base-color: rgb(136, 136, 136);
+      --card-base-trans-color: rgba(136, 136, 136, 0.8);
+      --card-alt-color: rgba(220, 220, 220, 0.8);
+    }
+
+    .card.red {
+      --card-base-color: rgb(197, 2, 25);
+      --card-base-trans-color: rgba(197, 2, 25, 0.8);
+      --card-alt-color: rgba(215, 131, 95, 0.8);
+    }
+
+    .card.blue {
+      --card-base-color: rgb(20, 125, 196);
+      --card-base-trans-color: rgba(20, 125, 196, 0.8);
+      --card-alt-color: rgba(148, 180, 223, 0.8);
+    }
+
+    .card.green {
+      --card-base-color: rgb(86, 166, 71);
+      --card-base-trans-color: rgba(86, 166, 71, 0.8);
+      --card-alt-color: rgba(162, 200, 133, 0.8);
+    }
+
+    .card.purple {
+      --card-base-color: rgb(112, 63, 143);
+      --card-base-trans-color: rgba(112, 63, 143, 0.8);
+      --card-alt-color: rgba(165, 137, 186, 0.8);
+    }
+
+    .card-art {
+      width: 100%;
+      min-height: 1070px;
+      /* unscaled card-space height */
+      overflow: hidden;
+    }
+
+    .card-art>img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center top;
+    }
+
+    .card>.frame {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      display: block;
+      pointer-events: none;
+    }
+
+    .card-cost {
+      width: 202px;
+      height: 203px;
+      position: absolute;
+      top: 0;
+      left: 0;
+      background-size: cover;
+
+      font-family: "Oxanium", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 500;
+      font-size: calc(var(--card-font-scale) * 17px);
+      font-style: normal;
+    }
+
+    .card-cost>span {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, calc(-50% + 6px));
+    }
+
+    .card-cost>.quick-icon {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+
+    .card.red>.card-cost {
+      background: url("images/card_cost_red.png") no-repeat center center;
+    }
+
+    .card.red.quick>.card-cost>.quick-icon {
+      background: url("images/card_quick_red.png") no-repeat center center;
+    }
+
+    .card.blue>.card-cost {
+      background: url("images/card_cost_blue.png") no-repeat center center;
+    }
+
+    .card.blue.quick>.card-cost>.quick-icon {
+      background: url("images/card_quick_blue.png") no-repeat center center;
+    }
+
+    .card.green>.card-cost {
+      background: url("images/card_cost_green.png") no-repeat center center;
+    }
+
+    .card.green.quick>.card-cost>.quick-icon {
+      background: url("images/card_quick_green.png") no-repeat center center;
+    }
+
+    .card.purple>.card-cost {
+      background: url("images/card_cost_purple.png") no-repeat center center;
+    }
+
+    .card.purple.quick>.card-cost>.quick-icon {
+      background: url("images/card_quick_purple.png") no-repeat center center;
+    }
+
+    .card.colorless>.card-cost {
+      background: url("images/card_cost_colorless.png") no-repeat center center;
+    }
+
+    .card.colorless.quick>.card-cost>.quick-icon {
+      background: url("images/card_quick_colorless.png") no-repeat center center;
+    }
+
+    .card-labels {
+      position: absolute;
+      bottom: 512px;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+    }
+
+    .card-type {
+      margin-left: 34px;
+      width: 271px;
+      height: 53px;
+      background: url("images/card_type.png") no-repeat center center;
+      font-family: "Oxanium", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 700;
+      font-size: calc(var(--card-font-scale) * 6.5px);
+      font-style: normal;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .card-type>span {
+      position: relative;
+      top: 3px;
+    }
+
+    .card-name-frame {
+      margin: 14px 63px 0 62px;
+      height: 90px;
+      display: flex;
+    }
+
+    .card-name-color {
+      height: 100%;
+      width: 15px;
+      background: var(--card-base-color);
+    }
+
+    .card-name {
+      margin-left: 10px;
+      height: 100%;
+      width: 100%;
+      background: var(--card-base-trans-color);
+      box-shadow: inset 0px 0px 12px 6px var(--card-alt-color);
+      padding: 0 28px 0 32px;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: center;
+    }
+
+    .card-name>span {
+      flex: 1;
+      min-width: 0;
+      margin-top: 7px;
+      font-family: "Oxanium", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 700;
+      font-size: calc(var(--card-font-scale) * 12px);
+      font-style: normal;
+      transform: scaleX(1.0);
+      letter-spacing: -2px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .card-name-type {
+      position: relative;
+      display: flex;
+      flex-shrink: 0;
+      width: 66px;
+      height: 100%;
+      align-items: center;
+      margin-right: -7px;
+    }
+
+    .card-name-type img {
+      position: absolute;
+      height: 66px;
+      width: auto;
+      object-fit: contain;
+      filter: drop-shadow(0px 3px var(--card-alt-color));
+    }
+    .card-name-type img:has(+ img) {
+      top: 22px;
+      left: 4px;
+    }
+    .card-name-type img ~ img {
+      top: -16px;
+      left: -28px;
+    }
+
+    .card-attributes {
+      margin: 9px 63px 0px 62px;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+    }
+
+    .attribute {
+      width: 202px;
+      height: 42px;
+      background: url("images/card_aptitude.png") no-repeat center center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-position: 0px center;
+    }
+
+    .attribute.pal-type {
+      flex: 1;
+      justify-content: flex-start;
+    }
+
+    .card.lucky .attribute.pal-type {
+      background: url("images/card_aptitude_lucky.png") no-repeat left center;
+    }
+    .card.lucky .attribute.pal-type>span {
+      visibility: hidden;
+    }
+
+    .attribute>span {
+      display: block;
+      width: 202px;
+      text-align: center;
+      transform: scaleX(1.1);
+      font-family: "Oxanium", sans-serif;
+      font-optical-sizing: auto;
+      font-size: calc(var(--card-font-scale) * 4.5px);
+      font-style: normal;
+      color: rgba(255, 255, 255, 0.8);
+    }
+
+    .card-lucky {
+      display: none;
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 194px;
+      height: 173px;
+      background: url("images/card_lucky.png") no-repeat center center;
+    }
+
+    .card.lucky .card-lucky {
+      display: block;
+    }
+    .attribute.pal-type {
+      display: none;
+    }
+    .card.pal .attribute.pal-type, .card.lucky .attribute.pal-type {
+      display: flex;
+    }
+
+    .card-effect {
+      position: absolute;
+      padding: 20px 72px;
+      top: 1030px;
+      color: black;
+      font-family: "M Plus 1p", sans-serif;
+      font-size: calc(var(--card-font-scale) * 5px);
+    }
+
+    .card-effect img {
+      height: 1em;
+      width: auto;
+      vertical-align: -0.18em;
+      margin: 0 0.08em;
+    }
+
+    .card-power {
+      position: absolute;
+      left: 335px;
+      top: 1438px;
+      width: 450px;
+      height: 92px;
+      background: url("images/card_power.png") center / 100% 100% no-repeat,
+        linear-gradient(var(--card-base-color), var(--card-base-color)) center / calc(100% - 2px) calc(100% - 2px) no-repeat;
+    }
+
+    .card-power>span {
+      position: absolute;
+      font-family: "Oxanium", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 400;
+      font-style: normal;
+      transform: translate(-50%, -50%);
+    }
+
+    .card-power>.power {
+      top: calc(50% + 9px);
+      left: calc(50% - 17.5px);
+      font-size: calc(var(--card-font-scale) * 14px);
+    }
+
+    .card-power>.strike {
+      top: calc(50% + 22.5px);
+      right: 7px;
+      font-size: calc(var(--card-font-scale) * 8px);
+    }
+
+    .card-flavor {
+      position: absolute;
+      bottom: 135px;
+      left: 0;
+      height: 40px;
+      width: 100%;
+      color: black;
+      display: flex;
+      align-items: center;
+    }
+
+    .card-flavor>span {
+      margin-left: 72px;
+      font-family: "M Plus 1p", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 500;
+      font-size: calc(var(--card-font-scale) * 4.47px);
+      font-style: italic;
+    }
+
+    .editor {
+      width: 390px;
+      max-height: var(--ideal-height);
+      padding: 22px;
+      box-sizing: border-box;
+      overflow: auto;
+      background: rgba(16, 16, 15, 0.88);
+      border: 1px solid rgba(228, 221, 204, 0.18);
+      border-radius: 8px;
+      box-shadow: 0 28px 70px rgba(0, 0, 0, 0.38);
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      color: #f3efe4;
+      scrollbar-color: rgba(228, 221, 204, 0.32) transparent;
+    }
+
+    .editor h1,
+    .editor h2,
+    .editor h3 {
+      margin: 0;
+      letter-spacing: 0;
+    }
+
+    .editor-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 14px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid rgba(228, 221, 204, 0.16);
+    }
+
+    .editor-header h1 {
+      font-size: 28px;
+      line-height: 1;
+      font-weight: 800;
+    }
+
+    .editor-status {
+      height: 26px;
+      padding: 0 10px;
+      border: 1px solid rgba(197, 2, 25, 0.48);
+      border-radius: 999px;
+      color: #f4d8d0;
+      background: rgba(197, 2, 25, 0.16);
+      font-size: 11px;
+      font-weight: 700;
+      line-height: 26px;
+      text-transform: uppercase;
+    }
+
+    .editor-section {
+      padding: 14px;
+      border: 1px solid rgba(228, 221, 204, 0.14);
+      border-radius: 8px;
+      background: rgba(255, 255, 255, 0.035);
+    }
+
+    .editor-section h2 {
+      margin-bottom: 12px;
+      color: #e4ddcc;
+      font-size: 12px;
+      font-weight: 800;
+      text-transform: uppercase;
+    }
+
+    .editor-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 12px;
+    }
+
+    .editor-control {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      min-width: 0;
+    }
+
+    .editor-control.full {
+      grid-column: 1 / -1;
+    }
+
+    .editor-control label {
+      color: rgba(243, 239, 228, 0.72);
+      font-size: 11px;
+      font-weight: 700;
+      line-height: 1;
+      text-transform: uppercase;
+    }
+
+    .editor-control input,
+    .editor-control select,
+    .editor-control textarea {
+      width: 100%;
+      min-height: 34px;
+      box-sizing: border-box;
+      border: 1px solid rgba(228, 221, 204, 0.2);
+      border-radius: 6px;
+      background: #e4ddcc;
+      color: #181715;
+      font: 700 14px/1.2 "Oxanium", sans-serif;
+    }
+
+    .editor-control input,
+    .editor-control select {
+      padding: 0 10px;
+    }
+
+    .editor-control input[type="file"] {
+      padding: 6px;
+      color: rgba(24, 23, 21, 0.72);
+    }
+
+    .editor-control input[type="file"]::file-selector-button {
+      height: 24px;
+      margin-right: 10px;
+      border: 0;
+      border-radius: 4px;
+      background: #1a1918;
+      color: rgba(255, 255, 255, 0.86);
+      font: 700 12px/1 "Oxanium", sans-serif;
+      cursor: pointer;
+    }
+
+    .editor-control textarea {
+      min-height: 86px;
+      padding: 10px;
+      resize: vertical;
+      font-family: "M Plus 1p", sans-serif;
+      font-size: 12px;
+      font-weight: 500;
+      line-height: 1.45;
+    }
+
+    .editor-control select[multiple] {
+      min-height: 112px;
+      padding: 6px;
+    }
+
+    .editor-control option {
+      padding: 4px 6px;
+    }
+
+    #editor-aptitudes option:checked,
+    #editor-aptitudes:focus option:checked,
+    #editor-aptitudes option:checked:focus {
+      background-color: #1a1918;
+      background: linear-gradient(#1a1918, #1a1918);
+      box-shadow: 0 0 0 100vmax #1a1918 inset;
+      color: rgba(255, 255, 255, 0.8);
+      -webkit-text-fill-color: rgba(255, 255, 255, 0.8);
+      text-shadow: 0 0 0 rgba(255, 255, 255, 0.8);
+    }
+
+    .editor-control input:focus,
+    .editor-control select:focus,
+    .editor-control textarea:focus {
+      border-color: rgba(197, 2, 25, 0.8);
+      outline: 2px solid rgba(197, 2, 25, 0.28);
+      outline-offset: 1px;
+    }
+
+    .quick-control {
+      justify-content: flex-end;
+    }
+
+    .quick-toggle {
+      display: flex;
+      align-items: center;
+      gap: 9px;
+      min-height: 34px;
+      padding: 0 10px;
+      border: 1px solid rgba(228, 221, 204, 0.2);
+      border-radius: 6px;
+      background: rgba(228, 221, 204, 0.08);
+      color: #f3efe4;
+      font-size: 13px;
+      font-weight: 700;
+    }
+
+    .quick-toggle input {
+      width: 16px;
+      min-height: 16px;
+      accent-color: #c50219;
+    }
+
+    .token-row {
+      display: flex;
+      flex-direction: column;
+      gap: 7px;
+      margin-top: 10px;
+    }
+
+    .token-label {
+      color: rgba(243, 239, 228, 0.64);
+      font-size: 10px;
+      font-weight: 800;
+      line-height: 1;
+      text-transform: uppercase;
+    }
+
+    .editor-token-buttons {
+      display: grid;
+      grid-template-columns: repeat(10, 24px);
+      gap: 4px;
+    }
+
+    .editor-token-buttons button {
+      width: 24px;
+      height: 24px;
+      padding: 2px;
+      border: 1px solid rgba(0, 0, 0, 0.25);
+      border-radius: 4px;
+      background: #e4ddcc;
+      color: black;
+      cursor: pointer;
+      font-family: "M Plus 1p", sans-serif;
+      font-size: 13px;
+      line-height: 1;
+    }
+
+    .editor-token-buttons button:hover,
+    .editor-token-buttons button:focus-visible {
+      border-color: rgba(0, 0, 0, 0.7);
+      background: #f1ead8;
+      outline: none;
+    }
+
+    .editor-token-buttons img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+
+    .special-characters {
+      grid-template-columns: repeat(10, 24px);
+    }
+
+    .special-characters button {
+      width: 24px;
+      height: 24px;
+      padding: 1px;
+      font-size: 12px;
+    }
+
+    .element-buttons {
+      grid-template-columns: repeat(9, 30px);
+      gap: 4px;
+    }
+
+    .element-buttons button {
+      width: 30px;
+      height: 30px;
+      padding: 3px;
+    }
+
+    .element-buttons button.selected {
+      border-color: rgba(197, 2, 25, 0.85);
+      background: #1a1918;
+      box-shadow: 0 0 0 2px rgba(197, 2, 25, 0.28);
+    }
+
+    @media (max-width: 960px) {
+      .container {
+        width: min(100% - 28px, 620px);
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+        padding: 24px 0;
+      }
+
+      .editor {
+        width: min(100%, 430px);
+        max-height: none;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .container {
+        --ideal-height: 520px;
+        --scale: 0.3333333333;
+      }
+
+      .card-container {
+        width: calc(1117px * 0.3333333333);
+      }
+
+      .editor {
+        padding: 16px;
+      }
+
+      .editor-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+
+    <div class="card-container">
+      <div class="card pal red quick">
+
+        <div class="card-art">
+          <img src="images/card_art.png" />
+        </div>
+        <img class="frame" src="images/card_frame.png" />
+        <div class="card-cost">
+          <span>4</span>
+          <div class="quick-icon"></div>
+        </div>
+
+        <div class="card-lucky"></div>
+
+        <div class="card-labels">
+          <div class="card-type">
+            <span>Pal</span>
+          </div>
+          <div class="card-name-frame">
+            <div class="card-name-color"></div>
+            <div class="card-name">
+              <span>Foxparks – A Toasty Hug</span>
+              <div class="card-name-type">
+
+              </div>
+            </div>
+          </div>
+          <div class="card-attributes">
+            <div class="attribute pal-type">
+              <span>Normal Pal</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-effect">
+          <p>
+            <img src="images/effect_act.png" /> Interrupt (<img src="images/effect_hand.png" /><img
+              src="images/effect_quick.png" /> [①, discard this card] OR [Discard this card and 1 other card from hand]
+            Nullify the opponent's attack. Battle damage does not occur)
+          </p>
+        </div>
+
+        <div class="card-power">
+          <span class="power">400</span>
+          <span class="strike">2</span>
+        </div>
+
+        <div class="card-flavor">
+          <span>A fiery embrace. Get too close, and you'll get burned.</span>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="editor">
+      <div class="editor-header">
+        <h1>Card Editor</h1>
+      </div>
+
+      <section class="editor-section">
+        <h2>Card Setup</h2>
+        <div class="editor-grid">
+          <div class="editor-control">
+            <label for="editor-type">Card Type</label>
+            <select id="editor-type">
+              <option value="pal">Pal</option>
+              <option value="lucky">Lucky Pal</option>
+              <option value="gear">Gear</option>
+              <option value="event">Event</option>
+            </select>
+          </div>
+
+          <div class="editor-control">
+            <label for="editor-color">Color</label>
+            <select id="editor-color">
+              <option value="red">Red</option>
+              <option value="blue">Blue</option>
+              <option value="green">Green</option>
+              <option value="purple">Purple</option>
+              <option value="colorless">Colorless</option>
+            </select>
+          </div>
+
+          <div class="editor-control">
+            <label for="editor-cost">Cost</label>
+            <select id="editor-cost">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4" selected>4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+            </select>
+          </div>
+
+          <div class="editor-control quick-control">
+            <label for="editor-quick">Timing</label>
+            <div class="quick-toggle">
+              <input type="checkbox" id="editor-quick" checked />
+              <span>Quick</span>
+            </div>
+          </div>
+
+          <div class="editor-control">
+            <label for="editor-power">Power</label>
+            <input type="number" id="editor-power" min="100" step="100" max="9900" value="400" />
+          </div>
+
+          <div class="editor-control">
+            <label for="editor-strike">Strike</label>
+            <input type="number" id="editor-strike" min="1" max="9" value="2" />
+          </div>
+
+          <div class="editor-control full">
+            <label for="editor-art">Art Background</label>
+            <input type="file" id="editor-art" accept="image/*" />
+          </div>
+        </div>
+      </section>
+
+      <section class="editor-section">
+        <h2>Name</h2>
+        <div class="editor-control">
+          <input type="text" id="editor-name" value="Foxparks – A Toasty Hug" />
+        </div>
+        <div class="token-row">
+          <div class="token-label">Element</div>
+          <div class="element-buttons editor-token-buttons" id="editor-elements" aria-label="Elements">
+            <button type="button" data-element="ice" title="Ice"><img src="images/attr_ice.png" alt="Ice" /></button>
+            <button type="button" data-element="dark" title="Dark"><img src="images/attr_dark.png" alt="Dark" /></button>
+            <button type="button" data-element="dragon" title="Dragon"><img src="images/attr_dragon.png" alt="Dragon" /></button>
+            <button type="button" data-element="earth" title="Earth"><img src="images/attr_earth.png" alt="Earth" /></button>
+            <button type="button" data-element="grass" title="Leaf"><img src="images/attr_grass.png" alt="Leaf" /></button>
+            <button type="button" data-element="thunder" title="Electricity"><img src="images/attr_thunder.png" alt="Electricity" /></button>
+            <button type="button" data-element="water" title="Water"><img src="images/attr_water.png" alt="Water" /></button>
+            <button type="button" data-element="fire" title="Fire" class="selected"><img src="images/attr_fire.png" alt="Fire" /></button>
+            <button type="button" data-element="none" title="Normal"><img src="images/attr_none.png" alt="Normal" /></button>
+          </div>
+        </div>
+      </section>
+
+      <section class="editor-section">
+        <h2>Aptitudes</h2>
+        <div class="editor-control">
+          <select id="editor-aptitudes" multiple>
+            <option value="collecting">Collecting</option>
+            <option value="cooling">Cooling</option>
+            <option value="crafting">Crafting</option>
+            <option value="electricity">Electricity</option>
+            <option value="farming">Farming</option>
+            <option value="harvesting">Harvesting</option>
+            <option value="kindling" selected>Kindling</option>
+            <option value="transporting">Transporting</option>
+          </select>
+        </div>
+      </section>
+
+      <section class="editor-section">
+        <h2>Effect Text</h2>
+        <div class="editor-control">
+          <textarea id="editor-effect">{act}Interrupt ({hand}{quick} [①, discard this card] OR [Discard this card and 1 other card from hand] Nullify the opponent's attack. Battle damage does not occur)</textarea>
+        </div>
+        <div class="token-row">
+          <div class="token-label">Effect Icons</div>
+          <div class="effect-icons editor-token-buttons" id="editor-select-effect" aria-label="Effect templates">
+            <button type="button" data-template="{act}" title="Act"><img src="images/effect_act.png" alt="Act" /></button>
+            <button type="button" data-template="{auto}" title="Auto"><img src="images/effect_auto.png" alt="Auto" /></button>
+            <button type="button" data-template="{cont}" title="Continuous"><img src="images/effect_cont.png" alt="Continuous" /></button>
+            <button type="button" data-template="{hand}" title="Hand"><img src="images/effect_hand.png" alt="Hand" /></button>
+            <button type="button" data-template="{quick}" title="Quick"><img src="images/effect_quick.png" alt="Quick" /></button>
+            <button type="button" data-template="{damage}" title="Damage"><img src="images/effect_damage.png" alt="Damage" /></button>
+            <button type="button" data-template="{turn1}" title="Turn 1"><img src="images/effect_turn1.png" alt="Turn 1" /></button>
+            <button type="button" data-template="{onattack}" title="On Attack"><img src="images/effect_onattack.png" alt="On Attack" /></button>
+            <button type="button" data-template="{ondeploy}" title="On Deploy"><img src="images/effect_ondeploy.png" alt="On Deploy" /></button>
+            <button type="button" data-template="{power}" title="Power"><img src="images/effect_power.png" alt="Power" /></button>
+            <button type="button" data-template="{strike}" title="Strike"><img src="images/effect_strike.png" alt="Strike" /></button>
+            <button type="button" data-template="{ingredient}" title="Ingredient"><img src="images/effect_ingredient.png" alt="Ingredient" /></button>
+            <button type="button" data-template="{material}" title="Material"><img src="images/effect_material.png" alt="Material" /></button>
+          </div>
+        </div>
+        <div class="token-row">
+          <div class="token-label">Numbers & Costs</div>
+          <div class="special-characters editor-token-buttons" id="editor-select-special" aria-label="Special characters">
+            <button type="button" data-template="①" title="Circled 1">①</button>
+            <button type="button" data-template="②" title="Circled 2">②</button>
+            <button type="button" data-template="③" title="Circled 3">③</button>
+            <button type="button" data-template="④" title="Circled 4">④</button>
+            <button type="button" data-template="⑤" title="Circled 5">⑤</button>
+            <button type="button" data-template="⑥" title="Circled 6">⑥</button>
+            <button type="button" data-template="⑦" title="Circled 7">⑦</button>
+            <button type="button" data-template="⑧" title="Circled 8">⑧</button>
+            <button type="button" data-template="⑨" title="Circled 9">⑨</button>
+            <button type="button" data-template="⑩" title="Circled 10">⑩</button>
+            <button type="button" data-template="{cost1}" title="Cost 1"><img src="images/effect_cost1.png" alt="Cost 1" /></button>
+            <button type="button" data-template="{cost2}" title="Cost 2"><img src="images/effect_cost2.png" alt="Cost 2" /></button>
+            <button type="button" data-template="{cost3}" title="Cost 3"><img src="images/effect_cost3.png" alt="Cost 3" /></button>
+            <button type="button" data-template="{cost4}" title="Cost 4"><img src="images/effect_cost4.png" alt="Cost 4" /></button>
+            <button type="button" data-template="{cost5}" title="Cost 5"><img src="images/effect_cost5.png" alt="Cost 5" /></button>
+            <button type="button" data-template="{cost6}" title="Cost 6"><img src="images/effect_cost6.png" alt="Cost 6" /></button>
+            <button type="button" data-template="{cost7}" title="Cost 7"><img src="images/effect_cost7.png" alt="Cost 7" /></button>
+            <button type="button" data-template="{cost8}" title="Cost 8"><img src="images/effect_cost8.png" alt="Cost 8" /></button>
+            <button type="button" data-template="{cost9}" title="Cost 9"><img src="images/effect_cost9.png" alt="Cost 9" /></button>
+            <button type="button" data-template="{cost10}" title="Cost 10"><img src="images/effect_cost10.png" alt="Cost 10" /></button>
+          </div>
+        </div>
+      </section>
+
+      <section class="editor-section">
+        <h2>Flavor Text</h2>
+        <div class="editor-control">
+          <textarea id="editor-flavor">A fiery embrace. Get too close, and you'll get burned.</textarea>
+        </div>
+      </section>
+    </div>
+  </div>
+
+  <script>
+    const card = document.querySelector(".card");
+    const editorType = document.querySelector("#editor-type");
+    const editorColor = document.querySelector("#editor-color");
+    const editorCost = document.querySelector("#editor-cost");
+    const editorQuick = document.querySelector("#editor-quick");
+    const editorPower = document.querySelector("#editor-power");
+    const editorStrike = document.querySelector("#editor-strike");
+    const editorArt = document.querySelector("#editor-art");
+    const editorName = document.querySelector("#editor-name");
+    const editorElements = document.querySelector("#editor-elements");
+    const editorAptitudes = document.querySelector("#editor-aptitudes");
+    const editorEffect = document.querySelector("#editor-effect");
+    const editorSelectEffect = document.querySelector("#editor-select-effect");
+    const editorSelectSpecial = document.querySelector("#editor-select-special");
+    const cardArtImage = document.querySelector(".card-art > img");
+    const selectedElements = ["fire"];
+    let cardArtObjectUrl = "";
+
+    const cardTypes = ["pal", "lucky", "gear", "event"];
+    const cardColors = ["red", "blue", "green", "purple", "colorless"];
+    const typeLabels = {
+      pal: "Pal",
+      lucky: "Pal",
+      gear: "Gear",
+      event: "Event",
+    };
+    const elementLabels = {
+      ice: "Ice",
+      dark: "Dark",
+      dragon: "Dragon",
+      earth: "Earth",
+      grass: "Leaf",
+      thunder: "Electricity",
+      water: "Water",
+      fire: "Fire",
+      none: "Normal",
+    };
+
+    function renderEffect() {
+      const effectText = editorEffect.value;
+      const effectContent = card.querySelector(".card-effect > p");
+      const effectIconPattern = /\{(\w+)\}/g;
+      let textStart = 0;
+      let match;
+
+      effectContent.replaceChildren();
+
+      while ((match = effectIconPattern.exec(effectText)) !== null) {
+        effectContent.append(document.createTextNode(effectText.slice(textStart, match.index)));
+
+        const icon = document.createElement("img");
+        icon.src = `images/effect_${match[1]}.png`;
+        icon.alt = match[1];
+        effectContent.append(icon);
+
+        textStart = effectIconPattern.lastIndex;
+      }
+
+      effectContent.append(document.createTextNode(effectText.slice(textStart)));
+    }
+
+    function titleCase(value) {
+      return value.replace(/\b\w/g, (letter) => letter.toUpperCase());
+    }
+
+    function renderAptitudes() {
+      const attributes = card.querySelector(".card-attributes");
+
+      attributes.querySelectorAll(".attribute:not(.pal-type)").forEach((attribute) => {
+        attribute.remove();
+      });
+
+      Array.from(editorAptitudes.selectedOptions).forEach((option) => {
+        const attribute = document.createElement("div");
+        const label = document.createElement("span");
+
+        attribute.className = "attribute";
+        label.textContent = titleCase(option.value);
+
+        attribute.append(label);
+        attributes.append(attribute);
+      });
+    }
+
+    function renderElements() {
+      const cardNameType = card.querySelector(".card-name-type");
+
+      cardNameType.replaceChildren();
+
+      selectedElements.forEach((element) => {
+        const icon = document.createElement("img");
+
+        icon.src = `images/attr_${element}.png`;
+        icon.alt = elementLabels[element];
+        cardNameType.append(icon);
+      });
+    }
+
+    function syncCard() {
+      card.classList.remove(...cardTypes, ...cardColors, "quick");
+      card.classList.add(editorType.value, editorColor.value);
+      card.classList.toggle("quick", editorQuick.checked);
+
+      card.querySelector(".card-cost > span").innerHTML = editorCost.value;
+      card.querySelector(".card-type > span").innerHTML = typeLabels[editorType.value];
+      card.querySelector(".card-name > span").textContent = editorName.value;
+      card.querySelector(".card-power > .power").innerHTML = editorPower.value;
+      card.querySelector(".card-power > .strike").innerHTML = editorStrike.value;
+
+      renderElements();
+      renderAptitudes();
+      renderEffect();
+    }
+
+    editorAptitudes.addEventListener("mousedown", (event) => {
+      if (event.target.tagName !== "OPTION") {
+        return;
+      }
+
+      event.preventDefault();
+      event.target.selected = !event.target.selected;
+      editorAptitudes.focus();
+      editorAptitudes.dispatchEvent(new Event("change", { bubbles: true }));
+    });
+
+    editorArt.addEventListener("change", () => {
+      const [file] = editorArt.files;
+
+      if (!file) {
+        return;
+      }
+
+      if (cardArtObjectUrl) {
+        URL.revokeObjectURL(cardArtObjectUrl);
+      }
+
+      cardArtObjectUrl = URL.createObjectURL(file);
+      cardArtImage.src = cardArtObjectUrl;
+    });
+
+    editorElements.addEventListener("click", (event) => {
+      const button = event.target.closest("button[data-element]");
+
+      if (!button) {
+        return;
+      }
+
+      const element = button.dataset.element;
+      const existingIndex = selectedElements.indexOf(element);
+
+      if (existingIndex >= 0) {
+        selectedElements.splice(existingIndex, 1);
+        button.classList.remove("selected");
+      } else if (selectedElements.length < 2) {
+        selectedElements.push(element);
+        button.classList.add("selected");
+      }
+
+      syncCard();
+    });
+
+    function appendEffectTemplate(template) {
+      editorEffect.value += template;
+      editorEffect.dispatchEvent(new Event("input", { bubbles: true }));
+      editorEffect.focus();
+      editorEffect.selectionStart = editorEffect.value.length;
+      editorEffect.selectionEnd = editorEffect.value.length;
+    }
+
+    function handleTemplateClick(event) {
+      const button = event.target.closest("button[data-template]");
+
+      if (!button) {
+        return;
+      }
+
+      appendEffectTemplate(button.dataset.template);
+    }
+
+    editorSelectEffect.addEventListener("click", handleTemplateClick);
+    editorSelectSpecial.addEventListener("click", handleTemplateClick);
+
+    [
+      editorType,
+      editorColor,
+      editorCost,
+      editorQuick,
+      editorPower,
+      editorStrike,
+      editorAptitudes,
+      editorName,
+      editorEffect,
+    ].forEach((control) => {
+      control.addEventListener("input", syncCard);
+      control.addEventListener("change", syncCard);
+    });
+
+    syncCard();
+  </script>
+</body>
+
+</html>
