@@ -260,7 +260,7 @@
       font-size: calc(var(--card-font-scale) * 12px);
       font-style: normal;
       transform: scaleX(1.0);
-      letter-spacing: -2px;
+      letter-spacing: -3px;
       overflow: hidden;
       text-overflow: ellipsis;
       white-space: nowrap;
@@ -377,6 +377,9 @@
       height: 92px;
       background: url("images/card_power.png") center / 100% 100% no-repeat,
         linear-gradient(var(--card-base-color), var(--card-base-color)) center / calc(100% - 2px) calc(100% - 2px) no-repeat;
+    }
+    .card:not(.pal):not(.lucky) .card-power {
+      display: none;
     }
 
     .card-power>span {
@@ -977,6 +980,7 @@
     const editorElements = document.querySelector("#editor-elements");
     const editorAptitudes = document.querySelector("#editor-aptitudes");
     const editorEffect = document.querySelector("#editor-effect");
+    const editorFlavor = document.querySelector("#editor-flavor");
     const editorSelectEffect = document.querySelector("#editor-select-effect");
     const editorSelectSpecial = document.querySelector("#editor-select-special");
     const editorDownload = document.querySelector("#editor-download");
@@ -1073,6 +1077,7 @@
       card.querySelector(".card-name > span").textContent = editorName.value;
       card.querySelector(".card-power > .power").innerHTML = editorPower.value;
       card.querySelector(".card-power > .strike").innerHTML = editorStrike.value;
+      card.querySelector(".card-flavor > span").innerHTML = editorFlavor.value;
 
       renderElements();
       renderAptitudes();
@@ -1307,6 +1312,7 @@
       editorAptitudes,
       editorName,
       editorEffect,
+      editorFlavor,
     ].forEach((control) => {
       control.addEventListener("input", syncCard);
       control.addEventListener("change", syncCard);
