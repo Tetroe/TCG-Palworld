@@ -124,6 +124,7 @@
       height: 100%;
       display: block;
       pointer-events: none;
+      background: url("images/card_frame.png") no-repeat center center;
     }
 
     .card-cost {
@@ -225,6 +226,10 @@
       top: 3px;
     }
 
+    .card.structure .card-type {
+      display: none;
+    }
+
     .card-name-frame {
       margin: 14px 63px 0 62px;
       height: 90px;
@@ -283,11 +288,13 @@
       object-fit: contain;
       filter: drop-shadow(0px 3px var(--card-alt-color));
     }
+
     .card-name-type img:has(+ img) {
       top: 22px;
       left: 4px;
     }
-    .card-name-type img ~ img {
+
+    .card-name-type img~img {
       top: -16px;
       left: -28px;
     }
@@ -317,6 +324,7 @@
     .card.lucky .attribute.pal-type {
       background: url("images/card_aptitude_lucky.png") no-repeat left center;
     }
+
     .card.lucky .attribute.pal-type>span {
       visibility: hidden;
     }
@@ -346,10 +354,13 @@
     .card.lucky .card-lucky {
       display: block;
     }
+
     .attribute.pal-type {
       display: none;
     }
-    .card.pal .attribute.pal-type, .card.lucky .attribute.pal-type {
+
+    .card.pal .attribute.pal-type,
+    .card.lucky .attribute.pal-type {
       display: flex;
     }
 
@@ -378,6 +389,7 @@
       background: url("images/card_power.png") center / 100% 100% no-repeat,
         linear-gradient(var(--card-base-color), var(--card-base-color)) center / calc(100% - 2px) calc(100% - 2px) no-repeat;
     }
+
     .card:not(.pal):not(.lucky) .card-power {
       display: none;
     }
@@ -421,6 +433,99 @@
       font-weight: 500;
       font-size: calc(var(--card-font-scale) * 4.47px);
       font-style: italic;
+    }
+
+    .card.structure>.frame {
+      background: url("images/structure_frame.png") no-repeat center center;
+    }
+
+    .card.structure .card-power {
+      display: none;
+    }
+
+    .card.structure .card-type {
+      display: none;
+    }
+
+    .card.structure .card-cost {
+      position: absolute;
+      transform: rotate(-90deg);
+      top: 1360px;
+    }
+
+    .card.structure .card-art {
+      position: absolute;
+      bottom: 0;
+    }
+
+    .card.structure .card-labels {
+      bottom: 0px;
+      right: 64px;
+      transform-origin: bottom right;
+      transform: rotate(-90deg) translateX(100%);
+    }
+
+    .card.structure .card-name-frame {
+      height: 102px;
+      margin: 14px 435px 9px 63px;
+    }
+
+    .card.structure .card-name-type {
+      display: none;
+    }
+
+    .card.card.structure .card-attributes {
+      margin: 0 435px 0px 63px;
+    }
+
+    .card.structure .card-effect {
+      top: 0;
+      transform-origin: top right;
+      transform: rotate(-90deg) translateY(-766px);
+      width: 672px;
+      height: 800px;
+    }
+
+    .card.structure .card-flavor {
+      bottom: unset;
+      left: 283px;
+      height: 100px;
+      width: 612px;
+      transform-origin: top right;
+      transform: rotate(-90deg);
+      top: 92px;
+    }
+
+    .card.structure .card-flavor>span {
+      margin-left: unset;
+    }
+
+    .card .card-durability {
+      display: none;
+    }
+
+    .card.structure .card-durability {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: var(--card-base-color);
+      width: 85px;
+      height: 265px;
+      position: absolute;
+      top: 220px;
+      right: 26px;
+    }
+
+    .card.structure .card-durability>span {
+      transform-origin: center center;
+      transform: rotate(-90deg);
+      font-family: "Oxanium", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 500;
+      font-size: calc(var(--card-font-scale) * 13px);
+      font-style: normal;
+      line-height: 100%;
+      padding-top: 10px;
     }
 
     .editor {
@@ -751,7 +856,10 @@
         <div class="card-art">
           <img src="images/card_art.png" />
         </div>
-        <img class="frame" src="images/card_frame.png" />
+        <div class="card-durability">
+          <span class="durability">400</span>
+        </div>
+        <div class="frame"></div>
         <div class="card-cost">
           <span>4</span>
           <div class="quick-icon"></div>
@@ -813,6 +921,7 @@
             <select id="editor-type">
               <option value="pal">Pal</option>
               <option value="lucky">Lucky Pal</option>
+              <option value="structure">Structure</option>
               <option value="gear">Gear</option>
               <option value="event">Event</option>
             </select>
@@ -857,7 +966,7 @@
             <input type="number" id="editor-power" min="100" step="100" max="9900" value="400" />
           </div>
 
-          <div class="editor-control">
+          <div class="editor-control editor-strike-control">
             <label for="editor-strike">Strike</label>
             <input type="number" id="editor-strike" min="1" max="9" value="2" />
           </div>
@@ -878,14 +987,22 @@
           <div class="token-label">Element</div>
           <div class="element-buttons editor-token-buttons" id="editor-elements" aria-label="Elements">
             <button type="button" data-element="ice" title="Ice"><img src="images/attr_ice.png" alt="Ice" /></button>
-            <button type="button" data-element="dark" title="Dark"><img src="images/attr_dark.png" alt="Dark" /></button>
-            <button type="button" data-element="dragon" title="Dragon"><img src="images/attr_dragon.png" alt="Dragon" /></button>
-            <button type="button" data-element="earth" title="Earth"><img src="images/attr_earth.png" alt="Earth" /></button>
-            <button type="button" data-element="grass" title="Leaf"><img src="images/attr_grass.png" alt="Leaf" /></button>
-            <button type="button" data-element="thunder" title="Electricity"><img src="images/attr_thunder.png" alt="Electricity" /></button>
-            <button type="button" data-element="water" title="Water"><img src="images/attr_water.png" alt="Water" /></button>
-            <button type="button" data-element="fire" title="Fire" class="selected"><img src="images/attr_fire.png" alt="Fire" /></button>
-            <button type="button" data-element="none" title="Normal"><img src="images/attr_none.png" alt="Normal" /></button>
+            <button type="button" data-element="dark" title="Dark"><img src="images/attr_dark.png"
+                alt="Dark" /></button>
+            <button type="button" data-element="dragon" title="Dragon"><img src="images/attr_dragon.png"
+                alt="Dragon" /></button>
+            <button type="button" data-element="earth" title="Earth"><img src="images/attr_earth.png"
+                alt="Earth" /></button>
+            <button type="button" data-element="grass" title="Leaf"><img src="images/attr_grass.png"
+                alt="Leaf" /></button>
+            <button type="button" data-element="thunder" title="Electricity"><img src="images/attr_thunder.png"
+                alt="Electricity" /></button>
+            <button type="button" data-element="water" title="Water"><img src="images/attr_water.png"
+                alt="Water" /></button>
+            <button type="button" data-element="fire" title="Fire" class="selected"><img src="images/attr_fire.png"
+                alt="Fire" /></button>
+            <button type="button" data-element="none" title="Normal"><img src="images/attr_none.png"
+                alt="Normal" /></button>
           </div>
         </div>
       </section>
@@ -909,31 +1026,46 @@
       <section class="editor-section">
         <h2>Effect Text</h2>
         <div class="editor-control">
-          <textarea id="editor-effect">{act}Interrupt ({hand}{quick} [①, discard this card] OR [Discard this card and 1 other card from hand] Nullify the opponent's attack. Battle damage does not occur)</textarea>
+          <textarea
+            id="editor-effect">{act}Interrupt ({hand}{quick} [①, discard this card] OR [Discard this card and 1 other card from hand] Nullify the opponent's attack. Battle damage does not occur)</textarea>
         </div>
         <div class="token-row">
           <div class="token-label">Effect Icons</div>
           <div class="effect-icons editor-token-buttons" id="editor-select-effect" aria-label="Effect templates">
-            <button type="button" data-template="{act}" title="Act"><img src="images/effect_act.png" alt="Act" /></button>
-            <button type="button" data-template="{auto}" title="Auto"><img src="images/effect_auto.png" alt="Auto" /></button>
-            <button type="button" data-template="{cont}" title="Continuous"><img src="images/effect_cont.png" alt="Continuous" /></button>
-            <button type="button" data-template="{hand}" title="Hand"><img src="images/effect_hand.png" alt="Hand" /></button>
-            <button type="button" data-template="{quick}" title="Quick"><img src="images/effect_quick.png" alt="Quick" /></button>
-            <button type="button" data-template="{damage}" title="Damage"><img src="images/effect_damage.png" alt="Damage" /></button>
-            <button type="button" data-template="{turn1}" title="Turn 1"><img src="images/effect_turn1.png" alt="Turn 1" /></button>
-            <button type="button" data-template="{onattack}" title="On Attack"><img src="images/effect_onattack.png" alt="On Attack" /></button>
-            <button type="button" data-template="{ondeploy}" title="On Deploy"><img src="images/effect_ondeploy.png" alt="On Deploy" /></button>
-            <button type="button" data-template="{power}" title="Power"><img src="images/effect_power.png" alt="Power" /></button>
-            <button type="button" data-template="{strike}" title="Strike"><img src="images/effect_strike.png" alt="Strike" /></button>
-            <button type="button" data-template="{ingredient}" title="Ingredient"><img src="images/effect_ingredient.png" alt="Ingredient" /></button>
-            <button type="button" data-template="{material}" title="Material"><img src="images/effect_material.png" alt="Material" /></button>
+            <button type="button" data-template="{act}" title="Act"><img src="images/effect_act.png"
+                alt="Act" /></button>
+            <button type="button" data-template="{auto}" title="Auto"><img src="images/effect_auto.png"
+                alt="Auto" /></button>
+            <button type="button" data-template="{cont}" title="Continuous"><img src="images/effect_cont.png"
+                alt="Continuous" /></button>
+            <button type="button" data-template="{hand}" title="Hand"><img src="images/effect_hand.png"
+                alt="Hand" /></button>
+            <button type="button" data-template="{quick}" title="Quick"><img src="images/effect_quick.png"
+                alt="Quick" /></button>
+            <button type="button" data-template="{damage}" title="Damage"><img src="images/effect_damage.png"
+                alt="Damage" /></button>
+            <button type="button" data-template="{turn1}" title="Turn 1"><img src="images/effect_turn1.png"
+                alt="Turn 1" /></button>
+            <button type="button" data-template="{onattack}" title="On Attack"><img src="images/effect_onattack.png"
+                alt="On Attack" /></button>
+            <button type="button" data-template="{ondeploy}" title="On Deploy"><img src="images/effect_ondeploy.png"
+                alt="On Deploy" /></button>
+            <button type="button" data-template="{power}" title="Power"><img src="images/effect_power.png"
+                alt="Power" /></button>
+            <button type="button" data-template="{strike}" title="Strike"><img src="images/effect_strike.png"
+                alt="Strike" /></button>
+            <button type="button" data-template="{ingredient}" title="Ingredient"><img
+                src="images/effect_ingredient.png" alt="Ingredient" /></button>
+            <button type="button" data-template="{material}" title="Material"><img src="images/effect_material.png"
+                alt="Material" /></button>
             <button type="button" data-template="〈" title="〈">〈</button>
             <button type="button" data-template="〉" title="〉">〉</button>
           </div>
         </div>
         <div class="token-row">
           <div class="token-label">Numbers & Costs</div>
-          <div class="special-characters editor-token-buttons" id="editor-select-special" aria-label="Special characters">
+          <div class="special-characters editor-token-buttons" id="editor-select-special"
+            aria-label="Special characters">
             <button type="button" data-template="①" title="Circled 1">①</button>
             <button type="button" data-template="②" title="Circled 2">②</button>
             <button type="button" data-template="③" title="Circled 3">③</button>
@@ -944,16 +1076,26 @@
             <button type="button" data-template="⑧" title="Circled 8">⑧</button>
             <button type="button" data-template="⑨" title="Circled 9">⑨</button>
             <button type="button" data-template="⑩" title="Circled 10">⑩</button>
-            <button type="button" data-template="{cost1}" title="Cost 1"><img src="images/effect_cost1.png" alt="Cost 1" /></button>
-            <button type="button" data-template="{cost2}" title="Cost 2"><img src="images/effect_cost2.png" alt="Cost 2" /></button>
-            <button type="button" data-template="{cost3}" title="Cost 3"><img src="images/effect_cost3.png" alt="Cost 3" /></button>
-            <button type="button" data-template="{cost4}" title="Cost 4"><img src="images/effect_cost4.png" alt="Cost 4" /></button>
-            <button type="button" data-template="{cost5}" title="Cost 5"><img src="images/effect_cost5.png" alt="Cost 5" /></button>
-            <button type="button" data-template="{cost6}" title="Cost 6"><img src="images/effect_cost6.png" alt="Cost 6" /></button>
-            <button type="button" data-template="{cost7}" title="Cost 7"><img src="images/effect_cost7.png" alt="Cost 7" /></button>
-            <button type="button" data-template="{cost8}" title="Cost 8"><img src="images/effect_cost8.png" alt="Cost 8" /></button>
-            <button type="button" data-template="{cost9}" title="Cost 9"><img src="images/effect_cost9.png" alt="Cost 9" /></button>
-            <button type="button" data-template="{cost10}" title="Cost 10"><img src="images/effect_cost10.png" alt="Cost 10" /></button>
+            <button type="button" data-template="{cost1}" title="Cost 1"><img src="images/effect_cost1.png"
+                alt="Cost 1" /></button>
+            <button type="button" data-template="{cost2}" title="Cost 2"><img src="images/effect_cost2.png"
+                alt="Cost 2" /></button>
+            <button type="button" data-template="{cost3}" title="Cost 3"><img src="images/effect_cost3.png"
+                alt="Cost 3" /></button>
+            <button type="button" data-template="{cost4}" title="Cost 4"><img src="images/effect_cost4.png"
+                alt="Cost 4" /></button>
+            <button type="button" data-template="{cost5}" title="Cost 5"><img src="images/effect_cost5.png"
+                alt="Cost 5" /></button>
+            <button type="button" data-template="{cost6}" title="Cost 6"><img src="images/effect_cost6.png"
+                alt="Cost 6" /></button>
+            <button type="button" data-template="{cost7}" title="Cost 7"><img src="images/effect_cost7.png"
+                alt="Cost 7" /></button>
+            <button type="button" data-template="{cost8}" title="Cost 8"><img src="images/effect_cost8.png"
+                alt="Cost 8" /></button>
+            <button type="button" data-template="{cost9}" title="Cost 9"><img src="images/effect_cost9.png"
+                alt="Cost 9" /></button>
+            <button type="button" data-template="{cost10}" title="Cost 10"><img src="images/effect_cost10.png"
+                alt="Cost 10" /></button>
           </div>
         </div>
       </section>
@@ -989,11 +1131,12 @@
     const cardArtImage = document.querySelector(".card-art > img");
     const selectedElements = ["fire"];
 
-    const cardTypes = ["pal", "lucky", "gear", "event"];
+    const cardTypes = ["pal", "lucky", "structure", "gear", "event"];
     const cardColors = ["red", "blue", "green", "purple", "colorless"];
     const typeLabels = {
       pal: "Pal",
       lucky: "Pal",
+      structure: "Structure",
       gear: "Gear",
       event: "Event",
     };
@@ -1078,6 +1221,7 @@
       card.querySelector(".card-type > span").innerHTML = typeLabels[editorType.value];
       card.querySelector(".card-name > span").textContent = editorName.value;
       card.querySelector(".card-power > .power").innerHTML = editorPower.value;
+      card.querySelector(".card-durability > .durability").innerHTML = editorPower.value;
       card.querySelector(".card-power > .strike").innerHTML = editorStrike.value;
       card.querySelector(".card-flavor > span").innerHTML = editorFlavor.value;
 
