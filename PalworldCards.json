@@ -1203,6 +1203,33 @@
     "Rarity": "C",
     "isToken": false
   },
+  "EBP01-040": {
+    "id": "EBP01-040",
+    "face": {
+      "front": {
+        "name": "Antique Dresser",
+        "type": "Structure",
+        "cost": 4,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-040.png",
+        "isHorizontal": true
+      }
+    },
+    "name": "Antique Dresser",
+    "type": "Structure",
+    "cost": 4,
+    "Color": [
+      "Blue"
+    ],
+    "CardType": [],
+    "Aptitude": [],
+    "Set": [
+      "EBP01"
+    ],
+    "Power": "1200",
+    "Strike": "",
+    "Rarity": "U",
+    "isToken": false
+  },
   "EBP01-041": {
     "id": "EBP01-041",
     "face": {
