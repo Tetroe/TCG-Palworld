@@ -673,14 +673,14 @@
       "front": {
         "name": "Axel's Strategy",
         "type": "Event",
-        "cost": 3,
+        "cost": 4,
         "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/EBP01/EBP01-023SP.png",
         "isHorizontal": false
       }
     },
     "name": "Axel's Strategy",
     "type": "Event",
-    "cost": 3,
+    "cost": 4,
     "Color": [
       "Red"
     ],
@@ -915,6 +915,36 @@
       "EBP01"
     ],
     "Power": "400",
+    "Strike": "2",
+    "Rarity": "C",
+    "isToken": false
+  },
+  "EBP01-031": {
+    "id": "EBP01-031",
+    "face": {
+      "front": {
+        "name": "Penking – Great Warrior of the Open Sea",
+        "type": "Normal Pal",
+        "cost": 5,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-031.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Penking – Great Warrior of the Open Sea",
+    "type": "Normal Pal",
+    "cost": 5,
+    "Color": [
+      "Blue"
+    ],
+    "CardType": [
+      "Water"
+    ],
+    "Aptitude": [
+    ],
+    "Set": [
+      "EBP01"
+    ],
+    "Power": "600",
     "Strike": "2",
     "Rarity": "C",
     "isToken": false
