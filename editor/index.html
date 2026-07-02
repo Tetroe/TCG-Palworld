@@ -246,6 +246,7 @@
       margin-left: 10px;
       height: 100%;
       width: 100%;
+      min-width: 0;
       background: var(--card-base-trans-color);
       box-shadow: inset 0px 0px 12px 6px var(--card-alt-color);
       padding: 0 28px 0 32px;
@@ -256,18 +257,27 @@
     }
 
     .card-name>span {
-      flex: 1;
+      display: block;
+      flex: 1 1 0;
       min-width: 0;
+      width: 0;
+      max-width: 100%;
       margin-top: 7px;
+      overflow: hidden;
+      white-space: nowrap;
+    }
+
+    .card-name-text {
+      --card-name-scale-x: 1;
+      display: inline-block;
       font-family: "Oxanium", sans-serif;
       font-optical-sizing: auto;
       font-weight: 700;
       font-size: calc(var(--card-font-scale) * 12px);
       font-style: normal;
-      transform: scaleX(1.0);
+      transform: scaleX(var(--card-name-scale-x));
+      transform-origin: left center;
       letter-spacing: -3px;
-      overflow: hidden;
-      text-overflow: ellipsis;
       white-space: nowrap;
     }
 
@@ -279,6 +289,7 @@
       height: 100%;
       align-items: center;
       margin-right: -7px;
+      margin-left: 20px;
     }
 
     .card-name-type img {
@@ -482,6 +493,7 @@
 
     .card.card.structure .card-attributes {
       margin: 0 366px 0px 63px;
+      height: 42px;
     }
 
     .card.structure .card-effect {
@@ -880,7 +892,7 @@
           <div class="card-name-frame">
             <div class="card-name-color"></div>
             <div class="card-name">
-              <span>Foxparks – A Toasty Hug</span>
+              <span><span class="card-name-text">Foxparks – A Toasty Hug</span></span>
               <div class="card-name-type">
 
               </div>
@@ -1208,6 +1220,7 @@
       const cardNameType = card.querySelector(".card-name-type");
 
       cardNameType.replaceChildren();
+      cardNameType.style.display = selectedElements.length ? "" : "none";
 
       selectedElements.forEach((element) => {
         const icon = document.createElement("img");
@@ -1218,6 +1231,21 @@
       });
     }
 
+    function fitCardName() {
+      const nameArea = card.querySelector(".card-name > span");
+      const nameText = card.querySelector(".card-name-text");
+
+      nameText.style.removeProperty("--card-name-scale-x");
+
+      if (!nameText.textContent.trim() || nameText.scrollWidth <= nameArea.clientWidth) {
+        return;
+      }
+
+      const scale = nameArea.clientWidth / nameText.scrollWidth;
+
+      nameText.style.setProperty("--card-name-scale-x", scale.toFixed(4));
+    }
+
     function syncCard() {
       card.classList.remove(...cardTypes, ...cardColors, "quick");
       card.classList.add(editorType.value, editorColor.value);
@@ -1225,7 +1253,7 @@
 
       card.querySelector(".card-cost > span").innerHTML = editorCost.value;
       card.querySelector(".card-type > span").innerHTML = typeLabels[editorType.value];
-      card.querySelector(".card-name > span").textContent = editorName.value;
+      card.querySelector(".card-name-text").textContent = editorName.value;
       card.querySelector(".card-power > .power").innerHTML = editorPower.value;
       card.querySelector(".card-durability > .durability").innerHTML = editorPower.value;
       card.querySelector(".card-power > .strike").innerHTML = editorStrike.value;
@@ -1234,6 +1262,7 @@
       renderElements();
       renderAptitudes();
       renderEffect();
+      fitCardName();
     }
 
     editorAptitudes.addEventListener("mousedown", (event) => {
@@ -1469,6 +1498,9 @@
       control.addEventListener("input", syncCard);
       control.addEventListener("change", syncCard);
     });
+
+    window.addEventListener("resize", fitCardName);
+    document.fonts?.ready.then(fitCardName);
 
     syncCard();
   </script>
