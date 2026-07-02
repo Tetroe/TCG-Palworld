@@ -97,14 +97,14 @@
     "id": "EBP01-004",
     "face": {
       "front": {
-        "name": "Tsujigiri – Momentary Blade",
+        "name": "Bushi – Ephemeral Blade",
         "type": "Lucky Pal",
         "cost": 5,
         "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-004.png",
         "isHorizontal": false
       }
     },
-    "name": "Tsujigiri – Momentary Blade",
+    "name": "Bushi – Ephemeral Blade",
     "type": "Lucky Pal",
     "cost": 5,
     "Color": [
@@ -1577,14 +1577,14 @@
     "id": "EBP01-053",
     "face": {
       "front": {
-        "name": "Queenbeena – Queen of the Flower Garden",
+        "name": "Elizabee – Queen of the Flower Garden",
         "type": "Lucky Pal",
         "cost": 5,
         "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-053.png",
         "isHorizontal": false
       }
     },
-    "name": "Queenbeena – Queen of the Flower Garden",
+    "name": "Elizabee – Queen of the Flower Garden",
     "type": "Lucky Pal",
     "cost": 5,
     "Color": [
@@ -1609,14 +1609,14 @@
     "id": "EBP01-055",
     "face": {
       "front": {
-        "name": "Violetta – Charming Star",
+        "name": "Violetta – Bewitching Blossom",
         "type": "Lucky Pal",
         "cost": 8,
         "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-055.png",
         "isHorizontal": false
       }
     },
-    "name": "Violetta – Charming Star",
+    "name": "Violetta – Bewitching Blossom",
     "type": "Lucky Pal",
     "cost": 8,
     "Color": [
