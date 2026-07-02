@@ -452,7 +452,7 @@
         "name": "Mounted Machine Gun",
         "type": "Structure",
         "cost": 4,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-015.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/EBP01/EBP01-015SP.png",
         "isHorizontal": true
       }
     },
@@ -1041,6 +1041,36 @@
     "Aptitude": [
       "Cooling",
       "Farming"
+    ],
+    "Set": [
+      "EBP01"
+    ],
+    "Power": "400",
+    "Strike": "1",
+    "Rarity": "C",
+    "isToken": false
+  },
+  "EBP01-036": {
+    "id": "EBP01-036",
+    "face": {
+      "front": {
+        "name": "Celaray – Somersault",
+        "type": "Normal Pal",
+        "cost": 3,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-036.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Celaray – Somersault",
+    "type": "Normal Pal",
+    "cost": 3,
+    "Color": [
+      "Blue"
+    ],
+    "CardType": [
+      "Water"
+    ],
+    "Aptitude": [
     ],
     "Set": [
       "EBP01"
