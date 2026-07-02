@@ -62,6 +62,37 @@
     "Rarity": "SP",
     "isToken": false
   },
+  "EBP01-003": {
+    "id": "EBP01-003",
+    "face": {
+      "front": {
+        "name": "Gobfin Ignis – Red Hothead",
+        "type": "Normal Pal",
+        "cost": 4,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-003.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Gobfin Ignis – Red Hothead",
+    "type": "Normal Pal",
+    "cost": 4,
+    "Color": [
+      "Red"
+    ],
+    "CardType": [
+      "Fire"
+    ],
+    "Aptitude": [
+      "Kindling"
+    ],
+    "Set": [
+      "EBP01"
+    ],
+    "Power": "400",
+    "Strike": "2",
+    "Rarity": "C",
+    "isToken": false
+  },
   "EBP01-004": {
     "id": "EBP01-004",
     "face": {
