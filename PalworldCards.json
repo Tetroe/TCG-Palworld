@@ -2200,6 +2200,39 @@
     "Rarity": "",
     "isToken": false
   },
+    "EBP01-080": {
+    "id": "EBP01-080",
+    "face": {
+      "front": {
+        "name": "Daedream – First Slumber",
+        "type": "Normal Pal",
+        "cost": 2,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-080.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Daedream – First Slumber",
+    "type": "Normal Pal",
+    "cost": 2,
+    "Color": [
+      "Purple"
+    ],
+    "CardType": [
+      "Dark"
+    ],
+    "Aptitude": [
+      "Crafting",
+      "Harvesting",
+      "Transporting"
+    ],
+    "Set": [
+      "EBP01"
+    ],
+    "Power": "200",
+    "Strike": "1",
+    "Rarity": "",
+    "isToken": false
+  },
   "EBP01-081": {
     "id": "EBP01-081",
     "face": {
@@ -2237,16 +2270,16 @@
     "id": "EBP01-082",
     "face": {
       "front": {
-        "name": "Daedream – First Slumber",
+        "name": "Daedream – Continuing Slumber",
         "type": "Normal Pal",
-        "cost": 2,
+        "cost": 4,
         "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-082.png",
         "isHorizontal": false
       }
     },
-    "name": "Daedream – First Slumber",
+    "name": "Daedream – Continuing Slumber",
     "type": "Normal Pal",
-    "cost": 2,
+    "cost": 4,
     "Color": [
       "Purple"
     ],
@@ -2261,7 +2294,7 @@
     "Set": [
       "EBP01"
     ],
-    "Power": "200",
+    "Power": "400",
     "Strike": "1",
     "Rarity": "",
     "isToken": false
