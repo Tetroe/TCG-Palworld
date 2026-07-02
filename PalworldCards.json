@@ -451,7 +451,7 @@
         "type": "Structure",
         "cost": 2,
         "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-016.png",
-        "isHorizontal": false
+        "isHorizontal": true
       }
     },
     "name": "Primitive Furnace",
@@ -1764,7 +1764,7 @@
         "type": "Structure",
         "cost": 2,
         "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-065.png",
-        "isHorizontal": false
+        "isHorizontal": true
       }
     },
     "name": "Feed Box",
@@ -1791,7 +1791,7 @@
         "type": "Structure",
         "cost": 2,
         "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-066.png",
-        "isHorizontal": false
+        "isHorizontal": true
       }
     },
     "name": "Ranch",
