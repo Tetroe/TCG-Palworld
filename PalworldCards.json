@@ -1283,6 +1283,33 @@
     "Rarity": "C",
     "isToken": false
   },
+  "EBP01-045": {
+    "id": "EBP01-045",
+    "face": {
+      "front": {
+        "name": "Grappling Gun",
+        "type": "Gear",
+        "cost": 5,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-045.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Grappling Gun",
+    "type": "Gear",
+    "cost": 5,
+    "Color": [
+      "Blue"
+    ],
+    "CardType": [],
+    "Aptitude": [],
+    "Set": [
+      "EBP01"
+    ],
+    "Power": "",
+    "Strike": "",
+    "Rarity": "C",
+    "isToken": false
+  },
   "EBP01-046SP": {
     "id": "EBP01-046SP",
     "face": {
@@ -1813,6 +1840,35 @@
       "EBP01"
     ],
     "Power": "1100",
+    "Strike": "",
+    "Rarity": "C",
+    "isToken": false
+  },
+  "EBP01-064": {
+    "id": "EBP01-064",
+    "face": {
+      "front": {
+        "name": "Cola Vending Machine",
+        "type": "Structure",
+        "cost": 6,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-064.png",
+        "isHorizontal": true
+      }
+    },
+    "name": "Cola Vending Machine",
+    "type": "Structure",
+    "cost": 6,
+    "Color": [
+      "Green"
+    ],
+    "CardType": [],
+    "Aptitude": [
+      "Farming"
+    ],
+    "Set": [
+      "EBP01"
+    ],
+    "Power": "1500",
     "Strike": "",
     "Rarity": "C",
     "isToken": false
