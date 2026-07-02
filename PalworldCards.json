@@ -196,7 +196,7 @@
         "type": "Normal Pal",
         "cost": 3,
         "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-008.png",
-        "isHorizontal": true
+        "isHorizontal": false
       }
     },
     "name": "Sparkit – Hazardous Contact",
@@ -230,7 +230,7 @@
         "type": "Normal Pal",
         "cost": 4,
         "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-009.png",
-        "isHorizontal": true
+        "isHorizontal": false
       }
     },
     "name": "Univolt – Valiant Thunderclap",
@@ -262,7 +262,7 @@
         "type": "Lucky Pal",
         "cost": 6,
         "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-010.png",
-        "isHorizontal": true
+        "isHorizontal": false
       }
     },
     "name": "Ragnahawk – Emberwing Striker",
@@ -391,7 +391,7 @@
         "type": "Normal Pal",
         "cost": 7,
         "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-014.png",
-        "isHorizontal": true
+        "isHorizontal": false
       }
     },
     "name": "Blazehowl – Hellflame Defender",
@@ -896,7 +896,7 @@
         "type": "Normal Pal",
         "cost": 2,
         "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-032.png",
-        "isHorizontal": true
+        "isHorizontal": false
       }
     },
     "name": "Fuack – Manic wave Ripper",
@@ -929,7 +929,7 @@
         "type": "Lucky Pal",
         "cost": 7,
         "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-033.png",
-        "isHorizontal": true
+        "isHorizontal": false
       }
     },
     "name": "Wumpo – Snow Mountain Watchman",
@@ -963,7 +963,7 @@
         "type": "Normal Pal",
         "cost": 2,
         "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-034.png",
-        "isHorizontal": true
+        "isHorizontal": false
       }
     },
     "name": "Teafant – Fountain of Cheer",
@@ -995,7 +995,7 @@
         "type": "Normal Pal",
         "cost": 3,
         "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-035.png",
-        "isHorizontal": true
+        "isHorizontal": false
       }
     },
     "name": "Mau Cryst – Harbinger of Riches",
@@ -1027,7 +1027,7 @@
         "type": "Normal Pal",
         "cost": 4,
         "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-037.png",
-        "isHorizontal": true
+        "isHorizontal": false
       }
     },
     "name": "Surfent – Swift Swimmer",
@@ -1059,7 +1059,7 @@
         "type": "Normal Pal",
         "cost": 6,
         "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-038.png",
-        "isHorizontal": true
+        "isHorizontal": false
       }
     },
     "name": "Cryolinx – Arctic Ordeal",
@@ -1203,7 +1203,7 @@
         "type": "Gear",
         "cost": 4,
         "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-044.png",
-        "isHorizontal": true
+        "isHorizontal": false
       }
     },
     "name": "Pengullet Rocket Launcher",
@@ -1974,6 +1974,534 @@
     "Rarity": "C",
     "isToken": false
   },
+  "EBP01-073SSP": {
+    "id": "EBP01-073SSP",
+    "face": {
+      "front": {
+        "name": "Helzephyr – Wings of the Moonless Night",
+        "type": "Lucky Pal",
+        "cost": 7,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/EBP01/EBP01-073SSP.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Helzephyr – Wings of the Moonless Night",
+    "type": "Lucky Pal",
+    "cost": 7,
+    "Color": [
+      "Purple"
+    ],
+    "CardType": [
+      "Dark"
+    ],
+    "Aptitude": [
+      "Transporting"
+    ],
+    "Set": [
+      "EBP01"
+    ],
+    "Power": "700",
+    "Strike": "3",
+    "Rarity": "SSP",
+    "isToken": false
+  },
+  "EBP01-074SP": {
+    "id": "EBP01-074SP",
+    "face": {
+      "front": {
+        "name": "Shadowbeak – Seed of Despair",
+        "type": "Lucky Pal",
+        "cost": 8,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/EBP01/EBP01-074SP.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Shadowbeak – Seed of Despair",
+    "type": "Lucky Pal",
+    "cost": 8,
+    "Color": [
+      "Purple"
+    ],
+    "CardType": [
+      "Dark"
+    ],
+    "Aptitude": [
+      "Harvesting"
+    ],
+    "Set": [
+      "EBP01"
+    ],
+    "Power": "1300",
+    "Strike": "3",
+    "Rarity": "SP",
+    "isToken": false
+  },
+  "EBP01-075SP": {
+    "id": "EBP01-075SP",
+    "face": {
+      "front": {
+        "name": "Katress – Abyssal Sorcerer",
+        "type": "Lucky Pal",
+        "cost": 6,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/EBP01/EBP01-075SP.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Katress – Abyssal Sorcerer",
+    "type": "Lucky Pal",
+    "cost": 6,
+    "Color": [
+      "Purple"
+    ],
+    "CardType": [
+      "Dark"
+    ],
+    "Aptitude": [
+      "Crafting",
+      "Transporting"
+    ],
+    "Set": [
+      "EBP01"
+    ],
+    "Power": "900",
+    "Strike": "2",
+    "Rarity": "SP",
+    "isToken": false
+  },
+  "EBP01-076": {
+    "id": "EBP01-076",
+    "face": {
+      "front": {
+        "name": "Tombat – Out of Nowhere!?",
+        "type": "Normal Pal",
+        "cost": 5,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-076.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Tombat – Out of Nowhere!?",
+    "type": "Normal Pal",
+    "cost": 5,
+    "Color": [
+      "Purple"
+    ],
+    "CardType": [
+      "Dark"
+    ],
+    "Aptitude": [
+      "Harvesting",
+      "Collecting",
+      "Transporting"
+    ],
+    "Set": [
+      "EBP01"
+    ],
+    "Power": "600",
+    "Strike": "2",
+    "Rarity": "R",
+    "isToken": false
+  },
+  "EBP01-077": {
+    "id": "EBP01-077",
+    "face": {
+      "front": {
+        "name": "Sarablack – Blue-Flame Thoroughbred",
+        "type": "Normal Pal",
+        "cost": 7,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-077.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Sarablack – Blue-Flame Thoroughbred",
+    "type": "Normal Pal",
+    "cost": 7,
+    "Color": [
+      "Purple"
+    ],
+    "CardType": [
+      "Fire",
+      "Dark"
+    ],
+    "Aptitude": [
+      "Harvesting",
+      "Kindling"
+    ],
+    "Set": [
+      "EBP01"
+    ],
+    "Power": "1100",
+    "Strike": "3",
+    "Rarity": "C",
+    "isToken": false
+  },
+  "EBP01-078": {
+    "id": "EBP01-078",
+    "face": {
+      "front": {
+        "name": "Lyleen Noct – Providence of the Goddess",
+        "type": "Normal Pal",
+        "cost": 8,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-078.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Lyleen Noct – Providence of the Goddess",
+    "type": "Normal Pal",
+    "cost": 8,
+    "Color": [
+      "Purple"
+    ],
+    "CardType": [
+      "Dark"
+    ],
+    "Aptitude": [
+      "Harvesting",
+      "Crafting"
+    ],
+    "Set": [
+      "EBP01"
+    ],
+    "Power": "1700",
+    "Strike": "3",
+    "Rarity": "R",
+    "isToken": false
+  },
+  "EBP01-079": {
+    "id": "EBP01-079",
+    "face": {
+      "front": {
+        "name": "Depresso – Late Night Hustler",
+        "type": "Normal Pal",
+        "cost": 2,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-079.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Depresso – Late Night Hustler",
+    "type": "Normal Pal",
+    "cost": 2,
+    "Color": [
+      "Purple"
+    ],
+    "CardType": [
+      "Dark"
+    ],
+    "Aptitude": [
+      "Crafting",
+      "Collecting",
+      "Transporting",
+      "Farming"
+    ],
+    "Set": [
+      "EBP01"
+    ],
+    "Power": "100",
+    "Strike": "1",
+    "Rarity": "",
+    "isToken": false
+  },
+  "EBP01-081": {
+    "id": "EBP01-081",
+    "face": {
+      "front": {
+        "name": "Loveander – Heartstealer",
+        "type": "Normal Pal",
+        "cost": 5,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-081.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Loveander – Heartstealer",
+    "type": "Normal Pal",
+    "cost": 5,
+    "Color": [
+      "Purple"
+    ],
+    "CardType": [
+      "Dark"
+    ],
+    "Aptitude": [
+      "Collecting",
+      "Crafting",
+      "Transporting"
+    ],
+    "Set": [
+      "EBP01"
+    ],
+    "Power": "800",
+    "Strike": "2",
+    "Rarity": "",
+    "isToken": false
+  },
+  "EBP01-082": {
+    "id": "EBP01-082",
+    "face": {
+      "front": {
+        "name": "Daedream – First Slumber",
+        "type": "Normal Pal",
+        "cost": 2,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-082.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Daedream – First Slumber",
+    "type": "Normal Pal",
+    "cost": 2,
+    "Color": [
+      "Purple"
+    ],
+    "CardType": [
+      "Dark"
+    ],
+    "Aptitude": [
+      "Crafting",
+      "Harvesting",
+      "Transporting"
+    ],
+    "Set": [
+      "EBP01"
+    ],
+    "Power": "200",
+    "Strike": "1",
+    "Rarity": "",
+    "isToken": false
+  },
+  "EBP01-083": {
+    "id": "EBP01-083",
+    "face": {
+      "front": {
+        "name": "Vanwyrm – Marauder of the Skies",
+        "type": "Normal Pal",
+        "cost": 4,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-083.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Vanwyrm – Marauder of the Skies",
+    "type": "Normal Pal",
+    "cost": 4,
+    "Color": [
+      "Purple"
+    ],
+    "CardType": [
+      "Fire",
+      "Dark"
+    ],
+    "Aptitude": [
+      "Kindling",
+      "Transporting"
+    ],
+    "Set": [
+      "EBP01"
+    ],
+    "Power": "400",
+    "Strike": "2",
+    "Rarity": "",
+    "isToken": false
+  },
+  "EBP01-084": {
+    "id": "EBP01-084",
+    "face": {
+      "front": {
+        "name": "Menasting – Darkness-Dwelling Scorpion",
+        "type": "Lucky Pal",
+        "cost": 5,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-084.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Menasting – Darkness-Dwelling Scorpion",
+    "type": "Lucky Pal",
+    "cost": 5,
+    "Color": [
+      "Purple"
+    ],
+    "CardType": [
+      "Dark",
+      "Ground"
+    ],
+    "Aptitude": [
+      "Collecting"
+    ],
+    "Set": [
+      "EBP01"
+    ],
+    "Power": "700",
+    "Strike": "2",
+    "Rarity": "U",
+    "isToken": false
+  },
+  "EBP01-085": {
+    "id": "EBP01-085",
+    "face": {
+      "front": {
+        "name": "Maraith – Twilight Messenger",
+        "type": "Normal Pal",
+        "cost": 6,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-085.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Maraith – Twilight Messenger",
+    "type": "Normal Pal",
+    "cost": 6,
+    "Color": [
+      "Purple"
+    ],
+    "CardType": [
+      "Dark"
+    ],
+    "Aptitude": [
+      "Harvesting",
+      "Collecting"
+    ],
+    "Set": [
+      "EBP01"
+    ],
+    "Power": "900",
+    "Strike": "2",
+    "Rarity": "",
+    "isToken": false
+  },
+  "EBP01-087": {
+    "id": "EBP01-087",
+    "face": {
+      "front": {
+        "name": "Loupmoon – Glinting Moonlight",
+        "type": "Normal Pal",
+        "cost": 4,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-087.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Loupmoon – Glinting Moonlight",
+    "type": "Normal Pal",
+    "cost": 4,
+    "Color": [
+      "Purple"
+    ],
+    "CardType": [
+      "Dark"
+    ],
+    "Aptitude": [
+      "Crafting"
+    ],
+    "Set": [
+      "EBP01"
+    ],
+    "Power": "500",
+    "Strike": "2",
+    "Rarity": "",
+    "isToken": false
+  },
+  "EBP01-088": {
+    "id": "EBP01-088",
+    "face": {
+      "front": {
+        "name": "Placed Lamp",
+        "type": "Structure",
+        "cost": 4,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-088.png",
+        "isHorizontal": true
+      }
+    },
+    "name": "Placed Lamp",
+    "type": "Structure",
+    "cost": 4,
+    "Color": [
+      "Purple"
+    ],
+    "CardType": [],
+    "Aptitude": [],
+    "Set": [
+      "EBP01"
+    ],
+    "Power": "1300",
+    "Strike": "",
+    "Rarity": "",
+    "isToken": false
+  },
+  "EBP01-089": {
+    "id": "EBP01-089",
+    "face": {
+      "front": {
+        "name": "Shoddy Bed",
+        "type": "Structure",
+        "cost": 2,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-089.png",
+        "isHorizontal": true
+      }
+    },
+    "name": "Shoddy Bed",
+    "type": "Structure",
+    "cost": 2,
+    "Color": [
+      "Purple"
+    ],
+    "CardType": [],
+    "Aptitude": [],
+    "Set": [
+      "EBP01"
+    ],
+    "Power": "700",
+    "Strike": "",
+    "Rarity": "U",
+    "isToken": false
+  },
+  "EBP01-092": {
+    "id": "EBP01-092",
+    "face": {
+      "front": {
+        "name": "Display Cage",
+        "type": "Structure",
+        "cost": 3,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-092.png",
+        "isHorizontal": true
+      }
+    },
+    "name": "Display Cage",
+    "type": "Structure",
+    "cost": 3,
+    "Color": [
+      "Purple"
+    ],
+    "CardType": [],
+    "Aptitude": [],
+    "Set": [
+      "EBP01"
+    ],
+    "Power": "1300",
+    "Strike": "",
+    "Rarity": "",
+    "isToken": false
+  },
+  "EBP01-093": {
+    "id": "EBP01-093",
+    "face": {
+      "front": {
+        "name": "Butchers Knife",
+        "type": "Gear",
+        "cost": 2,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-093.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Butchers Knife",
+    "type": "Gear",
+    "cost": 2,
+    "Color": [
+      "Purple"
+    ],
+    "CardType": [],
+    "Aptitude": [],
+    "Set": [
+      "EBP01"
+    ],
+    "Power": "",
+    "Strike": "",
+    "Rarity": "",
+    "isToken": false
+  },
   "EBP01-095SP": {
     "id": "EBP01-095SP",
     "face": {
@@ -1999,6 +2527,122 @@
     "Power": "",
     "Strike": "",
     "Rarity": "SP",
+    "isToken": false
+  },
+  "EBP01-096": {
+    "id": "EBP01-096",
+    "face": {
+      "front": {
+        "name": "Dark Cannon",
+        "type": "Event",
+        "cost": 4,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-096.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Dark Cannon",
+    "type": "Event",
+    "cost": 4,
+    "Color": [
+      "Purple"
+    ],
+    "CardType": [],
+    "Aptitude": [],
+    "Set": [
+      "EBP01"
+    ],
+    "Power": "",
+    "Strike": "",
+    "Rarity": "",
+    "isToken": false
+  },
+  "EBP01-097": {
+    "id": "EBP01-097",
+    "face": {
+      "front": {
+        "name": "Black Marketeer",
+        "type": "Event",
+        "cost": 5,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-097.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Black Marketeer",
+    "type": "Event",
+    "cost": 5,
+    "Color": [
+      "Purple"
+    ],
+    "CardType": [],
+    "Aptitude": [],
+    "Set": [
+      "EBP01"
+    ],
+    "Power": "",
+    "Strike": "",
+    "Rarity": "",
+    "isToken": false
+  },
+  "EBP01-098": {
+    "id": "EBP01-098",
+    "face": {
+      "front": {
+        "name": "Elphidran – Gentle Radiance",
+        "type": "Normal Pal",
+        "cost": 4,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-098.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Elphidran – Gentle Radiance",
+    "type": "Normal Pal",
+    "cost": 4,
+    "Color": [
+      "Colorless"
+    ],
+    "CardType": [
+      "Dragon"
+    ],
+    "Aptitude": [
+      "Collecting"
+    ],
+    "Set": [
+      "EBP01"
+    ],
+    "Power": "600",
+    "Strike": "2",
+    "Rarity": "",
+    "isToken": false
+  },
+  "EBP01-099": {
+    "id": "EBP01-099",
+    "face": {
+      "front": {
+        "name": "Direhowl – Proud Fang",
+        "type": "Normal Pal",
+        "cost": 3,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-099.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Direhowl – Proud Fang",
+    "type": "Normal Pal",
+    "cost": 3,
+    "Color": [
+      "Colorless"
+    ],
+    "CardType": [
+      "Neutral"
+    ],
+    "Aptitude": [
+      "Harvesting"
+    ],
+    "Set": [
+      "EBP01"
+    ],
+    "Power": "500",
+    "Strike": "1",
+    "Rarity": "C",
     "isToken": false
   },
   "ESOUL-001": {
