@@ -1,37 +1,4 @@
 {
-  "EB01-026SP": {
-    "id": "EB01-026SP",
-    "face": {
-      "front": {
-        "name": "Relaxaurus – Hungry Gunner",
-        "type": "Normal Pal",
-        "cost": 7,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/EBP01/EBP01-026SP.png",
-        "isHorizontal": false
-      }
-    },
-    "name": "Relaxaurus – Hungry Gunner",
-    "type": "Normal Pal",
-    "cost": 7,
-    "Color": [
-      "Blue"
-    ],
-    "CardType": [
-      "Dragon",
-      "Water"
-    ],
-    "Aptitude": [
-      "Harvesting",
-      "Transporting"
-    ],
-    "Set": [
-      "EBP01"
-    ],
-    "Power": "1200",
-    "Strike": "3",
-    "Rarity": "SP",
-    "isToken": false
-  },
   "EBP01-001SSP": {
     "id": "EBP01-001SSP",
     "face": {
@@ -756,6 +723,39 @@
     "Rarity": "SP",
     "isToken": false
   },
+  "EBP01-026SP": {
+    "id": "EBP01-026SP",
+    "face": {
+      "front": {
+        "name": "Relaxaurus – Hungry Gunner",
+        "type": "Normal Pal",
+        "cost": 7,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/EBP01/EBP01-026SP.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Relaxaurus – Hungry Gunner",
+    "type": "Normal Pal",
+    "cost": 7,
+    "Color": [
+      "Blue"
+    ],
+    "CardType": [
+      "Dragon",
+      "Water"
+    ],
+    "Aptitude": [
+      "Harvesting",
+      "Transporting"
+    ],
+    "Set": [
+      "EBP01"
+    ],
+    "Power": "1200",
+    "Strike": "3",
+    "Rarity": "SP",
+    "isToken": false
+  },
   "EBP01-027SP": {
     "id": "EBP01-027SP",
     "face": {
@@ -855,6 +855,39 @@
     "Rarity": "R",
     "isToken": false
   },
+  "EBP01-030": {
+    "id": "EBP01-030",
+    "face": {
+      "front": {
+        "name": "Froscanon – Iceblock Glutton",
+        "type": "Normal Pal",
+        "cost": 8,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-030.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Froscanon – Iceblock Glutton",
+    "type": "Normal Pal",
+    "cost": 8,
+    "Color": [
+      "Blue"
+    ],
+    "CardType": [
+      "Water",
+      "Ground"
+    ],
+    "Aptitude": [
+      "Cooling",
+      "Harvesting"
+    ],
+    "Set": [
+      "EBP01"
+    ],
+    "Power": "400",
+    "Strike": "2",
+    "Rarity": "C",
+    "isToken": false
+  },
   "EBP01-032": {
     "id": "EBP01-032",
     "face": {
@@ -886,6 +919,40 @@
     "Power": "200",
     "Strike": "1",
     "Rarity": "U",
+    "isToken": false
+  },
+  "EBP01-033": {
+    "id": "EBP01-033",
+    "face": {
+      "front": {
+        "name": "Wumpo – Snow Mountain Watchman",
+        "type": "Lucky Pal",
+        "cost": 7,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-033.png",
+        "isHorizontal": true
+      }
+    },
+    "name": "Wumpo – Snow Mountain Watchman",
+    "type": "Lucky Pal",
+    "cost": 7,
+    "Color": [
+      "Blue"
+    ],
+    "CardType": [
+      "Ice"
+    ],
+    "Aptitude": [
+      "Collecting",
+      "Cooling",
+      "Crafting",
+      "Transporting"
+    ],
+    "Set": [
+      "EBP01"
+    ],
+    "Power": "1500",
+    "Strike": "3",
+    "Rarity": "C",
     "isToken": false
   },
   "EBP01-034": {
@@ -1018,6 +1085,143 @@
     "Rarity": "C",
     "isToken": false
   },
+  "EBP01-039": {
+    "id": "EBP01-039",
+    "face": {
+      "front": {
+        "name": "Antique Curtain",
+        "type": "Structure",
+        "cost": 5,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-039.png",
+        "isHorizontal": true
+      }
+    },
+    "name": "Antique Curtain",
+    "type": "Structure",
+    "cost": 5,
+    "Color": [
+      "Blue"
+    ],
+    "CardType": [],
+    "Aptitude": [],
+    "Set": [
+      "EBP01"
+    ],
+    "Power": "1400",
+    "Strike": "",
+    "Rarity": "C",
+    "isToken": false
+  },
+  "EBP01-041": {
+    "id": "EBP01-041",
+    "face": {
+      "front": {
+        "name": "Hot Spring",
+        "type": "Structure",
+        "cost": 3,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-041.png",
+        "isHorizontal": true
+      }
+    },
+    "name": "Hot Spring",
+    "type": "Structure",
+    "cost": 3,
+    "Color": [
+      "Blue"
+    ],
+    "CardType": [],
+    "Aptitude": [],
+    "Set": [
+      "EBP01"
+    ],
+    "Power": "1000",
+    "Strike": "",
+    "Rarity": "C",
+    "isToken": false
+  },
+  "EBP01-042": {
+    "id": "EBP01-042",
+    "face": {
+      "front": {
+        "name": "Antique Mirror",
+        "type": "Structure",
+        "cost": 1,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-042.png",
+        "isHorizontal": true
+      }
+    },
+    "name": "Antique Mirror",
+    "type": "Structure",
+    "cost": 1,
+    "Color": [
+      "Blue"
+    ],
+    "CardType": [],
+    "Aptitude": [],
+    "Set": [
+      "EBP01"
+    ],
+    "Power": "1000",
+    "Strike": "",
+    "Rarity": "C",
+    "isToken": false
+  },
+  "EBP01-043": {
+    "id": "EBP01-043",
+    "face": {
+      "front": {
+        "name": "Sphere Crafting Table",
+        "type": "Structure",
+        "cost": 2,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-043.png",
+        "isHorizontal": true
+      }
+    },
+    "name": "Sphere Crafting Table",
+    "type": "Structure",
+    "cost": 2,
+    "Color": [
+      "Blue"
+    ],
+    "CardType": [],
+    "Aptitude": [
+      "Crafting"
+    ],
+    "Set": [
+      "EBP01"
+    ],
+    "Power": "1000",
+    "Strike": "",
+    "Rarity": "C",
+    "isToken": false
+  },
+  "EBP01-044": {
+    "id": "EBP01-044",
+    "face": {
+      "front": {
+        "name": "Pengullet Rocket Launcher",
+        "type": "Gear",
+        "cost": 4,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-044.png",
+        "isHorizontal": true
+      }
+    },
+    "name": "Pengullet Rocket Launcher",
+    "type": "Gear",
+    "cost": 4,
+    "Color": [
+      "Blue"
+    ],
+    "CardType": [],
+    "Aptitude": [],
+    "Set": [
+      "EBP01"
+    ],
+    "Power": "",
+    "Strike": "",
+    "Rarity": "C",
+    "isToken": false
+  },
   "EBP01-046SP": {
     "id": "EBP01-046SP",
     "face": {
@@ -1043,6 +1247,60 @@
     "Power": "",
     "Strike": "",
     "Rarity": "SP",
+    "isToken": false
+  },
+  "EBP01-047": {
+    "id": "EBP01-047",
+    "face": {
+      "front": {
+        "name": "Pal Sphere",
+        "type": "Event",
+        "cost": 4,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-047.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Pal Sphere",
+    "type": "Event",
+    "cost": 4,
+    "Color": [
+      "Blue"
+    ],
+    "CardType": [],
+    "Aptitude": [],
+    "Set": [
+      "EBP01"
+    ],
+    "Power": "",
+    "Strike": "",
+    "Rarity": "C",
+    "isToken": false
+  },
+  "EBP01-048": {
+    "id": "EBP01-048",
+    "face": {
+      "front": {
+        "name": "Aurora's Guidance",
+        "type": "Event",
+        "cost": 2,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-048.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Aurora's Guidance",
+    "type": "Event",
+    "cost": 2,
+    "Color": [
+      "Blue"
+    ],
+    "CardType": [],
+    "Aptitude": [],
+    "Set": [
+      "EBP01"
+    ],
+    "Power": "",
+    "Strike": "",
+    "Rarity": "C",
     "isToken": false
   },
   "EBP01-070SP": {
