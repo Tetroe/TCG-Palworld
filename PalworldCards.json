@@ -923,14 +923,14 @@
     "id": "EBP01-031",
     "face": {
       "front": {
-        "name": "Penking – Great Warrior of the Open Sea",
+        "name": "Penking – Mighty Warrior of the Deep",
         "type": "Normal Pal",
         "cost": 5,
         "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-031.png",
         "isHorizontal": false
       }
     },
-    "name": "Penking – Great Warrior of the Open Sea",
+    "name": "Penking – Mighty Warrior of the Deep",
     "type": "Normal Pal",
     "cost": 5,
     "Color": [
