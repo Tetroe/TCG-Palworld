@@ -2682,6 +2682,33 @@
     "Rarity": "",
     "isToken": false
   },
+  "EBP01-094": {
+    "id": "EBP01-094",
+    "face": {
+      "front": {
+        "name": "Daedream's Necklace",
+        "type": "Gear",
+        "cost": 3,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-094.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Daedream's Necklace",
+    "type": "Gear",
+    "cost": 3,
+    "Color": [
+      "Purple"
+    ],
+    "CardType": [],
+    "Aptitude": [],
+    "Set": [
+      "EBP01"
+    ],
+    "Power": "",
+    "Strike": "",
+    "Rarity": "",
+    "isToken": false
+  },
   "EBP01-095SP": {
     "id": "EBP01-095SP",
     "face": {
