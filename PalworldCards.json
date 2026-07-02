@@ -124,14 +124,14 @@
     "Rarity": "C",
     "isToken": false
   },
-  "EBP01-005SR": {
-    "id": "EBP01-005SR",
+  "EBP01-005SSR": {
+    "id": "EBP01-005SSR",
     "face": {
       "front": {
         "name": "Reptyro – Ore Gorger",
         "type": "Normal Pal",
         "cost": 8,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/EBP01/EBP01-005SR.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/EBP01/EBP01-005SSR.png",
         "isHorizontal": false
       }
     },
@@ -154,7 +154,7 @@
     ],
     "Power": "1500",
     "Strike": "3",
-    "Rarity": "SR",
+    "Rarity": "SSR",
     "isToken": false
   },
   "EBP01-006": {
