@@ -1605,6 +1605,41 @@
     "Rarity": "C",
     "isToken": false
   },
+  "EBP01-054": {
+    "id": "EBP01-054",
+    "face": {
+      "front": {
+        "name": "Warsect – Iron Willed",
+        "type": "Normal Pal",
+        "cost": 8,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-054.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Warsect – Iron Willed",
+    "type": "Normal Pal",
+    "cost": 8,
+    "Color": [
+      "Green"
+    ],
+    "CardType": [
+      "Grass",
+      "Ground"
+    ],
+    "Aptitude": [
+      "Harvesting",
+      "Crafting",
+      "Transporting",
+      "Collecting"
+    ],
+    "Set": [
+      "EBP01"
+    ],
+    "Power": "1500",
+    "Strike": "3",
+    "Rarity": "U",
+    "isToken": false
+  },
   "EBP01-055": {
     "id": "EBP01-055",
     "face": {
