@@ -2655,6 +2655,33 @@
     "Rarity": "U",
     "isToken": false
   },
+  "EBP01-091": {
+    "id": "EBP01-091",
+    "face": {
+      "front": {
+        "name": "Wooden Wall",
+        "type": "Structure",
+        "cost": 3,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-091.png",
+        "isHorizontal": true
+      }
+    },
+    "name": "Wooden Wall",
+    "type": "Structure",
+    "cost": 3,
+    "Color": [
+      "Purple"
+    ],
+    "CardType": [],
+    "Aptitude": [],
+    "Set": [
+      "EBP01"
+    ],
+    "Power": "300",
+    "Strike": "",
+    "Rarity": "",
+    "isToken": false
+  },
   "EBP01-092": {
     "id": "EBP01-092",
     "face": {
