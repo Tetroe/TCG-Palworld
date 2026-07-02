@@ -124,14 +124,14 @@
     "Rarity": "C",
     "isToken": false
   },
-  "EBP01-005": {
-    "id": "EBP01-005",
+  "EBP01-005SR": {
+    "id": "EBP01-005SR",
     "face": {
       "front": {
         "name": "Reptyro – Ore Gorger",
         "type": "Normal Pal",
         "cost": 8,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-005.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/EBP01/EBP01-005SR.png",
         "isHorizontal": false
       }
     },
@@ -147,14 +147,14 @@
     ],
     "Aptitude": [
       "Collecting",
-      "Harvesting"
+      "Kindling"
     ],
     "Set": [
       "EBP01"
     ],
     "Power": "1500",
     "Strike": "3",
-    "Rarity": "C",
+    "Rarity": "SR",
     "isToken": false
   },
   "EBP01-006": {
@@ -445,8 +445,8 @@
     "Rarity": "C",
     "isToken": false
   },
-  "EBP01-015": {
-    "id": "EBP01-015",
+  "EBP01-015SP": {
+    "id": "EBP01-015SP",
     "face": {
       "front": {
         "name": "Mounted Machine Gun",
@@ -471,7 +471,7 @@
     ],
     "Power": "1000",
     "Strike": "",
-    "Rarity": "R",
+    "Rarity": "SP",
     "isToken": false
   },
   "EBP01-016": {
@@ -481,7 +481,7 @@
         "name": "Primitive Furnace",
         "type": "Structure",
         "cost": 2,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-016.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/EBP01/EBP01-016.png",
         "isHorizontal": true
       }
     },
@@ -939,8 +939,7 @@
     "CardType": [
       "Water"
     ],
-    "Aptitude": [
-    ],
+    "Aptitude": [],
     "Set": [
       "EBP01"
     ],
@@ -1100,8 +1099,7 @@
     "CardType": [
       "Water"
     ],
-    "Aptitude": [
-    ],
+    "Aptitude": [],
     "Set": [
       "EBP01"
     ],
@@ -1919,9 +1917,7 @@
       "Green"
     ],
     "CardType": [],
-    "Aptitude": [
-      "Farming"
-    ],
+    "Aptitude": [],
     "Set": [
       "EBP01"
     ],
@@ -2374,7 +2370,7 @@
     "Rarity": "",
     "isToken": false
   },
-    "EBP01-080": {
+  "EBP01-080": {
     "id": "EBP01-080",
     "face": {
       "front": {
