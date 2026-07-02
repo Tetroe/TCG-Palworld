@@ -2601,6 +2601,37 @@
     "Rarity": "",
     "isToken": false
   },
+  "EBP01-086": {
+    "id": "EBP01-086",
+    "face": {
+      "front": {
+        "name": "Nox – The Silent One",
+        "type": "Normal Pal",
+        "cost": 3,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-086.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Nox – The Silent One",
+    "type": "Normal Pal",
+    "cost": 3,
+    "Color": [
+      "Purple"
+    ],
+    "CardType": [
+      "Dark"
+    ],
+    "Aptitude": [
+      "Harvesting"
+    ],
+    "Set": [
+      "EBP01"
+    ],
+    "Power": "500",
+    "Strike": "1",
+    "Rarity": "",
+    "isToken": false
+  },
   "EBP01-087": {
     "id": "EBP01-087",
     "face": {
@@ -2684,6 +2715,35 @@
     "Power": "700",
     "Strike": "",
     "Rarity": "U",
+    "isToken": false
+  },
+  "EBP01-090": {
+    "id": "EBP01-090",
+    "face": {
+      "front": {
+        "name": "Medieval Medicine Workbench",
+        "type": "Structure",
+        "cost": 4,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-090.png",
+        "isHorizontal": true
+      }
+    },
+    "name": "Medieval Medicine Workbench",
+    "type": "Structure",
+    "cost": 4,
+    "Color": [
+      "Purple"
+    ],
+    "CardType": [],
+    "Aptitude": [
+      "Crafting"
+    ],
+    "Set": [
+      "EBP01"
+    ],
+    "Power": "1300",
+    "Strike": "",
+    "Rarity": "",
     "isToken": false
   },
   "EBP01-091": {
@@ -2935,6 +2995,33 @@
     "Power": "500",
     "Strike": "1",
     "Rarity": "C",
+    "isToken": false
+  },
+  "EBP01-100": {
+    "id": "EBP01-100",
+    "face": {
+      "front": {
+        "name": "The Adventure Begins",
+        "type": "Event",
+        "cost": 2,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-100.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "The Adventure Begins",
+    "type": "Event",
+    "cost": 2,
+    "Color": [
+      "Colorless"
+    ],
+    "CardType": [],
+    "Aptitude": [],
+    "Set": [
+      "EBP01"
+    ],
+    "Power": "",
+    "Strike": "",
+    "Rarity": "",
     "isToken": false
   },
   "ESOUL-001": {
