@@ -1303,6 +1303,596 @@
     "Rarity": "C",
     "isToken": false
   },
+  "EBP01-049SSP": {
+    "id": "EBP01-049SSP",
+    "face": {
+      "front": {
+        "name": "Lyleen – Blessing of the Goddess",
+        "type": "Lucky Pal",
+        "cost": 7,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/EBP01/EBP01-049SSP.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Lyleen – Blessing of the Goddess",
+    "type": "Lucky Pal",
+    "cost": 7,
+    "Color": [
+      "Green"
+    ],
+    "CardType": [
+      "Grass"
+    ],
+    "Aptitude": [
+      "Harvesting",
+      "Crafting"
+    ],
+    "Set": [
+      "EBP01"
+    ],
+    "Power": "900",
+    "Strike": "3",
+    "Rarity": "SSP",
+    "isToken": false
+  },
+  "EBP01-050SP": {
+    "id": "EBP01-050SP",
+    "face": {
+      "front": {
+        "name": "Digtoise – Seismic Drillback",
+        "type": "Lucky Pal",
+        "cost": 6,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/EBP01/EBP01-050SP.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Digtoise – Seismic Drillback",
+    "type": "Lucky Pal",
+    "cost": 6,
+    "Color": [
+      "Green"
+    ],
+    "CardType": [
+      "Ground"
+    ],
+    "Aptitude": [
+      "Collecting"
+    ],
+    "Set": [
+      "EBP01"
+    ],
+    "Power": "900",
+    "Strike": "2",
+    "Rarity": "SP",
+    "isToken": false
+  },
+  "EBP01-051SP": {
+    "id": "EBP01-051SP",
+    "face": {
+      "front": {
+        "name": "Petallia – Sweet Blessings",
+        "type": "Normal Pal",
+        "cost": 6,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/EBP01/EBP01-051SP.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Petallia – Sweet Blessings",
+    "type": "Normal Pal",
+    "cost": 6,
+    "Color": [
+      "Green"
+    ],
+    "CardType": [
+      "Grass"
+    ],
+    "Aptitude": [
+      "Harvesting",
+      "Crafting",
+      "Transporting"
+    ],
+    "Set": [
+      "EBP01"
+    ],
+    "Power": "700",
+    "Strike": "2",
+    "Rarity": "SP",
+    "isToken": false
+  },
+  "EBP01-052": {
+    "id": "EBP01-052",
+    "face": {
+      "front": {
+        "name": "Rushroar – Reckless Destruction",
+        "type": "Normal Pal",
+        "cost": 2,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-052.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Rushroar – Reckless Destruction",
+    "type": "Normal Pal",
+    "cost": 2,
+    "Color": [
+      "Green"
+    ],
+    "CardType": [
+      "Ground"
+    ],
+    "Aptitude": [
+      "Collecting"
+    ],
+    "Set": [
+      "EBP01"
+    ],
+    "Power": "200",
+    "Strike": "1",
+    "Rarity": "C",
+    "isToken": false
+  },
+  "EBP01-053": {
+    "id": "EBP01-053",
+    "face": {
+      "front": {
+        "name": "Queenbeena – Queen of the Flower Garden",
+        "type": "Lucky Pal",
+        "cost": 5,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-053.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Queenbeena – Queen of the Flower Garden",
+    "type": "Lucky Pal",
+    "cost": 5,
+    "Color": [
+      "Green"
+    ],
+    "CardType": [
+      "Grass"
+    ],
+    "Aptitude": [
+      "Collecting",
+      "Farming"
+    ],
+    "Set": [
+      "EBP01"
+    ],
+    "Power": "700",
+    "Strike": "2",
+    "Rarity": "C",
+    "isToken": false
+  },
+  "EBP01-055": {
+    "id": "EBP01-055",
+    "face": {
+      "front": {
+        "name": "Violetta – Charming Star",
+        "type": "Lucky Pal",
+        "cost": 8,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-055.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Violetta – Charming Star",
+    "type": "Lucky Pal",
+    "cost": 8,
+    "Color": [
+      "Green"
+    ],
+    "CardType": [
+      "Grass"
+    ],
+    "Aptitude": [
+      "Farming",
+      "Transporting"
+    ],
+    "Set": [
+      "EBP01"
+    ],
+    "Power": "1500",
+    "Strike": "3",
+    "Rarity": "C",
+    "isToken": false
+  },
+  "EBP01-056": {
+    "id": "EBP01-056",
+    "face": {
+      "front": {
+        "name": "Lifmunk – Promising Newbie",
+        "type": "Normal Pal",
+        "cost": 3,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-056.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Lifmunk – Promising Newbie",
+    "type": "Normal Pal",
+    "cost": 3,
+    "Color": [
+      "Green"
+    ],
+    "CardType": [
+      "Grass"
+    ],
+    "Aptitude": [
+      "Harvesting",
+      "Crafting",
+      "Collecting"
+    ],
+    "Set": [
+      "EBP01"
+    ],
+    "Power": "500",
+    "Strike": "1",
+    "Rarity": "C",
+    "isToken": false
+  },
+  "EBP01-057": {
+    "id": "EBP01-057",
+    "face": {
+      "front": {
+        "name": "Dumud – Mellow Bounty",
+        "type": "Normal Pal",
+        "cost": 4,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-057.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Dumud – Mellow Bounty",
+    "type": "Normal Pal",
+    "cost": 4,
+    "Color": [
+      "Green"
+    ],
+    "CardType": [
+      "Water",
+      "Ground"
+    ],
+    "Aptitude": [
+      "Harvesting",
+      "Collecting",
+      "Transporting",
+      "Farming"
+    ],
+    "Set": [
+      "EBP01"
+    ],
+    "Power": "500",
+    "Strike": "2",
+    "Rarity": "U",
+    "isToken": false
+  },
+  "EBP01-058": {
+    "id": "EBP01-058",
+    "face": {
+      "front": {
+        "name": "Gumoss – Curious Sprout",
+        "type": "Normal Pal",
+        "cost": 4,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-058.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Gumoss – Curious Sprout",
+    "type": "Normal Pal",
+    "cost": 4,
+    "Color": [
+      "Green"
+    ],
+    "CardType": [
+      "Ground",
+      "Grass"
+    ],
+    "Aptitude": [
+      "Harvesting"
+    ],
+    "Set": [
+      "EBP01"
+    ],
+    "Power": "600",
+    "Strike": "2",
+    "Rarity": "U",
+    "isToken": false
+  },
+  "EBP01-059": {
+    "id": "EBP01-059",
+    "face": {
+      "front": {
+        "name": "Digtoise – Keen Needleback",
+        "type": "Normal Pal",
+        "cost": 5,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-059.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Digtoise – Keen Needleback",
+    "type": "Normal Pal",
+    "cost": 5,
+    "Color": [
+      "Green"
+    ],
+    "CardType": [
+      "Ground"
+    ],
+    "Aptitude": [
+      "Collecting"
+    ],
+    "Set": [
+      "EBP01"
+    ],
+    "Power": "800",
+    "Strike": "2",
+    "Rarity": "U",
+    "isToken": false
+  },
+  "EBP01-060": {
+    "id": "EBP01-060",
+    "face": {
+      "front": {
+        "name": "Tanzee – Cheerful Worker",
+        "type": "Normal Pal",
+        "cost": 2,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-060.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Tanzee – Cheerful Worker",
+    "type": "Normal Pal",
+    "cost": 2,
+    "Color": [
+      "Green"
+    ],
+    "CardType": [
+      "Grass"
+    ],
+    "Aptitude": [
+      "Harvesting",
+      "Crafting",
+      "Collecting",
+      "Transporting"
+    ],
+    "Set": [
+      "EBP01"
+    ],
+    "Power": "200",
+    "Strike": "1",
+    "Rarity": "C",
+    "isToken": false
+  },
+  "EBP01-061": {
+    "id": "EBP01-061",
+    "face": {
+      "front": {
+        "name": "Beegarde – Knight of the Flower Garden",
+        "type": "Normal Pal",
+        "cost": 3,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-061.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Beegarde – Knight of the Flower Garden",
+    "type": "Normal Pal",
+    "cost": 3,
+    "Color": [
+      "Green"
+    ],
+    "CardType": [
+      "Grass"
+    ],
+    "Aptitude": [
+      "Harvesting",
+      "Collecting",
+      "Transporting",
+      "Farming"
+    ],
+    "Set": [
+      "EBP01"
+    ],
+    "Power": "400",
+    "Strike": "1",
+    "Rarity": "C",
+    "isToken": false
+  },
+  "EBP01-062": {
+    "id": "EBP01-062",
+    "face": {
+      "front": {
+        "name": "Wumpo Botan – Tropical Sentinel",
+        "type": "Normal Pal",
+        "cost": 7,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-062.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Wumpo Botan – Tropical Sentinel",
+    "type": "Normal Pal",
+    "cost": 7,
+    "Color": [
+      "Green"
+    ],
+    "CardType": [
+      "Grass"
+    ],
+    "Aptitude": [
+      "Harvesting",
+      "Crafting",
+      "Collecting",
+      "Transporting"
+    ],
+    "Set": [
+      "EBP01"
+    ],
+    "Power": "1200",
+    "Strike": "3",
+    "Rarity": "C",
+    "isToken": false
+  },
+  "EBP01-063": {
+    "id": "EBP01-063",
+    "face": {
+      "front": {
+        "name": "Breeding Ranch",
+        "type": "Structure",
+        "cost": 3,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-063.png",
+        "isHorizontal": true
+      }
+    },
+    "name": "Breeding Ranch",
+    "type": "Structure",
+    "cost": 3,
+    "Color": [
+      "Green"
+    ],
+    "CardType": [],
+    "Aptitude": [
+      "Farming"
+    ],
+    "Set": [
+      "EBP01"
+    ],
+    "Power": "1100",
+    "Strike": "",
+    "Rarity": "C",
+    "isToken": false
+  },
+  "EBP01-065": {
+    "id": "EBP01-065",
+    "face": {
+      "front": {
+        "name": "Feed Box",
+        "type": "Structure",
+        "cost": 2,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-065.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Feed Box",
+    "type": "Structure",
+    "cost": 2,
+    "Color": [
+      "Green"
+    ],
+    "CardType": [],
+    "Aptitude": [],
+    "Set": [
+      "EBP01"
+    ],
+    "Power": "900",
+    "Strike": "",
+    "Rarity": "C",
+    "isToken": false
+  },
+  "EBP01-066": {
+    "id": "EBP01-066",
+    "face": {
+      "front": {
+        "name": "Ranch",
+        "type": "Structure",
+        "cost": 2,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-066.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Ranch",
+    "type": "Structure",
+    "cost": 2,
+    "Color": [
+      "Green"
+    ],
+    "CardType": [],
+    "Aptitude": [],
+    "Set": [
+      "EBP01"
+    ],
+    "Power": "800",
+    "Strike": "",
+    "Rarity": "C",
+    "isToken": false
+  },
+  "EBP01-067": {
+    "id": "EBP01-067",
+    "face": {
+      "front": {
+        "name": "No Pal's Sign",
+        "type": "Structure",
+        "cost": 5,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-067.png",
+        "isHorizontal": true
+      }
+    },
+    "name": "No Pal's Sign",
+    "type": "Structure",
+    "cost": 5,
+    "Color": [
+      "Green"
+    ],
+    "CardType": [],
+    "Aptitude": [
+      "Kindling"
+    ],
+    "Set": [
+      "EBP01"
+    ],
+    "Power": "1100",
+    "Strike": "",
+    "Rarity": "C",
+    "isToken": false
+  },
+  "EBP01-068": {
+    "id": "EBP01-068",
+    "face": {
+      "front": {
+        "name": "Digtoise's Headband",
+        "type": "Gear",
+        "cost": 3,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-068.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Digtoise's Headband",
+    "type": "Gear",
+    "cost": 3,
+    "Color": [
+      "Green"
+    ],
+    "CardType": [],
+    "Aptitude": [],
+    "Set": [
+      "EBP01"
+    ],
+    "Power": "",
+    "Strike": "",
+    "Rarity": "C",
+    "isToken": false
+  },
+  "EBP01-069": {
+    "id": "EBP01-069",
+    "face": {
+      "front": {
+        "name": "Farming Hat",
+        "type": "Gear",
+        "cost": 3,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-069.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Farming Hat",
+    "type": "Gear",
+    "cost": 3,
+    "Color": [
+      "Green"
+    ],
+    "CardType": [],
+    "Aptitude": [],
+    "Set": [
+      "EBP01"
+    ],
+    "Power": "",
+    "Strike": "",
+    "Rarity": "C",
+    "isToken": false
+  },
   "EBP01-070SP": {
     "id": "EBP01-070SP",
     "face": {
@@ -1328,6 +1918,60 @@
     "Power": "",
     "Strike": "",
     "Rarity": "SP",
+    "isToken": false
+  },
+  "EBP01-071": {
+    "id": "EBP01-071",
+    "face": {
+      "front": {
+        "name": "Found an Egg!",
+        "type": "Event",
+        "cost": 2,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-071.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Found an Egg!",
+    "type": "Event",
+    "cost": 2,
+    "Color": [
+      "Green"
+    ],
+    "CardType": [],
+    "Aptitude": [],
+    "Set": [
+      "EBP01"
+    ],
+    "Power": "",
+    "Strike": "",
+    "Rarity": "C",
+    "isToken": false
+  },
+  "EBP01-072": {
+    "id": "EBP01-072",
+    "face": {
+      "front": {
+        "name": "Blessing of the Flower Spirit",
+        "type": "Event",
+        "cost": 3,
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-072.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Blessing of the Flower Spirit",
+    "type": "Event",
+    "cost": 3,
+    "Color": [
+      "Green"
+    ],
+    "CardType": [],
+    "Aptitude": [],
+    "Set": [
+      "EBP01"
+    ],
+    "Power": "",
+    "Strike": "",
+    "Rarity": "C",
     "isToken": false
   },
   "EBP01-095SP": {
