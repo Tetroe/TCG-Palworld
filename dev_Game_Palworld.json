@@ -279,7 +279,8 @@
                       "overflow": "hidden",
                       "background": "transparent",
                       "border": "none",
-                      "cursor": "pointer"
+                      "cursor": "pointer",
+                      "borderRadius": "2.5vh"
                     }
                   },
                   "onClick": "game.data.Resources.isNight = !game.data.Resources.isNight; chatLog('has set the time to ' + (game.data.Resources.isNight ? 'night' : 'day'))",
