@@ -280,7 +280,7 @@
                       "background": "transparent",
                       "border": "none",
                       "cursor": "pointer",
-                      "borderRadius": "2.5vh"
+                      "borderRadius": "2.5vh 2.5vh 0 0"
                     }
                   },
                   "onClick": "game.data.Resources.isNight = !game.data.Resources.isNight; chatLog('has set the time to ' + (game.data.Resources.isNight ? 'night' : 'day'))",
@@ -292,7 +292,6 @@
                         "style": {
                           "position": "absolute",
                           "top": "0",
-                          "left": "2.5vh",
                           "height": "5vh",
                           "width": "5vh",
                           "transition": "transform 0.5s ease-in-out",
