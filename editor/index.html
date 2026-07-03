@@ -1188,21 +1188,41 @@
       none: "Normal",
     };
 
+    function effectTemplateImages() {
+      return new Map(Array.from(document.querySelectorAll(".editor-token-buttons button[data-template] img"))
+        .map((image) => {
+          const button = image.closest("button[data-template]");
+
+          return [button.dataset.template, {
+            alt: image.alt || button.title || button.dataset.template,
+            src: image.getAttribute("src"),
+          }];
+        }));
+    }
+
     function renderEffect() {
       const effectText = editorEffect.value;
       const effectContent = card.querySelector(".card-effect > p");
       const effectIconPattern = /\{(\w+)\}/g;
+      const templateImages = effectTemplateImages();
       let textStart = 0;
       let match;
 
       effectContent.replaceChildren();
 
       while ((match = effectIconPattern.exec(effectText)) !== null) {
+        const template = match[0];
+        const templateImage = templateImages.get(template);
+
+        if (!templateImage) {
+          continue;
+        }
+
         effectContent.append(document.createTextNode(effectText.slice(textStart, match.index)));
 
         const icon = document.createElement("img");
-        icon.src = `images/effect_${match[1]}.png`;
-        icon.alt = match[1];
+        icon.src = templateImage.src;
+        icon.alt = templateImage.alt;
         effectContent.append(icon);
 
         textStart = effectIconPattern.lastIndex;
