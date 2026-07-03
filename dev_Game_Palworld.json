@@ -249,15 +249,14 @@
               "isNight": false
             },
             "events": {
-              "onOpponentUpdate": "if(game.data.DayNight.isNight != opponent.data.DayNight.isNight) { game.data.DayNight.isNight = opponent.data.DayNight.isNight; }"
+              "onOpponentUpdate": "game.data.DayNight.isNight = opponent.data.DayNight.isNight;"
             }
           },
           "Resources": {
             "type": "custom",
             "defaultValue": {
               "Materials": 0,
-              "Ingredients": 0,
-              "isNight": false
+              "Ingredients": 0
             },
             "blueprint": {
               "type": "div",
