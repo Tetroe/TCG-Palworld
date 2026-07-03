@@ -249,7 +249,7 @@
               "isNight": false
             },
             "events": {
-              "onOpponentUpdate": "game.data.DayNight.isNight = opponent.data.DayNight.isNight;"
+              "onOpponentUpdate": "if(game.data.DayNight.isNight != opponentGame.data.DayNight.isNight) { game.data.DayNight.isNight = opponentGame.data.DayNight.isNight; }"
             }
           },
           "Resources": {
