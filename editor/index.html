@@ -1162,6 +1162,7 @@
     const editorFlavor = document.querySelector("#editor-flavor");
     const editorSelectEffect = document.querySelector("#editor-select-effect");
     const editorSelectSpecial = document.querySelector("#editor-select-special");
+    const editorSelectElement = document.querySelector("#editor-select-element");
     const editorDownload = document.querySelector("#editor-download");
     const cardArtImage = document.querySelector(".card-art > img");
     const selectedElements = ["fire"];
@@ -1484,6 +1485,7 @@
 
     editorSelectEffect.addEventListener("click", handleTemplateClick);
     editorSelectSpecial.addEventListener("click", handleTemplateClick);
+    editorSelectElement.addEventListener("click", handleTemplateClick);
 
     editorDownload.addEventListener("click", async () => {
       editorDownload.disabled = true;
