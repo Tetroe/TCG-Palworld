@@ -819,14 +819,14 @@
     "Rarity": "SP",
     "isToken": false
   },
-  "EBP01-028": {
-    "id": "EBP01-028",
+  "EBP01-028SR": {
+    "id": "EBP01-028SR",
     "face": {
       "front": {
         "name": "Pengullet – Yearning for the Sky",
         "type": "Normal Pal",
         "cost": 4,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-028.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-028SR.png",
         "isHorizontal": false
       }
     },
@@ -851,7 +851,7 @@
     ],
     "Power": "600",
     "Strike": "2",
-    "Rarity": "R",
+    "Rarity": "SR",
     "isToken": false
   },
   "EBP01-029": {
@@ -1311,14 +1311,14 @@
     "Rarity": "C",
     "isToken": false
   },
-  "EBP01-044": {
-    "id": "EBP01-044",
+  "EBP01-044SR": {
+    "id": "EBP01-044SR",
     "face": {
       "front": {
         "name": "Pengullet Rocket Launcher",
         "type": "Gear",
         "cost": 4,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-044.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-044SR.png",
         "isHorizontal": false
       }
     },
@@ -1335,7 +1335,7 @@
     ],
     "Power": "",
     "Strike": "",
-    "Rarity": "C",
+    "Rarity": "SR",
     "isToken": false
   },
   "EBP01-045": {
