@@ -394,6 +394,17 @@
       margin: 0 0.08em;
     }
 
+    .card-effect img.effect-element-icon,
+    .card-effect img[src^="images/attr_"],
+    .card-effect img[src*="/images/attr_"] {
+      display: inline-block;
+      height: 1em;
+      margin: 0 0.16em;
+      transform: scale(1.5);
+      transform-origin: center;
+      vertical-align: -0.18em;
+    }
+
     .card-power {
       position: absolute;
       left: 335px;
@@ -1124,7 +1135,7 @@
           <div class="editor-token-buttons" id="editor-select-element" aria-label="Element templates">
             <button type="button" data-template="{type_ice}" title="Ice"><img src="images/attr_ice.png" alt="Ice" /></button>
             <button type="button" data-template="{type_dark}" title="Dark"><img src="images/attr_dark.png" alt="Dark" /></button>
-            <button type="button" data-template="{type_dragon}" title="Dragon"><img src="images/attr_dragon.png" alt="Dragon" /></button>
+            <button type="button" data-template="{type_dragon}" title="Dragon"><img src="images/attr_dragon.png" alt="Dragon" style="height:2em;" /></button>
             <button type="button" data-template="{type_earth}" title="Earth"><img src="images/attr_earth.png" alt="Earth" /></button>
             <button type="button" data-template="{type_leaf}" title="Leaf"><img src="images/attr_grass.png" alt="Leaf" /></button>
             <button type="button" data-template="{type_electric}" title="Electricity"><img src="images/attr_thunder.png" alt="Electricity" /></button>
@@ -1195,6 +1206,7 @@
 
           return [button.dataset.template, {
             alt: image.alt || button.title || button.dataset.template,
+            isElement: button.closest("#editor-select-element") !== null,
             src: image.getAttribute("src"),
           }];
         }));
@@ -1223,6 +1235,12 @@
         const icon = document.createElement("img");
         icon.src = templateImage.src;
         icon.alt = templateImage.alt;
+        icon.dataset.effectToken = template;
+
+        if (templateImage.isElement) {
+          icon.className = "effect-element-icon";
+        }
+
         effectContent.append(icon);
 
         textStart = effectIconPattern.lastIndex;
