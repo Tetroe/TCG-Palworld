@@ -167,6 +167,7 @@
           "Soul"
         ],
         "autoPlayFromHand": {
+          "Unlimited": "Base",
           "Normal Pal": "Base",
           "Lucky Pal": "Base",
           "Structure": "Base",
@@ -175,6 +176,10 @@
           "Soul": "Mana"
         },
         "autoPlayFromStack": {
+          "Unlimited": "Base",
+          "Normal Pal": "Base",
+          "Lucky Pal": "Base",
+          "Structure": "Base",
           "Gear": "Base",
           "Event": "Discard"
         },
