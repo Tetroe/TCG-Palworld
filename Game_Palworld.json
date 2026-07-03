@@ -53,6 +53,10 @@
             "category": "Lucky Pal",
             "min": 0,
             "max": 8
+          },
+          {
+            "category": "Unlimited",
+            "maxPerCard": 999
           }
         ]
       }
@@ -163,6 +167,7 @@
           "Soul"
         ],
         "autoPlayFromHand": {
+          "Unlimited": "Base",
           "Normal Pal": "Base",
           "Lucky Pal": "Base",
           "Structure": "Base",
@@ -171,6 +176,10 @@
           "Soul": "Mana"
         },
         "autoPlayFromStack": {
+          "Unlimited": "Base",
+          "Normal Pal": "Base",
+          "Lucky Pal": "Base",
+          "Structure": "Base",
           "Gear": "Base",
           "Event": "Discard"
         },
