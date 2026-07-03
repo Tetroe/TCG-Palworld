@@ -2887,14 +2887,14 @@
       "front": {
         "name": "Dark Cannon",
         "type": "Event",
-        "cost": 4,
+        "cost": 3,
         "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-096.png",
         "isHorizontal": false
       }
     },
     "name": "Dark Cannon",
     "type": "Event",
-    "cost": 4,
+    "cost": 3,
     "Color": [
       "Purple"
     ],
