@@ -53,6 +53,10 @@
             "category": "Lucky Pal",
             "min": 0,
             "max": 8
+          },
+          {
+            "category": "Unlimited",
+            "maxPerCard": 999
           }
         ]
       }

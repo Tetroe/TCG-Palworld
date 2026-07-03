@@ -1842,14 +1842,14 @@
     "face": {
       "front": {
         "name": "Beegarde – Knight of the Flower Garden",
-        "type": "Normal Pal",
+        "type": "Unlimited",
         "cost": 3,
         "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-061.png",
         "isHorizontal": false
       }
     },
     "name": "Beegarde – Knight of the Flower Garden",
-    "type": "Normal Pal",
+    "type": "Unlimited",
     "cost": 3,
     "Color": [
       "Green"
