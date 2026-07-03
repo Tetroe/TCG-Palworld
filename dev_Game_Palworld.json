@@ -242,15 +242,22 @@
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           },
+          "DayNight": {
+            "type": "custom",
+            "isShared": true,
+            "defaultValue": {
+              "isNight": false
+            },
+            "events": {
+              "onOpponentUpdate": "if(game.data.DayNight.isNight != opponent.data.DayNight.isNight) { game.data.DayNight.isNight = opponent.data.DayNight.isNight; }"
+            }
+          },
           "Resources": {
             "type": "custom",
             "defaultValue": {
               "Materials": 0,
               "Ingredients": 0,
               "isNight": false
-            },
-            "events": {
-              "onOpponentUpdate": "if(game.data.Resources.isNight != opponent.data.Resources.isNight) { game.data.Resources.isNight = opponent.data.Resources.isNight; }"
             },
             "blueprint": {
               "type": "div",
@@ -283,7 +290,7 @@
                       "borderRadius": "2.5vh 2.5vh 0 0"
                     }
                   },
-                  "onClick": "game.data.Resources.isNight = !game.data.Resources.isNight; chatLog('has set the time to ' + (game.data.Resources.isNight ? 'night' : 'day'))",
+                  "onClick": "game.data.DayNight.isNight = !game.data.DayNight.isNight; chatLog('has set the time to ' + (game.data.DayNight.isNight ? 'night' : 'day'))",
                   "children": [
                     {
                       "type": "img",
@@ -296,7 +303,7 @@
                           "width": "5vh",
                           "transition": "transform 0.5s ease-in-out",
                           "transform-origin": "center",
-                          "transform": "{{ game.data.Resources.isNight ? 'rotate(180deg)' : 'rotate(0deg)' }}",
+                          "transform": "{{ game.data.DayNight.isNight ? 'rotate(180deg)' : 'rotate(0deg)' }}",
                           "will-change": "transform"
                         },
                         "src": "https://balbi.github.io/TCG-Arena-Palworld/images/day-night.png"
