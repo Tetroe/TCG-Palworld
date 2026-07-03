@@ -1,5 +1,5 @@
 {
-  "name": "Palworld OCG Dev",
+  "name": "Palworld Dev",
   "menuBackgroundImage": "https://balbi.github.io/TCG-Arena-Palworld/images/banner.png",
   "defaultRessources": {
     "backgrounds": [
@@ -246,7 +246,11 @@
             "type": "custom",
             "defaultValue": {
               "Materials": 0,
-              "Ingredients": 0
+              "Ingredients": 0,
+              "isNight": false
+            },
+            "events": {
+              "onOpponentUpdate": "if(game.data.Resources.isNight != opponent.data.Resources.isNight) { game.data.Resources.isNight = opponent.data.Resources.isNight; }"
             },
             "blueprint": {
               "type": "div",
@@ -263,6 +267,43 @@
                 }
               },
               "children": [
+                {
+                  "type": "button",
+                  "props": {
+                    "className": "day-night-button",
+                    "style": {
+                      "height": "2.5vh",
+                      "width": "5vh",
+                      "position": "absolute",
+                      "top": "-2.5vh",
+                      "overflow": "hidden",
+                      "background": "transparent",
+                      "border": "none",
+                      "cursor": "pointer"
+                    }
+                  },
+                  "onClick": "game.data.Resources.isNight = !game.data.Resources.isNight; chatLog('has set the time to ' + (game.data.Resources.isNight ? 'night' : 'day'))",
+                  "children": [
+                    {
+                      "type": "img",
+                      "props": {
+                        "className": "day-night-image",
+                        "style": {
+                          "position": "absolute",
+                          "top": "0",
+                          "left": "2.5vh",
+                          "height": "5vh",
+                          "width": "5vh",
+                          "transition": "transform 0.5s ease-in-out",
+                          "transform-origin": "center",
+                          "transform": "{{ game.data.Resources.isNight ? 'rotate(180deg)' : 'rotate(0deg)' }}",
+                          "will-change": "transform"
+                        },
+                        "src": "https://balbi.github.io/TCG-Arena-Palworld/images/day-night.png"
+                      }
+                    }
+                  ]
+                },
                 {
                   "type": "strong",
                   "props": {
