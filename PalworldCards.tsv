@@ -1,0 +1,180 @@
+id	name	type	cost	quick	lucky	aptitude	element	image_path	rarity	release_code	set_name	effect	flavor	Power	Strike	Durability	Unlimited	Domain
+EBP01-001SSP	Jormuntide Ignis – Savage Lava Dragon	Pal	8		TRUE	Kindling	Fire, Dragon		SSP	EBP	Dawn of Palpagos			1700	4		FALSE	Red
+EBP01-002SP	Suzaku – Hellfire Wings	Pal	7		TRUE	Kindling	Fire		SP	EBP	Dawn of Palpagos			1200	3		FALSE	Red
+EBP01-003	Gobfin Ignis – Red Hothead	Pal	4		FALSE	Kindling	Fire		C	EBP	Dawn of Palpagos			400	2		FALSE	Red
+EBP01-004	Bushi – Ephemeral Blade	Pal	5		TRUE	Kindling	Fire		C	EBP	Dawn of Palpagos			800	2		FALSE	Red
+EBP01-005SSR	Reptyro – Ore Gorger	Pal	8		FALSE	Collecting, Kindling	Fire, Ground		SSR	EBP	Dawn of Palpagos			1500	3		FALSE	Red
+EBP01-006	Foxparks – Ember Courage	Pal	2		FALSE	Kindling	Fire		C	EBP	Dawn of Palpagos			300	1		FALSE	Red
+EBP01-007	Kitsun – Wyrmbane Fangs	Pal	5		FALSE	Kindling	Fire		U	EBP	Dawn of Palpagos			400	2		FALSE	Red
+EBP01-008	Sparkit – Hazardous Contact	Pal	3		FALSE	Electricity, Crafting, Transporting, Farming	Electric		U	EBP	Dawn of Palpagos			400	1		FALSE	Red
+EBP01-009	Univolt – Valiant Thunderclap	Pal	4		FALSE	Electricity, Collecting	Electric		U	EBP	Dawn of Palpagos			600	2		FALSE	Red
+EBP01-010	Ragnahawk – Emberwing Striker	Pal	6		TRUE	Kindling, Transporting	Fire		U	EBP	Dawn of Palpagos			1000	2		FALSE	Red
+EBP01-011	Rooby – Brave Sparks	Pal	2		FALSE	Kindling, Farming	Fire		C	EBP	Dawn of Palpagos			200	1		FALSE	Red
+EBP01-012	Flambelle – Scorching Tears	Pal	3		FALSE	Kindling, Crafting, Transporting	Fire		C	EBP	Dawn of Palpagos			400	1		FALSE	Red
+EBP01-013	Pyrin – Cinder Steed	Pal	6		FALSE	Kindling, Collecting	Fire		C	EBP	Dawn of Palpagos			1200	2		FALSE	Red
+EBP01-014	Blazehowl – Hellflame Defender	Pal	7		FALSE	Kindling	Fire		C	EBP	Dawn of Palpagos			1200	3		FALSE	Red
+EBP01-015SP	Mounted Machine Gun	Structure	4		FALSE	Crafting			SP	EBP	Dawn of Palpagos					1000	FALSE	Red
+EBP01-016	Primitive Furnace	Structure	2		FALSE	Kindling			U	EBP	Dawn of Palpagos					800	FALSE	Red
+EBP01-017	Flame Cauldron	Structure	2		FALSE	Kindling			U	EBP	Dawn of Palpagos					900	FALSE	Red
+EBP01-018	Alarm Bell	Structure	3		FALSE				R	EBP	Dawn of Palpagos					1100	FALSE	Red
+EBP01-019	Foxparks' Harness	Gear	3		FALSE				U	EBP	Dawn of Palpagos						FALSE	Red
+EBP01-020	Pump-Action Shotgun	Gear	7		FALSE				R	EBP	Dawn of Palpagos						FALSE	Red
+EBP01-021	Makeshift Handgun	Gear	2		FALSE				C	EBP	Dawn of Palpagos						FALSE	Red
+EBP01-022	Stone Pickaxe	Gear	3		FALSE				C	EBP	Dawn of Palpagos						FALSE	Red
+EBP01-023SP	Axel's Strategy	Event	4		FALSE				SP	EBP	Dawn of Palpagos						FALSE	Red
+EBP01-024	Treasure Chest Found!	Event	2		FALSE				C	EBP	Dawn of Palpagos						FALSE	Red
+EBP01-025SP	Chillet – Dragon Whisperer	Pal	5		TRUE	Harvesting, Cooling	Ice, Dragon		SP	EBP	Dawn of Palpagos			900	2		FALSE	Blue
+EBP01-026SP	Relaxaurus – Hungry Gunner	Pal	7		FALSE	Harvesting, Transporting	Dragon, Water		SP	EBP	Dawn of Palpagos			1200	3		FALSE	Blue
+EBP01-027SP	Jormuntide – Surging Sea Serpent	Pal	8		TRUE	Harvesting	Dragon, Water		SP	EBP	Dawn of Palpagos			1600	3		FALSE	Blue
+EBP01-028SR	Pengullet – Yearning for the Sky	Pal	4		FALSE	Harvesting, Crafting, Cooling, Transporting	Water, Ice		SR	EBP	Dawn of Palpagos			600	2		FALSE	Blue
+EBP01-029	Azurobe – Water Dragon Waltz	Pal	6		TRUE	Harvesting	Water, Dragon		R	EBP	Dawn of Palpagos			1200	2		FALSE	Blue
+EBP01-030	Froscanon – Iceblock Glutton	Pal	8		FALSE	Cooling, Harvesting	Water, Ground		C	EBP	Dawn of Palpagos			400	2		FALSE	Blue
+EBP01-031	Penking – Mighty Warrior of the Deep	Pal	5		FALSE		Water		C	EBP	Dawn of Palpagos			600	2		FALSE	Blue
+EBP01-032	Fuack – Manic wave Ripper	Pal	2		FALSE	Harvesting, Crafting, Transporting	Water		U	EBP	Dawn of Palpagos			200	1		FALSE	Blue
+EBP01-033	Wumpo – Snow Mountain Watchman	Pal	7		TRUE	Collecting, Cooling, Crafting, Transporting	Ice		C	EBP	Dawn of Palpagos			1500	3		FALSE	Blue
+EBP01-034	Teafant – Fountain of Cheer	Pal	2		FALSE	Harvesting, Farming	Water		C	EBP	Dawn of Palpagos			200	1		FALSE	Blue
+EBP01-035	Mau Cryst – Harbinger of Riches	Pal	3		FALSE	Cooling, Farming	Ice		C	EBP	Dawn of Palpagos			400	1		FALSE	Blue
+EBP01-036	Celaray – Somersault	Pal	3		FALSE		Water		C	EBP	Dawn of Palpagos			400	1		FALSE	Blue
+EBP01-037	Surfent – Swift Swimmer	Pal	4		FALSE	Harvesting, Farming	Water		C	EBP	Dawn of Palpagos			700	2		FALSE	Blue
+EBP01-038	Cryolinx – Arctic Ordeal	Pal	6		FALSE	Crafting, Collecting, Cooling, Transporting	Ice		C	EBP	Dawn of Palpagos			900	2		FALSE	Blue
+EBP01-039	Antique Curtain	Structure	5		FALSE				C	EBP	Dawn of Palpagos					1400	FALSE	Blue
+EBP01-040	Antique Dresser	Structure	4		FALSE				U	EBP	Dawn of Palpagos					1200	FALSE	Blue
+EBP01-041	Hot Spring	Structure	3		FALSE				C	EBP	Dawn of Palpagos					1000	FALSE	Blue
+EBP01-042	Antique Mirror	Structure	1		FALSE				C	EBP	Dawn of Palpagos					1000	FALSE	Blue
+EBP01-043	Sphere Crafting Table	Structure	2		FALSE	Crafting			C	EBP	Dawn of Palpagos					1000	FALSE	Blue
+EBP01-044SR	Pengullet Rocket Launcher	Gear	4		FALSE				SR	EBP	Dawn of Palpagos						FALSE	Blue
+EBP01-045	Grappling Gun	Gear	5		FALSE				C	EBP	Dawn of Palpagos						FALSE	Blue
+EBP01-046SP	Victor's Strategy	Event	3		FALSE				SP	EBP	Dawn of Palpagos						FALSE	Blue
+EBP01-047	Pal Sphere	Event	4		FALSE				C	EBP	Dawn of Palpagos						FALSE	Blue
+EBP01-048	Aurora's Guidance	Event	2		FALSE				C	EBP	Dawn of Palpagos						FALSE	Blue
+EBP01-049SSP	Lyleen – Blessing of the Goddess	Pal	7		TRUE	Harvesting, Crafting	Grass		SSP	EBP	Dawn of Palpagos			900	3		FALSE	Green
+EBP01-050SP	Digtoise – Seismic Drillback	Pal	6		TRUE	Collecting	Ground		SP	EBP	Dawn of Palpagos			900	2		FALSE	Green
+EBP01-051SP	Petallia – Sweet Blessings	Pal	6		FALSE	Harvesting, Crafting, Transporting	Grass		SP	EBP	Dawn of Palpagos			700	2		FALSE	Green
+EBP01-052	Rushroar – Reckless Destruction	Pal	2		FALSE	Collecting	Ground		C	EBP	Dawn of Palpagos			200	1		FALSE	Green
+EBP01-053	Elizabee – Queen of the Flower Garden	Pal	5		TRUE	Collecting, Farming	Grass		C	EBP	Dawn of Palpagos			700	2		FALSE	Green
+EBP01-054	Warsect – Iron Willed	Pal	8		FALSE	Harvesting, Crafting, Transporting, Collecting	Grass, Ground		U	EBP	Dawn of Palpagos			1500	3		FALSE	Green
+EBP01-055	Violetta – Bewitching Blossom	Pal	8		TRUE	Farming, Transporting	Grass		C	EBP	Dawn of Palpagos			1500	3		FALSE	Green
+EBP01-056	Lifmunk – Promising Newbie	Pal	3		FALSE	Harvesting, Crafting, Collecting	Grass		C	EBP	Dawn of Palpagos			500	1		FALSE	Green
+EBP01-057	Dumud – Mellow Bounty	Pal	4		FALSE	Harvesting, Collecting, Transporting, Farming	Water, Ground		U	EBP	Dawn of Palpagos			500	2		FALSE	Green
+EBP01-058	Gumoss – Curious Sprout	Pal	4		FALSE	Harvesting	Ground, Grass		U	EBP	Dawn of Palpagos			600	2		FALSE	Green
+EBP01-059	Digtoise – Keen Needleback	Pal	5		FALSE	Collecting	Ground		U	EBP	Dawn of Palpagos			800	2		FALSE	Green
+EBP01-060	Tanzee – Cheerful Worker	Pal	2		FALSE	Harvesting, Crafting, Collecting, Transporting	Grass		C	EBP	Dawn of Palpagos			200	1		FALSE	Green
+EBP01-061	Beegarde – Knight of the Flower Garden	Unlimited	3		FALSE	Harvesting, Collecting, Transporting, Farming	Grass		C	EBP	Dawn of Palpagos						TRUE	Green
+EBP01-062	Wumpo Botan – Tropical Sentinel	Pal	7		FALSE	Harvesting, Crafting, Collecting, Transporting	Grass		C	EBP	Dawn of Palpagos			1200	3		FALSE	Green
+EBP01-063	Breeding Ranch	Structure	3		FALSE	Farming			C	EBP	Dawn of Palpagos					1100	FALSE	Green
+EBP01-064	Cola Vending Machine	Structure	6		FALSE				C	EBP	Dawn of Palpagos					1500	FALSE	Green
+EBP01-065	Feed Box	Structure	2		FALSE				C	EBP	Dawn of Palpagos					900	FALSE	Green
+EBP01-066	Ranch	Structure	2		FALSE				C	EBP	Dawn of Palpagos					800	FALSE	Green
+EBP01-067	No Pal's Sign	Structure	5		FALSE	Kindling			C	EBP	Dawn of Palpagos					1100	FALSE	Green
+EBP01-068	Digtoise's Headband	Gear	3		FALSE				C	EBP	Dawn of Palpagos						FALSE	Green
+EBP01-069	Farming Hat	Gear	3		FALSE				C	EBP	Dawn of Palpagos						FALSE	Green
+EBP01-070SP	Lily's Strategy	Event	3		FALSE				SP	EBP	Dawn of Palpagos						FALSE	Green
+EBP01-071	Found an Egg!	Event	2		FALSE				C	EBP	Dawn of Palpagos						FALSE	Green
+EBP01-072	Blessing of the Flower Spirit	Event	3		FALSE				C	EBP	Dawn of Palpagos						FALSE	Green
+EBP01-073SSP	Helzephyr – Wings of the Moonless Night	Pal	7		TRUE	Transporting	Dark		SSP	EBP	Dawn of Palpagos			700	3		FALSE	Purple
+EBP01-074SP	Shadowbeak – Seed of Despair	Pal	8		TRUE	Harvesting	Dark		SP	EBP	Dawn of Palpagos			1300	3		FALSE	Purple
+EBP01-075SP	Katress – Abyssal Sorcerer	Pal	6		TRUE	Crafting, Transporting	Dark		SP	EBP	Dawn of Palpagos			900	2		FALSE	Purple
+EBP01-076	Tombat – Out of Nowhere!?	Pal	5		FALSE	Harvesting, Collecting, Transporting	Dark		R	EBP	Dawn of Palpagos			600	2		FALSE	Purple
+EBP01-077	Sarablack – Blue-Flame Thoroughbred	Pal	7		FALSE	Harvesting, Kindling	Fire, Dark		C	EBP	Dawn of Palpagos			1100	3		FALSE	Purple
+EBP01-078	Lyleen Noct – Providence of the Goddess	Pal	8		FALSE	Harvesting, Crafting	Dark		R	EBP	Dawn of Palpagos			1700	3		FALSE	Purple
+EBP01-079	Depresso – Late Night Hustler	Pal	2		FALSE	Crafting, Collecting, Transporting, Farming	Dark		C	EBP	Dawn of Palpagos			100	1		FALSE	Purple
+EBP01-080	Daedream – First Slumber	Pal	2		FALSE	Crafting, Harvesting, Transporting	Dark		C	EBP	Dawn of Palpagos			200	1		FALSE	Purple
+EBP01-081	Loveander – Heartstealer	Pal	5		FALSE	Collecting, Crafting, Transporting	Dark		C	EBP	Dawn of Palpagos			800	2		FALSE	Purple
+EBP01-082	Daedream – Continuing Slumber	Pal	4		FALSE	Crafting, Harvesting, Transporting	Dark		C	EBP	Dawn of Palpagos			400	1		FALSE	Purple
+EBP01-083	Vanwyrm – Marauder of the Skies	Pal	4		FALSE	Kindling, Transporting	Fire, Dark		C	EBP	Dawn of Palpagos			400	2		FALSE	Purple
+EBP01-084	Menasting – Darkness-Dwelling Scorpion	Pal	5		TRUE	Collecting	Dark, Ground		U	EBP	Dawn of Palpagos			700	2		FALSE	Purple
+EBP01-085	Maraith – Twilight Messenger	Pal	6		FALSE	Harvesting, Collecting	Dark		C	EBP	Dawn of Palpagos			900	2		FALSE	Purple
+EBP01-086	Nox – The Silent One	Pal	3		FALSE	Harvesting	Dark		C	EBP	Dawn of Palpagos			500	1		FALSE	Purple
+EBP01-087	Loupmoon – Glinting Moonlight	Pal	4		FALSE	Crafting	Dark		C	EBP	Dawn of Palpagos			500	2		FALSE	Purple
+EBP01-088	Placed Lamp	Structure	4		FALSE				C	EBP	Dawn of Palpagos					1300	FALSE	Purple
+EBP01-089	Shoddy Bed	Structure	2		FALSE				U	EBP	Dawn of Palpagos					700	FALSE	Purple
+EBP01-090	Medieval Medicine Workbench	Structure	4		FALSE	Crafting			C	EBP	Dawn of Palpagos					1300	FALSE	Purple
+EBP01-091	Wooden Wall	Structure	3		FALSE				C	EBP	Dawn of Palpagos					300	FALSE	Purple
+EBP01-092	Display Cage	Structure	3		FALSE				C	EBP	Dawn of Palpagos					1300	FALSE	Purple
+EBP01-093	Butchers Knife	Gear	2		FALSE				C	EBP	Dawn of Palpagos						FALSE	Purple
+EBP01-094	Daedream's Necklace	Gear	3		FALSE				C	EBP	Dawn of Palpagos						FALSE	Purple
+EBP01-095SP	Zoe's Strategy	Event	3		FALSE				SP	EBP	Dawn of Palpagos						FALSE	Purple
+EBP01-096	Dark Cannon	Event	3		FALSE				C	EBP	Dawn of Palpagos						FALSE	Purple
+EBP01-097	Black Marketeer	Event	5		FALSE				C	EBP	Dawn of Palpagos						FALSE	Purple
+EBP01-098	Elphidran – Gentle Radiance	Pal	4		FALSE	Collecting	Dragon		C	EBP	Dawn of Palpagos			600	2		FALSE	Colorless
+EBP01-099	Direhowl – Proud Fang	Pal	3		FALSE	Harvesting	Neutral		C	EBP	Dawn of Palpagos			500	1		FALSE	Colorless
+EBP01-100	The Adventure Begins	Event	2		FALSE				C	EBP	Dawn of Palpagos						FALSE	Colorless
+ESOUL-001	Soul	Soul	0		FALSE				C	ETD01	Dawn of Palpagos						FALSE	
+ESOUL-002	Soul	Soul	0		FALSE				PR	PROMO	Dawn of Palpagos						FALSE	
+ESOUL-003	Soul	Soul	0		FALSE				PR	PROMO	Dawn of Palpagos						FALSE	
+ETD01-001	Grizzbolt – Rumbling Tank	Pal	7		TRUE	Electricity, Crafting, Collecting, Transporting	Electric		C	ETD01	Dawn of Palpagos			1600	4		FALSE	Red
+ETD01-001TSP	Grizzbolt – Rumbling Tank	Pal	7		TRUE	Electricity, Crafting, Collecting, Transporting	Electric		SP	ETD01	Dawn of Palpagos			1600	4		FALSE	Red
+ETD01-001TSR	Grizzbolt – Rumbling Tank	Pal	7		TRUE	Electricity, Crafting, Collecting, Transporting	Electric		SR	ETD01	Dawn of Palpagos			1600	4		FALSE	Red
+ETD01-002	Jolthog – Shocking Yet Innocent	Pal	2		FALSE	Electricity	Electric		C	ETD01	Dawn of Palpagos			300	1		FALSE	Red
+ETD01-003	Kelpsea Ignis – Balmy Magma	Pal	3		FALSE	Kindling, Farming	Fire		C	ETD01	Dawn of Palpagos			500	1		FALSE	Red
+ETD01-004	Foxparks – A Toasty Hug	Pal	4		FALSE	Kindling	Fire		C	ETD01	Dawn of Palpagos			400	2		FALSE	Red
+ETD01-005	Arsox – Burning Spoils	Pal	5		FALSE	Kindling, Collecting	Fire		C	ETD01	Dawn of Palpagos			800	2		FALSE	Red
+ETD01-005TSR	Arsox – Burning Spoils	Pal	5		FALSE	Kindling, Collecting	Fire		SR	ETD01	Dawn of Palpagos			800	2		FALSE	Red
+ETD01-006	Mossanda Lux – Vanguard Captain	Pal	6		FALSE	Electricity, Crafting, Collecting, Transporting	Electric		C	ETD01	Dawn of Palpagos			1100	2		FALSE	Red
+ETD01-007	Blazamut – Molten Sovereign	Pal	8		TRUE	Kindling, Collecting	Fire		C	ETD01	Dawn of Palpagos			1600	3		FALSE	Red
+ETD01-007TSR	Blazamut – Molten Sovereign	Pal	8		TRUE	Kindling, Collecting	Fire		SR	ETD01	Dawn of Palpagos			1600	3		FALSE	Red
+ETD01-008	Stone Pit	Structure	1		FALSE	Collecting			C	ETD01	Dawn of Palpagos					600	FALSE	Red
+ETD01-008TSR	Stone Pit	Structure	1		FALSE	Collecting			SR	ETD01	Dawn of Palpagos					600	FALSE	Red
+ETD01-009	Weapon Workbench	Structure	3		FALSE	Crafting			C	ETD01	Dawn of Palpagos					1100	FALSE	Red
+ETD01-010	Single-Shot Rifle	Gear	4		FALSE				C	ETD01	Dawn of Palpagos						FALSE	Red
+ETD01-011	Ignis Breath	Event	2		FALSE				C	ETD01	Dawn of Palpagos						FALSE	Red
+ETD01-011TSR	Ignis Breath	Event	2		FALSE				SR	ETD01	Dawn of Palpagos						FALSE	Red
+ETD01-012	Elphidran Aqua – Gentle Ripples	Pal	6		FALSE	Harvesting, Collecting	Dragon, Water		C	ETD01	Dawn of Palpagos			900	2		FALSE	Blue
+ETD01-012TSP	Elphidran Aqua – Gentle Ripples	Pal	6		FALSE	Harvesting, Collecting	Dragon, Water		SP	ETD01	Dawn of Palpagos			900	2		FALSE	Blue
+ETD01-012TSR	Elphidran Aqua – Gentle Ripples	Pal	6		FALSE	Harvesting, Collecting	Dragon, Water		SR	ETD01	Dawn of Palpagos			900	2		FALSE	Blue
+ETD01-013	Jolthog Cryst – Stoic Yet Innocent	Pal	2		FALSE	Cooling	Ice		C	ETD01	Dawn of Palpagos			300	1		FALSE	Blue
+ETD01-014	Pengullet – Frequent Flyer	Pal	3		FALSE	Harvesting, Crafting, Cooling, Transporting	Water, Ice		C	ETD01	Dawn of Palpagos			500	1		FALSE	Blue
+ETD01-014TSR	Pengullet – Frequent Flyer	Pal	3		FALSE	Harvesting, Crafting, Cooling, Transporting	Water, Ice		SR	ETD01	Dawn of Palpagos			500	1		FALSE	Blue
+ETD01-015	Hangyu Cryst – Frigid Wanderer	Pal	4		FALSE	Harvesting, Crafting, Cooling, Transporting	Ice		C	ETD01	Dawn of Palpagos			600	2		FALSE	Blue
+ETD01-016	Reindrix – Icy Gaze	Pal	5		FALSE	Collecting, Cooling	Ice		C	ETD01	Dawn of Palpagos			600	2		FALSE	Blue
+ETD01-017	Suzaku Aqua – Way of the Current	Pal	7		TRUE	Harvesting	Water		C	ETD01	Dawn of Palpagos			1200	3		FALSE	Blue
+ETD01-017TSR	Suzaku Aqua – Way of the Current	Pal	7		TRUE	Harvesting	Water		SR	ETD01	Dawn of Palpagos			1200	3		FALSE	Blue
+ETD01-018	Mammorest Cryst – Roar of the Tundra	Pal	8		TRUE	Collecting, Cooling	Ice, Ground		C	ETD01	Dawn of Palpagos			1700	3		FALSE	Blue
+ETD01-018TSR	Mammorest Cryst – Roar of the Tundra	Pal	8		TRUE	Collecting, Cooling	Ice, Ground		SR	ETD01	Dawn of Palpagos			1700	3		FALSE	Blue
+ETD01-019	Antique Wooden Chair	Structure	2		FALSE				C	ETD01	Dawn of Palpagos					1200	FALSE	Blue
+ETD01-020	Primitive Workbench	Structure	3		FALSE	Crafting			C	ETD01	Dawn of Palpagos					1100	FALSE	Blue
+ETD01-021	Single-Shot Sphere Launcher	Gear	3		FALSE				C	ETD01	Dawn of Palpagos						FALSE	Blue
+ETD01-022	Crystal Breath	Event	2		FALSE				C	ETD01	Dawn of Palpagos						FALSE	Blue
+ETD01-022TSR	Crystal Breath	Event	2		FALSE				SR	ETD01	Dawn of Palpagos						FALSE	Blue
+ETD01-023	Lamball – My First Pal	Pal	2		FALSE	Crafting, Transporting, Farming	Neutral		C	ETD01	Dawn of Palpagos			200	1		FALSE	Colorless
+ETD01-023TSR	Lamball – My First Pal	Pal	2		FALSE	Crafting, Transporting, Farming	Neutral		SR	ETD01	Dawn of Palpagos			200	1		FALSE	Colorless
+ETD01-024	Ribbuny – Little Princess	Pal	2		FALSE	Harvesting, Crafting, Transporting	Neutral		C	ETD01	Dawn of Palpagos			200	1		FALSE	Colorless
+ETD01-024TSR	Ribbuny – Little Princess	Pal	2		FALSE	Harvesting, Crafting, Transporting	Neutral		SR	ETD01	Dawn of Palpagos			200	1		FALSE	Colorless
+ETD02-001	Mossanda – Guard Captain	Pal	5		FALSE	Harvesting, Crafting, Collecting, Transporting	Grass		C	ETD02	Dawn of Palpagos			900	2		FALSE	Green
+ETD02-001TSP	Mossanda – Guard Captain	Pal	5		FALSE	Harvesting, Crafting, Collecting, Transporting	Grass		SP	ETD02	Dawn of Palpagos			900	2		FALSE	Green
+ETD02-001TSR	Mossanda – Guard Captain	Pal	5		FALSE	Harvesting, Crafting, Collecting, Transporting	Grass		SR	ETD02	Dawn of Palpagos			900	2		FALSE	Green
+ETD02-002	Gumoss – Dreamy Seedling	Pal	2		FALSE	Harvesting	Grass, Ground		C	ETD02	Dawn of Palpagos			300	1		FALSE	Green
+ETD02-003	Flopie – Snack Lover	Pal	3		FALSE	Harvesting, Crafting, Transporting	Grass		C	ETD02	Dawn of Palpagos			400	1		FALSE	Green
+ETD02-003TSR	Flopie – Snack Lover	Pal	3		FALSE	Harvesting, Crafting, Transporting	Grass		SR	ETD02	Dawn of Palpagos			400	1		FALSE	Green
+ETD02-004	Dinossom – Radiant Fragrance	Pal	4		FALSE	Harvesting, Collecting	Grass, Dragon		C	ETD02	Dawn of Palpagos			400	2		FALSE	Green
+ETD02-005	Eikthyrdeer Terra – Guardian of Nature	Pal	6		FALSE	Collecting	Ground		C	ETD02	Dawn of Palpagos			800	2		FALSE	Green
+ETD02-006	Broncherry – Brimming Adoration	Pal	7		TRUE	Harvesting	Grass		C	ETD02	Dawn of Palpagos			1500	3		FALSE	Green
+ETD02-006TSR	Broncherry – Brimming Adoration	Pal	7		TRUE	Harvesting	Grass		SR	ETD02	Dawn of Palpagos			1500	3		FALSE	Green
+ETD02-007	Mammorest – Roar of the Wilds	Pal	8		TRUE	Harvesting, Collecting	Grass, Ground		C	ETD02	Dawn of Palpagos			2000	4		FALSE	Green
+ETD02-007TSR	Mammorest – Roar of the Wilds	Pal	8		TRUE	Harvesting, Collecting	Grass, Ground		SR	ETD02	Dawn of Palpagos			2000	4		FALSE	Green
+ETD02-008	Berry Plantation	Structure	1		FALSE	Harvesting			C	ETD02	Dawn of Palpagos					600	FALSE	Green
+ETD02-008TSR	Berry Plantation	Structure	1		FALSE	Harvesting			SR	ETD02	Dawn of Palpagos					600	FALSE	Green
+ETD02-009	Campfire	Structure	3		FALSE	Kindling			C	ETD02	Dawn of Palpagos					1100	FALSE	Green
+ETD02-010	Refined Metal Spear	Gear	6		FALSE				C	ETD02	Dawn of Palpagos						FALSE	Green
+ETD02-011	Stone Blast	Event	2		FALSE				C	ETD02	Dawn of Palpagos						FALSE	Green
+ETD02-012	Astegon – Aegis Wyvern of Death	Pal	8		TRUE	Crafting, Collecting	Dragon, Dark		C	ETD02	Dawn of Palpagos			1200	3		FALSE	Purple
+ETD02-012TSP	Astegon – Aegis Wyvern of Death	Pal	8		TRUE	Crafting, Collecting	Dragon, Dark		SP	ETD02	Dawn of Palpagos			1200	3		FALSE	Purple
+ETD02-012TSR	Astegon – Aegis Wyvern of Death	Pal	8		TRUE	Crafting, Collecting	Dragon, Dark		SR	ETD02	Dawn of Palpagos			1200	3		FALSE	Purple
+ETD02-013	Hoocrates – Embodiment of Wisdom	Pal	2		FALSE	Harvesting	Dark		C	ETD02	Dawn of Palpagos			300	1		FALSE	Purple
+ETD02-014	Leezpunk – Treasure Bandit	Pal	3		FALSE	Harvesting, Crafting, Transporting	Dark		C	ETD02	Dawn of Palpagos			200	1		FALSE	Purple
+ETD02-014TSR	Leezpunk – Treasure Bandit	Pal	3		FALSE	Harvesting, Crafting, Transporting	Dark		SR	ETD02	Dawn of Palpagos			200	1		FALSE	Purple
+ETD02-015	Cawgnito – Looming Shadow	Pal	4		FALSE	Collecting, Farming	Dark		C	ETD02	Dawn of Palpagos			300	2		FALSE	Purple
+ETD02-016	Incineram – Lurking Stalker	Pal	5		FALSE	Kindling, Crafting, Collecting, Transporting	Fire, Dark		C	ETD02	Dawn of Palpagos			900	2		FALSE	Purple
+ETD02-016TSR	Incineram – Lurking Stalker	Pal	5		FALSE	Kindling, Crafting, Collecting, Transporting	Fire, Dark		SR	ETD02	Dawn of Palpagos			900	2		FALSE	Purple
+ETD02-017	Blazehowl Noct – Darkflame Defender	Pal	6		FALSE	Kindling, Collecting	Fire, Dark		C	ETD02	Dawn of Palpagos			900	2		FALSE	Purple
+ETD02-018	Felbat – Lifestealer	Pal	7		TRUE	Crafting	Dark		C	ETD02	Dawn of Palpagos			1000	3		FALSE	Purple
+ETD02-018TSR	Felbat – Lifestealer	Pal	7		TRUE	Crafting	Dark		SR	ETD02	Dawn of Palpagos			1000	3		FALSE	Purple
+ETD02-019	Hanging Trap	Structure	2		FALSE				C	ETD02	Dawn of Palpagos					900	FALSE	Purple
+ETD02-020	Cawgnito Hat	Gear	4		FALSE				C	ETD02	Dawn of Palpagos						FALSE	Purple
+ETD02-021	Strike from the Darkness	Event	4		FALSE				C	ETD02	Dawn of Palpagos						FALSE	Purple
+ETD02-021TSR	Strike from the Darkness	Event	4		FALSE				SR	ETD02	Dawn of Palpagos						FALSE	Purple
+ETD02-022	Medical Supplies	Event	7		FALSE				C	ETD02	Dawn of Palpagos						FALSE	Purple
+ETD02-023	Cattiva – My First Pal	Pal	2		FALSE	Harvesting, Crafting, Collecting, Transporting	Neutral		C	ETD02	Dawn of Palpagos			200	1		FALSE	Colorless
+ETD02-023TSR	Cattiva – My First Pal	Pal	2		FALSE	Harvesting, Crafting, Collecting, Transporting	Neutral		SR	ETD02	Dawn of Palpagos			200	1		FALSE	Colorless
+ETD02-024	Chikipi – My First Pal	Pal	2		FALSE	Harvesting, Farming	Neutral		C	ETD02	Dawn of Palpagos			200	1		FALSE	Colorless
+ETD02-024TSR	Chikipi – My First Pal	Pal	2		FALSE	Harvesting, Farming	Neutral		SR	ETD02	Dawn of Palpagos			200	1		FALSE	Colorless
