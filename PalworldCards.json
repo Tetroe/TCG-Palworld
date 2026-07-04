@@ -6,7 +6,7 @@
         "name": "Jormuntide Ignis – Savage Lava Dragon",
         "type": "Lucky Pal",
         "cost": 8,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/EBP01/EBP01-001SSP.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/EBP01/EBP01-001SSP.webp",
         "isHorizontal": false
       }
     },
@@ -38,7 +38,7 @@
         "name": "Suzaku – Hellfire Wings",
         "type": "Lucky Pal",
         "cost": 7,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/EBP01/EBP01-002SP.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/EBP01/EBP01-002SP.webp",
         "isHorizontal": false
       }
     },
@@ -69,7 +69,7 @@
         "name": "Gobfin Ignis – Red Hothead",
         "type": "Normal Pal",
         "cost": 4,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-003.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-003.webp",
         "isHorizontal": false
       }
     },
@@ -100,7 +100,7 @@
         "name": "Bushi – Ephemeral Blade",
         "type": "Lucky Pal",
         "cost": 5,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-004.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-004.webp",
         "isHorizontal": false
       }
     },
@@ -131,7 +131,7 @@
         "name": "Reptyro – Ore Gorger",
         "type": "Normal Pal",
         "cost": 8,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/EBP01/EBP01-005SSR.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/EBP01/EBP01-005SSR.webp",
         "isHorizontal": false
       }
     },
@@ -164,7 +164,7 @@
         "name": "Foxparks – Ember Courage",
         "type": "Normal Pal",
         "cost": 2,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-006.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-006.webp",
         "isHorizontal": false
       }
     },
@@ -195,7 +195,7 @@
         "name": "Kitsun – Wyrmbane Fangs",
         "type": "Normal Pal",
         "cost": 5,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-007.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-007.webp",
         "isHorizontal": false
       }
     },
@@ -226,7 +226,7 @@
         "name": "Sparkit – Hazardous Contact",
         "type": "Normal Pal",
         "cost": 3,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-008.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-008.webp",
         "isHorizontal": false
       }
     },
@@ -260,7 +260,7 @@
         "name": "Univolt – Valiant Thunderclap",
         "type": "Normal Pal",
         "cost": 4,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-009.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-009.webp",
         "isHorizontal": false
       }
     },
@@ -292,7 +292,7 @@
         "name": "Ragnahawk – Emberwing Striker",
         "type": "Lucky Pal",
         "cost": 6,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-010.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-010.webp",
         "isHorizontal": false
       }
     },
@@ -324,7 +324,7 @@
         "name": "Rooby – Brave Sparks",
         "type": "Normal Pal",
         "cost": 2,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-011.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-011.webp",
         "isHorizontal": false
       }
     },
@@ -356,7 +356,7 @@
         "name": "Flambelle – Scorching Tears",
         "type": "Normal Pal",
         "cost": 3,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-012.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-012.webp",
         "isHorizontal": false
       }
     },
@@ -389,7 +389,7 @@
         "name": "Pyrin – Cinder Steed",
         "type": "Normal Pal",
         "cost": 6,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-013.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-013.webp",
         "isHorizontal": false
       }
     },
@@ -421,7 +421,7 @@
         "name": "Blazehowl – Hellflame Defender",
         "type": "Normal Pal",
         "cost": 7,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-014.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-014.webp",
         "isHorizontal": false
       }
     },
@@ -452,7 +452,7 @@
         "name": "Mounted Machine Gun",
         "type": "Structure",
         "cost": 4,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/EBP01/EBP01-015SP.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/EBP01/EBP01-015SP.webp",
         "isHorizontal": true
       }
     },
@@ -481,7 +481,7 @@
         "name": "Primitive Furnace",
         "type": "Structure",
         "cost": 2,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/EBP01/EBP01-016.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/EBP01/EBP01-016.webp",
         "isHorizontal": true
       }
     },
@@ -510,7 +510,7 @@
         "name": "Flame Cauldron",
         "type": "Structure",
         "cost": 2,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-017.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-017.webp",
         "isHorizontal": true
       }
     },
@@ -539,7 +539,7 @@
         "name": "Alarm Bell",
         "type": "Structure",
         "cost": 3,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-018.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-018.webp",
         "isHorizontal": true
       }
     },
@@ -566,7 +566,7 @@
         "name": "Foxparks' Harness",
         "type": "Gear",
         "cost": 3,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-019.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-019.webp",
         "isHorizontal": false
       }
     },
@@ -593,7 +593,7 @@
         "name": "Pump-Action Shotgun",
         "type": "Gear",
         "cost": 7,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-020.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-020.webp",
         "isHorizontal": false
       }
     },
@@ -620,7 +620,7 @@
         "name": "Makeshift Handgun",
         "type": "Gear",
         "cost": 2,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-021.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-021.webp",
         "isHorizontal": false
       }
     },
@@ -647,7 +647,7 @@
         "name": "Stone Pickaxe",
         "type": "Gear",
         "cost": 3,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-022.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-022.webp",
         "isHorizontal": false
       }
     },
@@ -674,7 +674,7 @@
         "name": "Axel's Strategy",
         "type": "Event",
         "cost": 4,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/EBP01/EBP01-023SP.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/EBP01/EBP01-023SP.webp",
         "isHorizontal": false
       }
     },
@@ -701,7 +701,7 @@
         "name": "Treasure Chest Found!",
         "type": "Event",
         "cost": 2,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/EBP01/EBP01-024.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/EBP01/EBP01-024.webp",
         "isHorizontal": false
       }
     },
@@ -728,7 +728,7 @@
         "name": "Chillet – Dragon Whisperer",
         "type": "Lucky Pal",
         "cost": 5,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/EBP01/EBP01-025SP.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/EBP01/EBP01-025SP.webp",
         "isHorizontal": false
       }
     },
@@ -761,7 +761,7 @@
         "name": "Relaxaurus – Hungry Gunner",
         "type": "Normal Pal",
         "cost": 7,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/EBP01/EBP01-026SP.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/EBP01/EBP01-026SP.webp",
         "isHorizontal": false
       }
     },
@@ -794,7 +794,7 @@
         "name": "Jormuntide – Surging Sea Serpent",
         "type": "Lucky Pal",
         "cost": 8,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-027SP.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-027SP.webp",
         "isHorizontal": false
       }
     },
@@ -826,7 +826,7 @@
         "name": "Pengullet – Yearning for the Sky",
         "type": "Normal Pal",
         "cost": 4,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-028SR.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/EBP01/EBP01-028SR.webp",
         "isHorizontal": false
       }
     },
@@ -861,7 +861,7 @@
         "name": "Azurobe – Water Dragon Waltz",
         "type": "Lucky Pal",
         "cost": 6,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-029.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-029.webp",
         "isHorizontal": false
       }
     },
@@ -893,7 +893,7 @@
         "name": "Froscanon – Iceblock Glutton",
         "type": "Normal Pal",
         "cost": 8,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-030.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-030.webp",
         "isHorizontal": false
       }
     },
@@ -926,7 +926,7 @@
         "name": "Penking – Mighty Warrior of the Deep",
         "type": "Normal Pal",
         "cost": 5,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-031.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-031.webp",
         "isHorizontal": false
       }
     },
@@ -955,7 +955,7 @@
         "name": "Fuack – Manic wave Ripper",
         "type": "Normal Pal",
         "cost": 2,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-032.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-032.webp",
         "isHorizontal": false
       }
     },
@@ -988,7 +988,7 @@
         "name": "Wumpo – Snow Mountain Watchman",
         "type": "Lucky Pal",
         "cost": 7,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-033.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-033.webp",
         "isHorizontal": false
       }
     },
@@ -1022,7 +1022,7 @@
         "name": "Teafant – Fountain of Cheer",
         "type": "Normal Pal",
         "cost": 2,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-034.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-034.webp",
         "isHorizontal": false
       }
     },
@@ -1054,7 +1054,7 @@
         "name": "Mau Cryst – Harbinger of Riches",
         "type": "Normal Pal",
         "cost": 3,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-035.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-035.webp",
         "isHorizontal": false
       }
     },
@@ -1086,7 +1086,7 @@
         "name": "Celaray – Somersault",
         "type": "Normal Pal",
         "cost": 3,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-036.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-036.webp",
         "isHorizontal": false
       }
     },
@@ -1115,7 +1115,7 @@
         "name": "Surfent – Swift Swimmer",
         "type": "Normal Pal",
         "cost": 4,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-037.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-037.webp",
         "isHorizontal": false
       }
     },
@@ -1147,7 +1147,7 @@
         "name": "Cryolinx – Arctic Ordeal",
         "type": "Normal Pal",
         "cost": 6,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-038.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-038.webp",
         "isHorizontal": false
       }
     },
@@ -1181,7 +1181,7 @@
         "name": "Antique Curtain",
         "type": "Structure",
         "cost": 5,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-039.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-039.webp",
         "isHorizontal": true
       }
     },
@@ -1208,7 +1208,7 @@
         "name": "Antique Dresser",
         "type": "Structure",
         "cost": 4,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-040.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-040.webp",
         "isHorizontal": true
       }
     },
@@ -1235,7 +1235,7 @@
         "name": "Hot Spring",
         "type": "Structure",
         "cost": 3,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-041.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-041.webp",
         "isHorizontal": true
       }
     },
@@ -1262,7 +1262,7 @@
         "name": "Antique Mirror",
         "type": "Structure",
         "cost": 1,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-042.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-042.webp",
         "isHorizontal": true
       }
     },
@@ -1289,7 +1289,7 @@
         "name": "Sphere Crafting Table",
         "type": "Structure",
         "cost": 2,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-043.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-043.webp",
         "isHorizontal": true
       }
     },
@@ -1318,7 +1318,7 @@
         "name": "Pengullet Rocket Launcher",
         "type": "Gear",
         "cost": 4,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-044SR.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/EBP01/EBP01-044SR.webp",
         "isHorizontal": false
       }
     },
@@ -1345,7 +1345,7 @@
         "name": "Grappling Gun",
         "type": "Gear",
         "cost": 5,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-045.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-045.webp",
         "isHorizontal": false
       }
     },
@@ -1372,7 +1372,7 @@
         "name": "Victor's Strategy",
         "type": "Event",
         "cost": 3,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/EBP01/EBP01-046SP.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/EBP01/EBP01-046SP.webp",
         "isHorizontal": false
       }
     },
@@ -1399,7 +1399,7 @@
         "name": "Pal Sphere",
         "type": "Event",
         "cost": 4,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-047.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-047.webp",
         "isHorizontal": false
       }
     },
@@ -1426,7 +1426,7 @@
         "name": "Aurora's Guidance",
         "type": "Event",
         "cost": 2,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-048.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-048.webp",
         "isHorizontal": false
       }
     },
@@ -1453,7 +1453,7 @@
         "name": "Lyleen – Blessing of the Goddess",
         "type": "Lucky Pal",
         "cost": 7,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/EBP01/EBP01-049SSP.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/EBP01/EBP01-049SSP.webp",
         "isHorizontal": false
       }
     },
@@ -1485,7 +1485,7 @@
         "name": "Digtoise – Seismic Drillback",
         "type": "Lucky Pal",
         "cost": 6,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/EBP01/EBP01-050SP.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/EBP01/EBP01-050SP.webp",
         "isHorizontal": false
       }
     },
@@ -1516,7 +1516,7 @@
         "name": "Petallia – Sweet Blessings",
         "type": "Normal Pal",
         "cost": 6,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/EBP01/EBP01-051SP.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/EBP01/EBP01-051SP.webp",
         "isHorizontal": false
       }
     },
@@ -1549,7 +1549,7 @@
         "name": "Rushroar – Reckless Destruction",
         "type": "Normal Pal",
         "cost": 2,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-052.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-052.webp",
         "isHorizontal": false
       }
     },
@@ -1580,7 +1580,7 @@
         "name": "Elizabee – Queen of the Flower Garden",
         "type": "Lucky Pal",
         "cost": 5,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-053.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-053.webp",
         "isHorizontal": false
       }
     },
@@ -1612,7 +1612,7 @@
         "name": "Warsect – Iron Willed",
         "type": "Normal Pal",
         "cost": 8,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-054.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-054.webp",
         "isHorizontal": false
       }
     },
@@ -1647,7 +1647,7 @@
         "name": "Violetta – Bewitching Blossom",
         "type": "Lucky Pal",
         "cost": 8,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-055.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-055.webp",
         "isHorizontal": false
       }
     },
@@ -1679,7 +1679,7 @@
         "name": "Lifmunk – Promising Newbie",
         "type": "Normal Pal",
         "cost": 3,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-056.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-056.webp",
         "isHorizontal": false
       }
     },
@@ -1712,7 +1712,7 @@
         "name": "Dumud – Mellow Bounty",
         "type": "Normal Pal",
         "cost": 4,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-057.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-057.webp",
         "isHorizontal": false
       }
     },
@@ -1747,7 +1747,7 @@
         "name": "Gumoss – Curious Sprout",
         "type": "Normal Pal",
         "cost": 4,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-058.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-058.webp",
         "isHorizontal": false
       }
     },
@@ -1779,7 +1779,7 @@
         "name": "Digtoise – Keen Needleback",
         "type": "Normal Pal",
         "cost": 5,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-059.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-059.webp",
         "isHorizontal": false
       }
     },
@@ -1810,7 +1810,7 @@
         "name": "Tanzee – Cheerful Worker",
         "type": "Normal Pal",
         "cost": 2,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-060.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-060.webp",
         "isHorizontal": false
       }
     },
@@ -1844,7 +1844,7 @@
         "name": "Beegarde – Knight of the Flower Garden",
         "type": "Unlimited",
         "cost": 3,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-061.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-061.webp",
         "isHorizontal": false
       }
     },
@@ -1878,7 +1878,7 @@
         "name": "Wumpo Botan – Tropical Sentinel",
         "type": "Normal Pal",
         "cost": 7,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-062.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-062.webp",
         "isHorizontal": false
       }
     },
@@ -1912,7 +1912,7 @@
         "name": "Breeding Ranch",
         "type": "Structure",
         "cost": 3,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-063.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-063.webp",
         "isHorizontal": true
       }
     },
@@ -1941,7 +1941,7 @@
         "name": "Cola Vending Machine",
         "type": "Structure",
         "cost": 6,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-064.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-064.webp",
         "isHorizontal": true
       }
     },
@@ -1968,7 +1968,7 @@
         "name": "Feed Box",
         "type": "Structure",
         "cost": 2,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-065.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-065.webp",
         "isHorizontal": true
       }
     },
@@ -1995,7 +1995,7 @@
         "name": "Ranch",
         "type": "Structure",
         "cost": 2,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-066.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-066.webp",
         "isHorizontal": true
       }
     },
@@ -2022,7 +2022,7 @@
         "name": "No Pal's Sign",
         "type": "Structure",
         "cost": 5,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-067.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-067.webp",
         "isHorizontal": true
       }
     },
@@ -2051,7 +2051,7 @@
         "name": "Digtoise's Headband",
         "type": "Gear",
         "cost": 3,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-068.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-068.webp",
         "isHorizontal": false
       }
     },
@@ -2078,7 +2078,7 @@
         "name": "Farming Hat",
         "type": "Gear",
         "cost": 3,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-069.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-069.webp",
         "isHorizontal": false
       }
     },
@@ -2105,7 +2105,7 @@
         "name": "Lily's Strategy",
         "type": "Event",
         "cost": 3,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/EBP01/EBP01-070SP.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/EBP01/EBP01-070SP.webp",
         "isHorizontal": false
       }
     },
@@ -2132,7 +2132,7 @@
         "name": "Found an Egg!",
         "type": "Event",
         "cost": 2,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-071.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-071.webp",
         "isHorizontal": false
       }
     },
@@ -2159,7 +2159,7 @@
         "name": "Blessing of the Flower Spirit",
         "type": "Event",
         "cost": 3,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-072.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-072.webp",
         "isHorizontal": false
       }
     },
@@ -2186,7 +2186,7 @@
         "name": "Helzephyr – Wings of the Moonless Night",
         "type": "Lucky Pal",
         "cost": 7,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/EBP01/EBP01-073SSP.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/EBP01/EBP01-073SSP.webp",
         "isHorizontal": false
       }
     },
@@ -2217,7 +2217,7 @@
         "name": "Shadowbeak – Seed of Despair",
         "type": "Lucky Pal",
         "cost": 8,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/EBP01/EBP01-074SP.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/EBP01/EBP01-074SP.webp",
         "isHorizontal": false
       }
     },
@@ -2248,7 +2248,7 @@
         "name": "Katress – Abyssal Sorcerer",
         "type": "Lucky Pal",
         "cost": 6,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/EBP01/EBP01-075SP.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/EBP01/EBP01-075SP.webp",
         "isHorizontal": false
       }
     },
@@ -2280,7 +2280,7 @@
         "name": "Tombat – Out of Nowhere!?",
         "type": "Normal Pal",
         "cost": 5,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-076.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-076.webp",
         "isHorizontal": false
       }
     },
@@ -2313,7 +2313,7 @@
         "name": "Sarablack – Blue-Flame Thoroughbred",
         "type": "Normal Pal",
         "cost": 7,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-077.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-077.webp",
         "isHorizontal": false
       }
     },
@@ -2346,7 +2346,7 @@
         "name": "Lyleen Noct – Providence of the Goddess",
         "type": "Normal Pal",
         "cost": 8,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-078.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-078.webp",
         "isHorizontal": false
       }
     },
@@ -2378,7 +2378,7 @@
         "name": "Depresso – Late Night Hustler",
         "type": "Normal Pal",
         "cost": 2,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-079.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-079.webp",
         "isHorizontal": false
       }
     },
@@ -2412,7 +2412,7 @@
         "name": "Daedream – First Slumber",
         "type": "Normal Pal",
         "cost": 2,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-080.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-080.webp",
         "isHorizontal": false
       }
     },
@@ -2445,7 +2445,7 @@
         "name": "Loveander – Heartstealer",
         "type": "Normal Pal",
         "cost": 5,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-081.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-081.webp",
         "isHorizontal": false
       }
     },
@@ -2478,7 +2478,7 @@
         "name": "Daedream – Continuing Slumber",
         "type": "Normal Pal",
         "cost": 4,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-082.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-082.webp",
         "isHorizontal": false
       }
     },
@@ -2511,7 +2511,7 @@
         "name": "Vanwyrm – Marauder of the Skies",
         "type": "Normal Pal",
         "cost": 4,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-083.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-083.webp",
         "isHorizontal": false
       }
     },
@@ -2544,7 +2544,7 @@
         "name": "Menasting – Darkness-Dwelling Scorpion",
         "type": "Lucky Pal",
         "cost": 5,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-084.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-084.webp",
         "isHorizontal": false
       }
     },
@@ -2576,7 +2576,7 @@
         "name": "Maraith – Twilight Messenger",
         "type": "Normal Pal",
         "cost": 6,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-085.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-085.webp",
         "isHorizontal": false
       }
     },
@@ -2608,7 +2608,7 @@
         "name": "Nox – The Silent One",
         "type": "Normal Pal",
         "cost": 3,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-086.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-086.webp",
         "isHorizontal": false
       }
     },
@@ -2639,7 +2639,7 @@
         "name": "Loupmoon – Glinting Moonlight",
         "type": "Normal Pal",
         "cost": 4,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-087.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-087.webp",
         "isHorizontal": false
       }
     },
@@ -2670,7 +2670,7 @@
         "name": "Placed Lamp",
         "type": "Structure",
         "cost": 4,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-088.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-088.webp",
         "isHorizontal": true
       }
     },
@@ -2697,7 +2697,7 @@
         "name": "Shoddy Bed",
         "type": "Structure",
         "cost": 2,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-089.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-089.webp",
         "isHorizontal": true
       }
     },
@@ -2724,7 +2724,7 @@
         "name": "Medieval Medicine Workbench",
         "type": "Structure",
         "cost": 4,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-090.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-090.webp",
         "isHorizontal": true
       }
     },
@@ -2753,7 +2753,7 @@
         "name": "Wooden Wall",
         "type": "Structure",
         "cost": 3,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-091.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-091.webp",
         "isHorizontal": true
       }
     },
@@ -2780,7 +2780,7 @@
         "name": "Display Cage",
         "type": "Structure",
         "cost": 3,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-092.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-092.webp",
         "isHorizontal": true
       }
     },
@@ -2807,7 +2807,7 @@
         "name": "Butchers Knife",
         "type": "Gear",
         "cost": 2,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-093.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-093.webp",
         "isHorizontal": false
       }
     },
@@ -2834,7 +2834,7 @@
         "name": "Daedream's Necklace",
         "type": "Gear",
         "cost": 3,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-094.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-094.webp",
         "isHorizontal": false
       }
     },
@@ -2861,7 +2861,7 @@
         "name": "Zoe's Strategy",
         "type": "Event",
         "cost": 3,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/EBP01/EBP01-095SP.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/EBP01/EBP01-095SP.webp",
         "isHorizontal": false
       }
     },
@@ -2888,7 +2888,7 @@
         "name": "Dark Cannon",
         "type": "Event",
         "cost": 3,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-096.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-096.webp",
         "isHorizontal": false
       }
     },
@@ -2915,7 +2915,7 @@
         "name": "Black Marketeer",
         "type": "Event",
         "cost": 5,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-097.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-097.webp",
         "isHorizontal": false
       }
     },
@@ -2942,7 +2942,7 @@
         "name": "Elphidran – Gentle Radiance",
         "type": "Normal Pal",
         "cost": 4,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-098.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-098.webp",
         "isHorizontal": false
       }
     },
@@ -2973,7 +2973,7 @@
         "name": "Direhowl – Proud Fang",
         "type": "Normal Pal",
         "cost": 3,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-099.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-099.webp",
         "isHorizontal": false
       }
     },
@@ -3004,7 +3004,7 @@
         "name": "The Adventure Begins",
         "type": "Event",
         "cost": 2,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-100.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/temp/EBP01-100.webp",
         "isHorizontal": false
       }
     },
@@ -3031,7 +3031,7 @@
         "name": "Soul",
         "type": "Soul",
         "cost": 0,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/Souls/SOUL 001.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/Souls/SOUL 001.webp",
         "isHorizontal": false
       }
     },
@@ -3057,7 +3057,7 @@
         "name": "Soul",
         "type": "Soul",
         "cost": 0,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/Souls/SOUL 002.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/Souls/SOUL 002.webp",
         "isHorizontal": false
       }
     },
@@ -3082,7 +3082,7 @@
         "name": "Soul",
         "type": "Soul",
         "cost": 0,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/Souls/SOUL 003.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/Souls/SOUL 003.webp",
         "isHorizontal": false
       }
     },
@@ -3107,7 +3107,7 @@
         "name": "Grizzbolt – Rumbling Tank",
         "type": "Lucky Pal",
         "cost": 7,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD01/ETD01-001.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD01/ETD01-001.webp",
         "isHorizontal": false
       }
     },
@@ -3141,7 +3141,7 @@
         "name": "Grizzbolt – Rumbling Tank",
         "type": "Lucky Pal",
         "cost": 7,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD01/ETD01-001TSP.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD01/ETD01-001TSP.webp",
         "isHorizontal": false
       }
     },
@@ -3175,7 +3175,7 @@
         "name": "Grizzbolt – Rumbling Tank",
         "type": "Lucky Pal",
         "cost": 7,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD01/ETD01-001TSR.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD01/ETD01-001TSR.webp",
         "isHorizontal": false
       }
     },
@@ -3209,7 +3209,7 @@
         "name": "Jolthog – Shocking Yet Innocent",
         "type": "Normal Pal",
         "cost": 2,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD01/ETD01-002.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD01/ETD01-002.webp",
         "isHorizontal": false
       }
     },
@@ -3240,7 +3240,7 @@
         "name": "Kelpsea Ignis – Balmy Magma",
         "type": "Normal Pal",
         "cost": 3,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD01/ETD01-003.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD01/ETD01-003.webp",
         "isHorizontal": false
       }
     },
@@ -3272,7 +3272,7 @@
         "name": "Foxparks – A Toasty Hug",
         "type": "Normal Pal",
         "cost": 4,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD01/ETD01-004.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD01/ETD01-004.webp",
         "isHorizontal": false
       }
     },
@@ -3303,7 +3303,7 @@
         "name": "Arsox – Burning Spoils",
         "type": "Normal Pal",
         "cost": 5,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD01/ETD01-005.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD01/ETD01-005.webp",
         "isHorizontal": false
       }
     },
@@ -3335,7 +3335,7 @@
         "name": "Arsox – Burning Spoils",
         "type": "Normal Pal",
         "cost": 5,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD01/ETD01-005TSR.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD01/ETD01-005TSR.webp",
         "isHorizontal": false
       }
     },
@@ -3367,7 +3367,7 @@
         "name": "Mossanda Lux – Vanguard Captain",
         "type": "Normal Pal",
         "cost": 6,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD01/ETD01-006.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD01/ETD01-006.webp",
         "isHorizontal": false
       }
     },
@@ -3401,7 +3401,7 @@
         "name": "Blazamut – Molten Sovereign",
         "type": "Lucky Pal",
         "cost": 8,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD01/ETD01-007.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD01/ETD01-007.webp",
         "isHorizontal": false
       }
     },
@@ -3433,7 +3433,7 @@
         "name": "Blazamut – Molten Sovereign",
         "type": "Lucky Pal",
         "cost": 8,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD01/ETD01-007TSR.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD01/ETD01-007TSR.webp",
         "isHorizontal": false
       }
     },
@@ -3465,7 +3465,7 @@
         "name": "Stone Pit",
         "type": "Structure",
         "cost": 1,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD01/ETD01-008.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD01/ETD01-008.webp",
         "isHorizontal": true
       }
     },
@@ -3494,7 +3494,7 @@
         "name": "Stone Pit",
         "type": "Structure",
         "cost": 1,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD01/ETD01-008TSR.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD01/ETD01-008TSR.webp",
         "isHorizontal": true
       }
     },
@@ -3523,7 +3523,7 @@
         "name": "Weapon Workbench",
         "type": "Structure",
         "cost": 3,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD01/ETD01-009.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD01/ETD01-009.webp",
         "isHorizontal": true
       }
     },
@@ -3552,7 +3552,7 @@
         "name": "Single-Shot Rifle",
         "type": "Gear",
         "cost": 4,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD01/ETD01-010.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD01/ETD01-010.webp",
         "isHorizontal": false
       }
     },
@@ -3579,7 +3579,7 @@
         "name": "Ignis Breath",
         "type": "Event",
         "cost": 2,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD01/ETD01-011.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD01/ETD01-011.webp",
         "isHorizontal": false
       }
     },
@@ -3606,7 +3606,7 @@
         "name": "Ignis Breath",
         "type": "Event",
         "cost": 2,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD01/ETD01-011TSR.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD01/ETD01-011TSR.webp",
         "isHorizontal": false
       }
     },
@@ -3633,7 +3633,7 @@
         "name": "Elphidran Aqua – Gentle Ripples",
         "type": "Normal Pal",
         "cost": 6,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD01/ETD01-012.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD01/ETD01-012.webp",
         "isHorizontal": false
       }
     },
@@ -3666,7 +3666,7 @@
         "name": "Elphidran Aqua – Gentle Ripples",
         "type": "Normal Pal",
         "cost": 6,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD01/ETD01-012TSP.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD01/ETD01-012TSP.webp",
         "isHorizontal": false
       }
     },
@@ -3699,7 +3699,7 @@
         "name": "Elphidran Aqua – Gentle Ripples",
         "type": "Normal Pal",
         "cost": 6,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD01/ETD01-012TSR.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD01/ETD01-012TSR.webp",
         "isHorizontal": false
       }
     },
@@ -3732,7 +3732,7 @@
         "name": "Jolthog Cryst – Stoic Yet Innocent",
         "type": "Normal Pal",
         "cost": 2,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD01/ETD01-013.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD01/ETD01-013.webp",
         "isHorizontal": false
       }
     },
@@ -3763,7 +3763,7 @@
         "name": "Pengullet – Frequent Flyer",
         "type": "Normal Pal",
         "cost": 3,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD01/ETD01-014.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD01/ETD01-014.webp",
         "isHorizontal": false
       }
     },
@@ -3798,7 +3798,7 @@
         "name": "Pengullet – Frequent Flyer",
         "type": "Normal Pal",
         "cost": 3,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD01/ETD01-014TSR.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD01/ETD01-014TSR.webp",
         "isHorizontal": false
       }
     },
@@ -3833,7 +3833,7 @@
         "name": "Hangyu Cryst – Frigid Wanderer",
         "type": "Normal Pal",
         "cost": 4,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD01/ETD01-015.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD01/ETD01-015.webp",
         "isHorizontal": false
       }
     },
@@ -3867,7 +3867,7 @@
         "name": "Reindrix – Icy Gaze",
         "type": "Normal Pal",
         "cost": 5,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD01/ETD01-016.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD01/ETD01-016.webp",
         "isHorizontal": false
       }
     },
@@ -3899,7 +3899,7 @@
         "name": "Suzaku Aqua – Way of the Current",
         "type": "Lucky Pal",
         "cost": 7,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD01/ETD01-017.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD01/ETD01-017.webp",
         "isHorizontal": false
       }
     },
@@ -3930,7 +3930,7 @@
         "name": "Suzaku Aqua – Way of the Current",
         "type": "Lucky Pal",
         "cost": 7,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD01/ETD01-017TSR.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD01/ETD01-017TSR.webp",
         "isHorizontal": false
       }
     },
@@ -3961,7 +3961,7 @@
         "name": "Mammorest Cryst – Roar of the Tundra",
         "type": "Lucky Pal",
         "cost": 8,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD01/ETD01-018.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD01/ETD01-018.webp",
         "isHorizontal": false
       }
     },
@@ -3994,7 +3994,7 @@
         "name": "Mammorest Cryst – Roar of the Tundra",
         "type": "Lucky Pal",
         "cost": 8,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD01/ETD01-018TSR.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD01/ETD01-018TSR.webp",
         "isHorizontal": false
       }
     },
@@ -4027,7 +4027,7 @@
         "name": "Antique Wooden Chair",
         "type": "Structure",
         "cost": 2,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD01/ETD01-019.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD01/ETD01-019.webp",
         "isHorizontal": true
       }
     },
@@ -4054,7 +4054,7 @@
         "name": "Primitive Workbench",
         "type": "Structure",
         "cost": 3,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD01/ETD01-020.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD01/ETD01-020.webp",
         "isHorizontal": true
       }
     },
@@ -4083,7 +4083,7 @@
         "name": "Single-Shot Sphere Launcher",
         "type": "Gear",
         "cost": 3,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD01/ETD01-021.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD01/ETD01-021.webp",
         "isHorizontal": false
       }
     },
@@ -4110,7 +4110,7 @@
         "name": "Crystal Breath",
         "type": "Event",
         "cost": 2,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD01/ETD01-022.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD01/ETD01-022.webp",
         "isHorizontal": false
       }
     },
@@ -4137,7 +4137,7 @@
         "name": "Crystal Breath",
         "type": "Event",
         "cost": 2,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD01/ETD01-022TSR.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD01/ETD01-022TSR.webp",
         "isHorizontal": false
       }
     },
@@ -4164,7 +4164,7 @@
         "name": "Lamball – My First Pal",
         "type": "Normal Pal",
         "cost": 2,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD01/ETD01-023.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD01/ETD01-023.webp",
         "isHorizontal": false
       }
     },
@@ -4197,7 +4197,7 @@
         "name": "Lamball – My First Pal",
         "type": "Normal Pal",
         "cost": 2,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD01/ETD01-023TSR.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD01/ETD01-023TSR.webp",
         "isHorizontal": false
       }
     },
@@ -4230,7 +4230,7 @@
         "name": "Ribbuny – Little Princess",
         "type": "Normal Pal",
         "cost": 2,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD01/ETD01-024.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD01/ETD01-024.webp",
         "isHorizontal": false
       }
     },
@@ -4263,7 +4263,7 @@
         "name": "Ribbuny – Little Princess",
         "type": "Normal Pal",
         "cost": 2,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD01/ETD01-024TSR.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD01/ETD01-024TSR.webp",
         "isHorizontal": false
       }
     },
@@ -4296,7 +4296,7 @@
         "name": "Mossanda – Guard Captain",
         "type": "Normal Pal",
         "cost": 5,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD02/ETD02-001.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD02/ETD02-001.webp",
         "isHorizontal": false
       }
     },
@@ -4330,7 +4330,7 @@
         "name": "Mossanda – Guard Captain",
         "type": "Normal Pal",
         "cost": 5,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD02/ETD02-001TSP.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD02/ETD02-001TSP.webp",
         "isHorizontal": false
       }
     },
@@ -4364,7 +4364,7 @@
         "name": "Mossanda – Guard Captain",
         "type": "Normal Pal",
         "cost": 5,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD02/ETD02-001TSR.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD02/ETD02-001TSR.webp",
         "isHorizontal": false
       }
     },
@@ -4398,7 +4398,7 @@
         "name": "Gumoss – Dreamy Seedling",
         "type": "Normal Pal",
         "cost": 2,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD02/ETD02-002.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD02/ETD02-002.webp",
         "isHorizontal": false
       }
     },
@@ -4430,7 +4430,7 @@
         "name": "Flopie – Snack Lover",
         "type": "Normal Pal",
         "cost": 3,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD02/ETD02-003.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD02/ETD02-003.webp",
         "isHorizontal": false
       }
     },
@@ -4463,7 +4463,7 @@
         "name": "Flopie – Snack Lover",
         "type": "Normal Pal",
         "cost": 3,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD02/ETD02-003TSR.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD02/ETD02-003TSR.webp",
         "isHorizontal": false
       }
     },
@@ -4496,7 +4496,7 @@
         "name": "Dinossom – Radiant Fragrance",
         "type": "Normal Pal",
         "cost": 4,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD02/ETD02-004.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD02/ETD02-004.webp",
         "isHorizontal": false
       }
     },
@@ -4529,7 +4529,7 @@
         "name": "Eikthyrdeer Terra – Guardian of Nature",
         "type": "Normal Pal",
         "cost": 6,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD02/ETD02-005.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD02/ETD02-005.webp",
         "isHorizontal": false
       }
     },
@@ -4560,7 +4560,7 @@
         "name": "Broncherry – Brimming Adoration",
         "type": "Lucky Pal",
         "cost": 7,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD02/ETD02-006.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD02/ETD02-006.webp",
         "isHorizontal": false
       }
     },
@@ -4591,7 +4591,7 @@
         "name": "Broncherry – Brimming Adoration",
         "type": "Lucky Pal",
         "cost": 7,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD02/ETD02-006TSR.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD02/ETD02-006TSR.webp",
         "isHorizontal": false
       }
     },
@@ -4622,7 +4622,7 @@
         "name": "Mammorest – Roar of the Wilds",
         "type": "Lucky Pal",
         "cost": 8,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD02/ETD02-007.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD02/ETD02-007.webp",
         "isHorizontal": false
       }
     },
@@ -4655,7 +4655,7 @@
         "name": "Mammorest – Roar of the Wilds",
         "type": "Lucky Pal",
         "cost": 8,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD02/ETD02-007TSR.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD02/ETD02-007TSR.webp",
         "isHorizontal": false
       }
     },
@@ -4688,7 +4688,7 @@
         "name": "Berry Plantation",
         "type": "Structure",
         "cost": 1,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD02/ETD02-008.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD02/ETD02-008.webp",
         "isHorizontal": true
       }
     },
@@ -4717,7 +4717,7 @@
         "name": "Berry Plantation",
         "type": "Structure",
         "cost": 1,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD02/ETD02-008TSR.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD02/ETD02-008TSR.webp",
         "isHorizontal": true
       }
     },
@@ -4746,7 +4746,7 @@
         "name": "Campfire",
         "type": "Structure",
         "cost": 3,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD02/ETD02-009.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD02/ETD02-009.webp",
         "isHorizontal": true
       }
     },
@@ -4775,7 +4775,7 @@
         "name": "Refined Metal Spear",
         "type": "Gear",
         "cost": 6,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD02/ETD02-010.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD02/ETD02-010.webp",
         "isHorizontal": false
       }
     },
@@ -4802,7 +4802,7 @@
         "name": "Stone Blast",
         "type": "Event",
         "cost": 2,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD02/ETD02-011.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD02/ETD02-011.webp",
         "isHorizontal": false
       }
     },
@@ -4829,7 +4829,7 @@
         "name": "Astegon – Aegis Wyvern of Death",
         "type": "Lucky Pal",
         "cost": 8,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD02/ETD02-012.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD02/ETD02-012.webp",
         "isHorizontal": false
       }
     },
@@ -4862,7 +4862,7 @@
         "name": "Astegon – Aegis Wyvern of Death",
         "type": "Lucky Pal",
         "cost": 8,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD02/ETD02-012TSP.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD02/ETD02-012TSP.webp",
         "isHorizontal": false
       }
     },
@@ -4895,7 +4895,7 @@
         "name": "Astegon – Aegis Wyvern of Death",
         "type": "Lucky Pal",
         "cost": 8,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD02/ETD02-012TSR.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD02/ETD02-012TSR.webp",
         "isHorizontal": false
       }
     },
@@ -4928,7 +4928,7 @@
         "name": "Hoocrates – Embodiment of Wisdom",
         "type": "Normal Pal",
         "cost": 2,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD02/ETD02-013.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD02/ETD02-013.webp",
         "isHorizontal": false
       }
     },
@@ -4959,7 +4959,7 @@
         "name": "Leezpunk – Treasure Bandit",
         "type": "Normal Pal",
         "cost": 3,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD02/ETD02-014.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD02/ETD02-014.webp",
         "isHorizontal": false
       }
     },
@@ -4992,7 +4992,7 @@
         "name": "Leezpunk – Treasure Bandit",
         "type": "Normal Pal",
         "cost": 3,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD02/ETD02-014TSR.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD02/ETD02-014TSR.webp",
         "isHorizontal": false
       }
     },
@@ -5025,7 +5025,7 @@
         "name": "Cawgnito – Looming Shadow",
         "type": "Normal Pal",
         "cost": 4,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD02/ETD02-015.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD02/ETD02-015.webp",
         "isHorizontal": false
       }
     },
@@ -5057,7 +5057,7 @@
         "name": "Incineram – Lurking Stalker",
         "type": "Normal Pal",
         "cost": 5,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD02/ETD02-016.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD02/ETD02-016.webp",
         "isHorizontal": false
       }
     },
@@ -5092,7 +5092,7 @@
         "name": "Incineram – Lurking Stalker",
         "type": "Normal Pal",
         "cost": 5,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD02/ETD02-016TSR.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD02/ETD02-016TSR.webp",
         "isHorizontal": false
       }
     },
@@ -5127,7 +5127,7 @@
         "name": "Blazehowl Noct – Darkflame Defender",
         "type": "Normal Pal",
         "cost": 6,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD02/ETD02-017.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD02/ETD02-017.webp",
         "isHorizontal": false
       }
     },
@@ -5160,7 +5160,7 @@
         "name": "Felbat – Lifestealer",
         "type": "Lucky Pal",
         "cost": 7,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD02/ETD02-018.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD02/ETD02-018.webp",
         "isHorizontal": false
       }
     },
@@ -5191,7 +5191,7 @@
         "name": "Felbat – Lifestealer",
         "type": "Lucky Pal",
         "cost": 7,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD02/ETD02-018TSR.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD02/ETD02-018TSR.webp",
         "isHorizontal": false
       }
     },
@@ -5222,7 +5222,7 @@
         "name": "Hanging Trap",
         "type": "Structure",
         "cost": 2,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD02/ETD02-019.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD02/ETD02-019.webp",
         "isHorizontal": true
       }
     },
@@ -5249,7 +5249,7 @@
         "name": "Cawgnito Hat",
         "type": "Gear",
         "cost": 4,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD02/ETD02-020.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD02/ETD02-020.webp",
         "isHorizontal": false
       }
     },
@@ -5276,7 +5276,7 @@
         "name": "Strike from the Darkness",
         "type": "Event",
         "cost": 4,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD02/ETD02-021.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD02/ETD02-021.webp",
         "isHorizontal": false
       }
     },
@@ -5303,7 +5303,7 @@
         "name": "Strike from the Darkness",
         "type": "Event",
         "cost": 4,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD02/ETD02-021TSR.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD02/ETD02-021TSR.webp",
         "isHorizontal": false
       }
     },
@@ -5330,7 +5330,7 @@
         "name": "Medical Supplies",
         "type": "Event",
         "cost": 7,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD02/ETD02-022.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD02/ETD02-022.webp",
         "isHorizontal": false
       }
     },
@@ -5357,7 +5357,7 @@
         "name": "Cattiva – My First Pal",
         "type": "Normal Pal",
         "cost": 2,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD02/ETD02-023.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD02/ETD02-023.webp",
         "isHorizontal": false
       }
     },
@@ -5391,7 +5391,7 @@
         "name": "Cattiva – My First Pal",
         "type": "Normal Pal",
         "cost": 2,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD02/ETD02-023TSR.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD02/ETD02-023TSR.webp",
         "isHorizontal": false
       }
     },
@@ -5425,7 +5425,7 @@
         "name": "Chikipi – My First Pal",
         "type": "Normal Pal",
         "cost": 2,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD02/ETD02-024.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD02/ETD02-024.webp",
         "isHorizontal": false
       }
     },
@@ -5457,7 +5457,7 @@
         "name": "Chikipi – My First Pal",
         "type": "Normal Pal",
         "cost": 2,
-        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD02/ETD02-024TSR.png",
+        "image": "https://balbi.github.io/TCG-Arena-Palworld/images/cards/ETD02/ETD02-024TSR.webp",
         "isHorizontal": false
       }
     },
